@@ -1,0 +1,634 @@
+system Charybdis
+	pos 328.91 -684.241
+	government Pirate
+	habitable 1111.68
+	link Thrinacia
+	asteroids "small rock" 1 3.4086
+	asteroids "large rock" 1 5.98
+	asteroids "small metal" 16 6.578
+	asteroids "medium metal" 26 5.98
+	asteroids "large metal" 2 3.3488
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "Small L_O Pirate" 900
+	fleet "Large L_O Pirate" 1200
+	fleet "Large Valuutian" 1400
+	fleet "Large Lost Ones" 1600
+	object
+		sprite star/g5
+		distance 49.47
+		period 14.4108
+	object
+		sprite star/k0
+		distance 63.53
+		period 14.4108
+		offset 180
+	object
+		sprite planet/fg_lava1
+		distance 179.77
+		period 28.9165
+	object "Nowhere Paradise"
+		sprite planet/fg_inhabited5
+		distance 455.01
+		period 116.44
+	object
+		sprite planet/fg_icegiant3
+		distance 1213.77
+		period 507.311
+	object
+		sprite planet/fg_gas8
+		distance 1702.41
+		period 842.687
+	object
+		sprite planet/fg_gas7
+		distance 2605.17
+		period 1595.23
+
+system Ismaros
+	pos 258.91 -757.241
+	government Valuut
+	habitable 425.92
+	link Valiit
+	link Thrinacia
+	link Ogygia
+	asteroids "small rock" 5 5.6
+	asteroids "medium rock" 1 4.424
+	asteroids "large rock" 4 3.136
+	asteroids "small metal" 41 6.832
+	asteroids "medium metal" 3 8.12
+	asteroids "large metal" 3 7.336
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "Small Valuutian" 1200
+	fleet "Large Valuutian" 1600
+	fleet "Small Lost Ones" 1300
+	fleet "Valuutian Merchants" 900
+	fleet "Lost Ones Merchants" 1000
+	fleet "Large L_O Pirate" 2800
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/fg_terrestrial2
+		distance 241.09
+		period 72.5546
+	object
+		sprite planet/fg_terrestrial4
+		distance 575.65
+		period 267.691
+		object
+			sprite planet/fg_moon6
+			distance 170
+			period 23.9337
+	object
+		sprite planet/fg_gas6
+		distance 1308.29
+		period 917.175
+		object
+			sprite planet/fg_moon7
+			distance 193
+			period 14.1134
+	object
+		sprite planet/fg_gas5
+		distance 1856.65
+		period 1550.57
+
+system Masuul
+	pos 125.91 -734.241
+	government Valuut
+	habitable 320
+	link Nileem
+	link Pirtaal
+	asteroids "large metal" 1 7.917
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "Small Valuutian" 1400
+	fleet "Large Valuutian" 1200
+	fleet "Small Lost Ones" 1500
+	fleet "Large Lost Ones" 1300
+	fleet "Small L_O Pirate" 1000
+	fleet "Large L_O Pirate" 1500
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/fg_lava2
+		distance 198.89
+		period 62.7198
+	object
+		sprite planet/fg_lava3
+		distance 397.73
+		period 177.365
+	object
+		sprite planet/fg_terrestrial3
+		distance 625.73
+		period 349.998
+	object
+		sprite planet/fg_terrestrial7
+		distance 899.69
+		period 603.426
+	object
+		sprite planet/fg_gas2
+		distance 2249.7
+		period 2386.01
+		object
+			sprite planet/fg_moon4
+			distance 237
+			period 14.5827
+		object
+			sprite planet/fg_moon5
+			distance 329
+			period 23.8512
+
+system Nileem
+	pos 157.91 -709.241
+	government Valuut
+	habitable 135
+	link Masuul
+	asteroids "small rock" 44 3.7466
+	asteroids "medium rock" 20 3.432
+	asteroids "large rock" 2 1.43
+	asteroids "small metal" 41 2.4882
+	asteroids "medium metal" 49 2.4882
+	asteroids "large metal" 25 1.9162
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "Small Valuutian" 1200
+	fleet "Large Valuutian" 1400
+	fleet "Valuutian Merchants" 800
+	fleet "Lost Ones Merchants" 900
+	fleet "Valuutian Colony" 4000
+	fleet "Large L_O Pirate" 2800
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/fg_cloud0
+		distance 274.21
+		period 156.321
+		object
+			sprite planet/fg_moon8
+			distance 151
+			period 22.4225
+	object Saa
+		sprite planet/fg_inhabited0
+		distance 784.97
+		period 757.134
+		object
+			sprite planet/fg_moon3
+			distance 172
+			period 19.2792
+	object
+		sprite planet/fg_gas9
+		distance 1965.26
+		period 2999.32
+		object
+			sprite planet/fg_moon9
+			distance 267
+			period 12.3162
+		object
+			sprite planet/fg_moon10
+			distance 372
+			period 20.2546
+		object
+			sprite planet/fg_moon11
+			distance 527
+			period 34.1528
+		object
+			sprite planet/fg_moon12
+			distance 728
+			period 55.4507
+
+system Ogygia
+	pos 256.91 -788.241
+	government "Lost Ones"
+	habitable 1080
+	link Ismaros
+	asteroids "small rock" 2 1.1628
+	asteroids "medium rock" 7 1.5048
+	asteroids "large rock" 2 2.3028
+	asteroids "small metal" 34 2.8272
+	asteroids "medium metal" 35 3.192
+	asteroids "large metal" 17 2.6448
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "Lost Ones Merchants" 800
+	fleet "Valuutian Merchants" 900
+	fleet "Small Lost Ones" 1000
+	fleet "Large Lost Ones" 1200
+	fleet "Small Valuutian" 1400
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/fg_terrestrial10
+		distance 152.49
+		period 22.9198
+	object "New Salvation"
+		sprite planet/fg_inhabited2
+		distance 359.5
+		period 82.9653
+	object
+		sprite planet/fg_icegiant0
+		distance 765.75
+		period 257.916
+	object
+		sprite planet/fg_gas15
+		distance 1025.96
+		period 399.985
+	object
+		sprite planet/fg_gas0
+		distance 1291.97
+		period 565.232
+	object
+		sprite planet/fg_gas1
+		distance 2989.26
+		period 1989.27
+
+system Pirtaal
+	pos 193.91 -766.241
+	government Valuut
+	habitable 135
+	link Masuul
+	link Valiit
+	asteroids "small rock" 2 2.7472
+	asteroids "medium rock" 1 2.9648
+	asteroids "large rock" 1 2.5024
+	asteroids "small metal" 5 1.4416
+	asteroids "medium metal" 24 3.808
+	asteroids "large metal" 4 1.5232
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "Valuutian Merchants" 1200
+	fleet "Lost Ones Merchants" 1600
+	fleet "Large Valuutian" 900
+	fleet "Small Lost Ones" 1000
+	fleet "Valuutian Colony" 5000
+	fleet "Small L_O Pirate" 2200
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/fg_terrestrial5
+		distance 200.21
+		period 97.5263
+	object Nyy
+		sprite planet/fg_inhabited1
+		distance 647.46
+		period 567.169
+	object
+		sprite planet/fg_icegiant4
+		distance 1282.46
+		period 1581.1
+	object
+		sprite planet/fg_gas10
+		distance 1637.5
+		period 2281.21
+	object
+		sprite planet/fg_gas11
+		distance 2693.11
+		period 4811.43
+		object
+			sprite planet/fg_moon13
+			distance 197
+			period 14.5545
+		object
+			sprite planet/fg_moon14
+			distance 297
+			period 26.9421
+		object
+			sprite planet/fg_moon15
+			distance 476
+			period 54.6648
+
+system Risiit
+	pos 214.91 -677.241
+	government Valuut
+	habitable 1715
+	link Valiit
+	asteroids "small rock" 1 6.6352
+	asteroids "medium rock" 41 3.8976
+	asteroids "large rock" 4 5.0112
+	asteroids "small metal" 11 4.7328
+	asteroids "medium metal" 109 5.568
+	asteroids "large metal" 15 2.9696
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "Small Valuutian" 1000
+	fleet "Large Valuutian" 1100
+	fleet "Small Lost Ones" 1200
+	fleet "Large Lost Ones" 1300
+	fleet "Small L_O Pirate" 900
+	fleet "Large L_O Pirate" 1200
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/fg_terrestrial6
+		distance 144.04
+		period 16.6975
+	object
+		sprite planet/fg_icegiant5
+		distance 788.04
+		period 213.673
+		object
+			sprite planet/fg_moon16
+			distance 248
+			period 14.6443
+		object
+			sprite planet/fg_moon17
+			distance 381
+			period 27.8855
+	object
+		sprite planet/fg_icegiant6
+		distance 1686.4
+		period 668.912
+		object
+			sprite planet/fg_moon18
+			distance 222
+			period 13.2204
+		object
+			sprite planet/fg_moon19
+			distance 366
+			period 27.9858
+
+system Thrinacia
+	pos 303.91 -725.241
+	government "Anstad Corp"
+	habitable 1111.68
+	link Valiit
+	link Ismaros
+	link Charybdis
+	link Wanool
+	asteroids "large metal" 1 8.094
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "Lost Ones Merchants" 800
+	fleet "Valuutian Merchants" 900
+	fleet "Small Valuutian" 1100
+	fleet "Large Valuutian" 1200
+	fleet "Valuutian Colony" 3000
+	fleet "Small Lost Ones" 1300
+	fleet "Large Lost Ones" 1400
+	object
+		sprite star/g5
+		distance 46.4055
+		period 13.0927
+	object
+		sprite star/k0
+		distance 59.5945
+		period 13.0927
+		offset 180
+	object
+		sprite planet/fg_terrestrial10
+		distance 189.434
+		period 31.2794
+	object
+		sprite planet/fg_icegiant2
+		distance 463.874
+		period 119.859
+	object
+		sprite planet/fg_terrestrial1
+		distance 773.124
+		period 257.896
+	object
+		sprite planet/fg_gas14
+		distance 1974.96
+		period 1052.95
+		object "Odyssey Outpost"
+			sprite planet/fg_inhabited_tiny0
+			distance 252
+			period 12.5708
+
+system Valiit
+	pos 223.91 -714.241
+	government Valuut
+	habitable 486.68
+	link Risiit
+	link Thrinacia
+	link Ismaros
+	link Pirtaal
+	asteroids "large metal" 1 4.86
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "Valuutian Merchants" 800
+	fleet "Lost Ones Merchants" 900
+	fleet "Small Valuutian" 1000
+	fleet "Large Valuutian" 1200
+	fleet "Valuutian Colony" 2000
+	fleet "Small Lost Ones" 1100
+	fleet "Large Lost Ones" 1200
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/fg_lava0
+		distance 175.24
+		period 42.0618
+	object Valuutia
+		sprite planet/fg_inhabited3
+		distance 388.13
+		period 138.645
+	object
+		sprite planet/fg_icegiant1
+		distance 881.77
+		period 474.757
+	object
+		sprite planet/fg_gas4
+		distance 2037.02
+		period 1666.98
+		object
+			sprite planet/fg_moon0
+			distance 209
+			period 15.9044
+		object
+			sprite planet/fg_moon1
+			distance 286
+			period 25.4593
+
+system Wanool
+	pos 326.91 -763.241
+	government Valuut
+	habitable 233.28
+	link Thrinacia
+	asteroids "medium rock" 11 1.7496
+	asteroids "large rock" 4 1.08
+	asteroids "medium metal" 3 2.268
+	asteroids "large metal" 1 3.0456
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "Valuutian Merchants" 800
+	fleet "Lost Ones Merchants" 900
+	fleet "Small Valuutian" 1100
+	fleet "Large Valuutian" 1300
+	fleet "Valuutian Colony" 4000
+	fleet "Small Lost Ones" 1200
+	fleet "Large Lost Ones" 1400
+	fleet "Large L_O Pirate" 2000
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/fg_terrestrial8
+		distance 117.29
+		period 33.2669
+	object Luu
+		sprite planet/fg_inhabited4
+		distance 422.29
+		period 227.268
+		object
+			sprite planet/fg_moon20
+			distance 164
+			period 28.6637
+	object
+		sprite planet/fg_gas12
+		distance 1050.33
+		period 891.476
+		object
+			sprite planet/fg_moon21
+			distance 225
+			period 11.9034
+	object
+		sprite planet/fg_terrestrial9
+		distance 1395.89
+		period 1365.83
+	object
+		sprite planet/fg_icegiant7
+		distance 1841.14
+		period 2068.96
+	object
+		sprite planet/fg_gas13
+		distance 5375.83
+		period 10322.6
+
+planet Luu
+	landscape land/frantzou0
+	description `Luu was the first planet colonized by the Valuutians a little over four centuries ago. The domed Colony Ships have all been disassembled, leaving pockets of out-of-place vegetation as the only sign that these towns are alien to this world. Industry here is varied; including mining towns, small industrial districts, and even a few corporate districts populated by wealthier Valuutians.`
+	spaceport `The spaceport is a series of modest sized buildings situated next to large landing pads. An enclosed pair of mag-lev rail lines jutt out of each building, with both empty and laden cargo containers zipping underground, and on to their destination.`
+	outfitter "Valuutian Outfits"
+	bribe 0
+
+planet "New Salvation"
+	landscape land/dbow1
+	description `The Lost Ones settled New Salvation shortly after gaining independence from the Valuutian government. This human planet is considered a turning point in Valuutian history. It marks the first time any other government has existed in Valuutian space, and is seen as the catalyst for the recent expansionist movement common among younger Valuutians. The Lost Ones have built up their industries with frightening speed, dropping massive barges into the expansive oceans to serve as both  manufacturing centers and distribution points. Towns are quickly turning into cities on the small continents, with a growing number of humans and young Valuutians of various races.`
+	spaceport `An extensive series of linked barges serve as the planet's main spaceport. From where you land you can see the beginnings of a huge underwater mag-lev tunnel, presumably intended to stretch all the way to the continent that sits just barely in sight. For the time being however, both humans and several races of Valuutians load cargo containers onto smaller vessels docked off the barge.`
+	shipyard "Lost Ones Ships"
+	outfitter "Valuutian Outfits"
+	bribe 0
+
+planet "Nowhere Paradise"
+	landscape land/dbow0
+	description `Nowhere Paradise is a mostly tropical world, with small towns of both humans and Valuutians living free of any government. Nestled in the scattered coves dotting the coast of the immense single continent are havens for all sorts of outcasts, fugitives, and bandits. Large scale trade in the towns is relatively non-existent, owing to various disjointed and unsuccessful attempts to establish a barter economy.`
+	spaceport `The spaceport is nothing more than a large clearing, ringed by small merchant stalls of less-than-reputable looking merchants, crying wares that look even shadier than their owners.`
+	bribe 0
+
+planet Nyy
+	landscape land/aaziz0
+	description `Almost entirely ocean, Nyy has very few landmasses big enough to support a Colony Ship. The most recent planet to attract settlers, there are less than a dozen towns established, all with their domes still raised. The atmosphere here is toxic to several races of Valuutians, causing the settlers to utilize the dome's energy field as a large scale atmospheric filter. Even with all the towns working in tandem, it will still take many years before the atmosphere is breathable. Off-world workers speckle the ocean in various survey craft, all adorned with the logos of their respective corporations, in an attempt to uncover the safest way to exploit the planets resources.`
+	bribe 0
+
+planet "Odyssey Outpost"
+	landscape land/prudwall0
+	description `Headquarters for the Valuutian funded, Lost Ones operated Anstad Corp, Odyssey Outpost consists of a single metropolis. An easily distinguishable factory district is the centerpiece of the city, with the R&D labs, shopping districts, and corporate housing pushed to the outskirts. Opposite the metropolis on the other side of the small, habitable moon are the trademark craters and deep, unnatural crevices of a testing ground. The people of the outpost take the frequent rumbling and inevitable dust storms as a matter of course, rarely even taking notice as they go about their day-to-day lives.`
+	spaceport `Just outside the factory district lies the spaceport, a gigantic, open building with innumerable mag-lev rail lines surrounding the perimeter. As you step out of your ship, you're greeted by a cacophony of voices from various Anstad Corp reps hawking the latest and greatest weapons and systems. You can't be entirely sure if you landed in a spaceport, or a trade emporium.`
+	shipyard "Valuutian Ships"
+	shipyard "Lost Ones Ships"
+	outfitter "Valuutian Outfits"
+	bribe 0
+
+planet Saa
+	landscape land/dbow2
+	description `Saa is the second planet colonized by the Valuutians, but despite the first Colony Ships touching down less than half a century ago, it's quickly on the way to becoming the most developed Valuutian colony. The mountainous regions of the planet contain an unprecedented wealth of minerals that are extremely rare on Valuutia. The profit these minerals will bring is the cause of the hurried buildup of settlements, and the swift population surge. Outside the mining towns, the domed ship villages are almost ghost towns, excepting the few that deal in off-world trading.`
+	spaceport `The spaceport is adjacent to the largest city, and appears to be hastily assembled from the remainder of the Colony Ship's dome generator. In fact, everywhere you look you see warehouses, rail lines, security checkpoints, and all manner of the port's essential buildings still under varying degrees of construction.`
+	outfitter "Valuutian Outfits"
+	bribe 0
+
+planet Valuutia
+	landscape land/ksudo0
+	description `The Valuutian homeworld houses the vast majority of their population due to the sedentary nature of it's people. Despite spending the entirety of their history on a single planet, Valuutia is neither overcrowded nor polluted. Longstanding customs ancient enough to be considered law govern the people's decisions concerning population control and waste management. The biodiversity of the Valuutian people also has an inhibiting effect on any potential population booms, as some races can only survive in specific areas.`
+	description `	The planet boasts a multitude of temperature zones, all specially engineered by dispersing orbiting bands of micro machines into the upper atmosphere. Even the chemical composition of the atmosphere itself has been custom tailored over the years, in order to accommodate the diverse physiology of different Valuutian races.`
+	spaceport `The spaceport is a monstrous, towering structure composed of hundreds of distinct layers situated just north of the capital Uucriis. The layers were clearly added centuries apart, resulting in an eclectic mix of architecture where each designer seemingly tried to outshine the one before with increasingly grandiose arches, dizzying skywalks, and massive, glass domed landing pads.`
+	spaceport `	Inside is just as diverse as outside; the art displayed is a combination of wall hangings so pale and old they look as though they'll crumble at the slightest touch, modern holographic displays bursting with color and sound, worn statues that resemble nothing but pillars, and even robotic constructs acting out various scenes to an indifferent audience of passerby.`
+	shipyard "Valuutian Ships"
+	outfitter "Valuutian Outfits"
+	bribe 0

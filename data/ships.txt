@@ -1,0 +1,854 @@
+ship "Ao"
+	sprite "ship/ao"
+	attributes
+		category "Heavy Warship"
+		"cost" 31400000
+		"shields" 37600
+		"hull" 75380
+		"required crew" 93
+		"bunks" 105
+		"mass" 1240
+		"drag" 21.2
+		"heat dissipation" .7
+		"jump drive" 1
+		"jump speed" .3
+		"ramscoop" 2
+		"fuel capacity" 500
+		"cargo space" 160
+		"outfit space" 813
+		"weapon capacity" 291
+		"engine capacity" 126
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"V603 Zeus Reactor"
+		"V630L Cell Array"
+		"V640 Generator"
+		"V641 Regenerator"
+		"LNaK Cooling"
+		"Dragon's Ice" 2
+		"Athena Anti-Missile" 2
+		"V612 Hermes Thruster"
+		"V623 Hermes Steering"
+		
+	engine -18 145
+	engine 18 145
+	gun -42 -106
+	gun 42 -106
+	turret 0 -51
+	turret 0 -101
+	drone 72 -42 right
+	drone 84 16 right
+	drone 68 74 right
+	drone -72 -42 left
+	drone -84 16 left
+	drone -68 74 left
+	drone 72 -42 right
+	drone 84 16 right
+	drone 68 74 right
+	drone -72 -42 left
+	drone -84 16 left
+	drone -68 74 left
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "big explosion" 45
+	explode "huge explosion" 30
+	description "The Eternal's version of the Bixi, the Ao uses a more consistent method of crafting the hull, resulting in less variation and strength, but allowing an improved shield matrix to be used."
+
+ship "Bixi"
+	sprite "ship/bixi"
+	attributes
+		category "Heavy Warship"
+		"cost" 31400000
+		"shields" 22560
+		"hull" 90280
+		"required crew" 93
+		"bunks" 105
+		"mass" 1240
+		"drag" 21.2
+		"heat dissipation" .7
+		"fuel capacity" 500
+		"cargo space" 160
+		"outfit space" 823
+		"weapon capacity" 291
+		"engine capacity" 126
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"V603 Zeus Reactor"
+		"V630L Cell Array"
+		"V640 Generator"
+		"V641 Regenerator"
+		"LNaK Cooling"
+		"Dragon's Ice" 2
+		"Athena Anti-Missile" 2
+		"V612 Hermes Thruster"
+		"V623 Hermes Steering"
+		"Hyperdrive"
+		
+	engine -18 145
+	engine 18 145
+	gun -42 -106
+	gun 42 -106
+	turret 0 -51
+	turret 0 -101
+	drone 72 -42 right
+	drone 84 16 right
+	drone 68 74 right
+	drone -72 -42 left
+	drone -84 16 left
+	drone -68 74 left
+	drone 72 -42 right
+	drone 84 16 right
+	drone 68 74 right
+	drone -72 -42 left
+	drone -84 16 left
+	drone -68 74 left
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "big explosion" 45
+	explode "huge explosion" 30
+	description "Functioning as the Valuutian's main drone carrier, the Bixi lacks the weaponry of other heavy warships, but makes up for it with exceptional hull plating and drone capacity. The hulls are built by hot-dipping multiple layers of metal, resulting in unparalleled strength at the cost of a highly inefficient shield matrix."
+
+ship "Chilong"
+	sprite "ship/chilong"
+	attributes
+		category "Fighter"
+		"cost" 754000
+		"hull" 3700
+		"required crew" 1
+		"bunks" 1
+		"mass" 32
+		"drag" .8
+		"heat dissipation" .95
+		"outfit space" 77
+		"weapon capacity" 20
+		"engine capacity" 22
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Artemis Missile Launcher" 2
+		"Artemis Missile" 60
+		"V600 Zeus Reactor"
+		"LCL Module"
+		"V610 Hermes Thruster"
+		"V620 Hermes Steering"
+
+	engine -8 10
+	engine 8 10
+	gun 8 -16
+	gun -8 -16
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "An ancient fighter craft used by the Valuutians to complement their carriers."
+
+ship "Colony Ship"
+	sprite "ship/colonyship"
+	attributes
+		category "Heavy Freighter"
+		cost 24800000
+		shields 30485
+		hull 91455
+		"required crew" 614
+		"bunks" 748
+		"mass" 1740
+		"drag" 22
+		"heat dissipation" .5
+		"fuel capacity" 400
+		"cargo space" 418
+		"outfit space" 728
+		"engine capacity" 77
+		weapon
+			"blast radius" 600
+			"shield damage" 9400
+			"hull damage" 6200
+			"hit force" 14000
+	outfits
+		"V603 Zeus Reactor"
+		"V601 Zeus Reactor"
+		"V640 Generator" 3
+		"V641 Regenerator" 3
+		"Security Forcefield" 85
+		"LNaK Cooling"
+		"V611 Hermes Thruster"
+		"V622 Hermes Steering"
+		"Hyperdrive"
+	
+	explode "tiny explosion" 30
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "big explosion" 40
+	explode "huge explosion" 50
+	description "The most recently developed ship to come from the Valuutians, Colony Ships were designed to meet the growing expansionist sentiment now sweeping throughout their people. The massive ships are constructed around existing small towns on Valuutia."
+
+ship "Excalibur"
+	sprite "ship/excalibur"
+	attributes
+		category "Heavy Warship"
+		"cost" 35200000
+		"shields" 31280
+		"hull" 62560
+		"required crew" 100
+		"bunks" 155
+		"mass" 1020
+		"drag" 16.1
+		"heat dissipation" .6
+		"fuel capacity" 700
+		"cargo space" 136
+		"outfit space" 948
+		"weapon capacity" 416
+		"engine capacity" 147
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"V603 Zeus Reactor"
+		"V630L Cell Array"
+		"V640 Generator"
+		"V641 Regenerator"
+		"Ramscoop"
+		"LNaK Cooling"
+		"Security Forcefield" 4
+		"Dragon's Ice" 2
+		"Ares Beam" 2
+		"Poseidon Cannon" 2
+		"Ares Turret" 2
+		"Athena Anti-Missile" 2
+		"V612 Hermes Thruster"
+		"V623 Hermes Steering"
+		"Hyperdrive"
+		
+	engine -18 232
+	engine 18 232
+	gun -14 -203 "Dragon's Ice"
+	gun 14 -203 "Dragon's Ice"
+	gun -37 -148 "Ares Beam"
+	gun 37 -148 "Ares Beam"
+	gun -70 7 "Poseidon Cannon"
+	gun 70 7 "Poseidon Cannon"
+	turret -29 -124
+	turret 29 -124
+	turret -54 14 "Ares Turret"
+	turret 54 14 "Ares Turret"
+	turret -95 183 "Athena Anti-Missile"
+	turret 95 183 "Athena Anti-Missile"
+	fighter -38 84 over
+	fighter 38 84 over
+	fighter -56 -60 left
+	fighter 56 -60 right
+	fighter -56 103 left
+	fighter 56 103 right
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "big explosion" 45
+	explode "huge explosion" 30
+	description "The Lost Ones' carrier Excalibur was designed and built by the Anstad Corp. Not only can it field a small fleet of fighters, but it has enough weapons to hold it's own in combat."
+
+ship "Halberd"
+	sprite "ship/halberd"
+	attributes
+		category "Heavy Warship"
+		"cost" 38680000
+		"shields" 21380
+		"hull" 64160
+		"required crew" 81
+		"bunks" 121
+		"mass" 940
+		"drag" 13.2
+		"heat dissipation" .74
+		"fuel capacity" 400
+		"cargo space" 64
+		"outfit space" 879
+		"weapon capacity" 422
+		"engine capacity" 144
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"V603 Zeus Reactor"
+		"V630L Cell Array"
+		"V640 Generator"
+		"V641 Regenerator"
+		"Ramscoop"
+		"LNaK Cooling"
+		"Security Forcefield" 4
+		"Poseidon Cannon" 6
+		"Ares Turret" 4
+		"V612 Hermes Thruster"
+		"V623 Hermes Steering"
+		"Hyperdrive"
+		
+	engine -10 210
+	engine 10 210
+	gun -20 -133
+	gun 20 -133
+	gun 0 -133
+	gun -25 42
+	gun 25 42
+	gun 0 42
+	turret -80 78
+	turret -58 114
+	turret -58 157
+	turret -80 194
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "big explosion" 45
+	explode "huge explosion" 30
+	description "Commissioned by the Lost Ones, Anstad Corp's heavy warship Halberd is designed to be a quick, powerful attack ship. With well-rounded offensive, defensive, and maneuvering capabilities, it immediately makes it's presence felt on any battlefield."
+
+ship "Harrier"
+	sprite "ship/harrier"
+	attributes
+		category "Fighter"
+		"cost" 770000
+		"shields" 1100
+		"hull" 3300
+		"required crew" 1
+		"bunks" 1
+		"mass" 38
+		"drag" .9
+		"heat dissipation" .9
+		"outfit space" 77
+		"weapon capacity" 20
+		"engine capacity" 22
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Poseidon Cannon" 2
+		"V600 Zeus Reactor"
+		"LCL Module"
+		"V610 Hermes Thruster"
+		"V620 Hermes Steering"
+		
+	engine 0 32
+	gun -5 -27
+	gun 5 -27
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "The first Lost Ones ships to be seen around Valuutian space other than the craft they arrived in, this small ship design was later repurposed to serve as a fighter aboard the Excalibur."
+
+ship "Hatchling"
+	sprite "ship/hatchling"
+	attributes
+		category "Drone"
+		"cost" 590000
+		"hull" 2640
+		"mass" 29
+		"drag" 1
+		"heat dissipation" 1
+		"outfit space" 67
+		"weapon capacity" 11
+		"engine capacity" 22
+		weapon
+			"blast radius" 5
+			"shield damage" 50
+			"hull damage" 25
+			"hit force" 75
+	outfits
+		"V600 Zeus Reactor"
+		"LCL Module"
+		"Artemis Missile" 30
+		"Artemis Missile Launcher"
+		"V610 Hermes Thruster"
+		"V620 Hermes Steering"
+		
+	engine 0 23
+	gun 0 -17
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	description "The Valuutian's Hatchling drone uses the same hot-dipping method of hull construction as the Bixi carrier, making it able to take more of a beating than similar craft."
+
+ship "Hourglass"
+	sprite "ship/hourglass"
+	attributes
+		category "Heavy Freighter"
+		"cost" 17600000
+		"shields" 19500
+		"hull" 39200
+		"required crew" 12
+		"bunks" 17
+		"mass" 710
+		"drag" 12.1
+		"heat dissipation" .5
+		"fuel capacity" 500
+		"cargo space" 618
+		"outfit space" 400
+		"weapon capacity" 63
+		"engine capacity" 120
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"V602 Zeus Reactor"
+		"V630M Cell Array"
+		"V640 Generator"
+		"V641 Regenerator"
+		"LNaK Cooling"
+		"Security Forcefield" 2
+		"Athena Anti-Missile" 2
+		"V612 Hermes Thruster"
+		"V622 Hermes Steering"
+		"Hyperdrive"
+		
+	engine -49 60
+	engine 49 60
+	turret -70 -9
+	turret 70 -9
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 30
+	explode "big explosion" 15
+	description "The Hourglass freighter is the Lost Ones go-to ship for trade with the Valuutians. Commissioned by the Lost Ones and manufactured by Anstad Corp, these ships went into service shortly after the Lost Ones were granted nation-state status by the Valuutian government."
+
+ship "Ivory Hatchling"
+	sprite "ship/ivoryhatchling"
+	attributes
+		category "Drone"
+		"cost" 590000
+		"shields" 880
+		"hull" 1760
+		"mass" 29
+		"drag" 1
+		"heat dissipation" 1
+		"outfit space" 67
+		"weapon capacity" 11
+		"engine capacity" 22
+		weapon
+			"blast radius" 5
+			"shield damage" 50
+			"hull damage" 25
+			"hit force" 75
+	outfits
+		"V600 Zeus Reactor"
+		"LCL Module"
+		"Artemis Missile" 30
+		"Artemis Missile Launcher"
+		"V610 Hermes Thruster"
+		"V620 Hermes Steering"
+		
+	engine 0 23
+	gun 0 -17
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	description "The Eternals integrated a shield matrix into their version of the Hatchling, resulting in better all-around defensive performance."
+
+ship "Ladon"
+	sprite "ship/ladon"
+	attributes
+		category "Heavy Warship"
+		"cost" 36700000
+		"shields" 20470
+		"hull" 61410
+		"required crew" 84
+		"bunks" 146
+		"mass" 890
+		"drag" 12.4
+		"heat dissipation" .7
+		"fuel capacity" 600
+		"cargo space" 30
+		"outfit space" 829
+		"weapon capacity" 372
+		"engine capacity" 154
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"V603 Zeus Reactor"
+		"V630L Cell Array"
+		"V640 Generator"
+		"V641 Regenerator"
+		"Ramscoop"
+		"LNaK Cooling"
+		"LCL Module"
+		"Dragon's Fire"
+		"Dragon's Ice" 2
+		"Ares Beam" 2
+		"Poseidon Cannon" 2
+		"Athena Anti-Missile" 2
+		"V613 Hermes Thruster"
+		"V623 Hermes Steering"
+		"Hyperdrive"
+		
+	engine -51 170
+	engine 51 170
+	gun -99 -48 "Poseidon Cannon"
+	gun -79 -62 "Poseidon Cannon"
+	gun -59 -68 "Dragon's Ice"
+	gun 59 -68 "Dragon's Ice"
+	gun 79 -62 "Ares Beam"
+	gun 99 -48 "Ares Beam"
+	gun 0 -189 "Dragon's Fire"
+	turret 0 -62
+	turret 0 -8
+	turret 0 44
+	fighter 0 0 under
+	fighter 1 1 under
+	fighter -1 -1 under
+	fighter 2 2 under
+	fighter -2 -2 under
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "big explosion" 45
+	explode "huge explosion" 30
+	description "The oldest ship in the Valuutian defense fleets, the Ladon is a relatively agile heavy warship with enough offense and defense to stand up to other large ships."
+
+ship "Longinus"
+	sprite "ship/longinus"
+	attributes
+		category "Light Warship"
+		"cost" 18700000
+		"shields" 6900
+		"hull" 20800
+		"required crew" 16
+		"bunks" 36
+		"mass" 260
+		"drag" 6.5
+		"heat dissipation" .7
+		"fuel capacity" 400
+		"cargo space" 24
+		"outfit space" 390
+		"weapon capacity" 135
+		"engine capacity" 104
+		weapon
+			"blast radius" 60
+			"shield damage" 600
+			"hull damage" 300
+			"hit force" 900
+	outfits
+		"V601 Zeus Reactor"
+		"V630M Cell Array"
+		"V640 Generator"
+		"V641 Regenerator"
+		"LNaK Cooling"
+		"Poseidon Cannon" 4
+		"Athena Anti-Missile" 2
+		"V611 Hermes Thruster"
+		"V622 Hermes Steering"
+		"Hyperdrive"
+		
+	engine -21 116
+	engine 21 116
+	gun -20 -74
+	gun 20 -75
+	gun -46 -38
+	gun 46 -38
+	turret -39 93
+	turret 39 93
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "big explosion" 10
+	description "A nimble light warship favored by merchants, mercenaries, and pirates alike, the Longinus lacks neither agility nor firepower."
+
+ship "Scorpion"
+	sprite "ship/scorpion"
+	attributes
+		category "Medium Warship"
+		"cost" 20835000
+		"shields" 11830
+		"hull" 35490
+		"required crew" 34
+		"bunks" 78
+		"mass" 520
+		"drag" 8.4
+		"heat dissipation" .75
+		"fuel capacity" 500
+		"cargo space" 40
+		"outfit space" 482
+		"weapon capacity" 206
+		"engine capacity" 97
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"V602 Zeus Reactor"
+		"V630L Cell Array"
+		"V640 Generator"
+		"V641 Regenerator"
+		"LNaK Cooling"
+		"Ares Beam" 2
+		"Poseidon Cannon" 2
+		"Athena Anti-Missile" 2
+		"V612 Hermes Thruster"
+		"V622 Hermes Steering"
+		"Hyperdrive"
+		
+	engine -34 122
+	engine 34 122
+	gun -34 -119 "Ares Beam"
+	gun 34 -119 "Ares Beam"
+	gun 0 14 "Poseidon Cannon"
+	gun 0 -94 "Poseidon Cannon"
+	turret -34 -74
+	turret 34 -74
+	fighter 0 0 under
+	fighter 1 1 under
+	fighter -1 -1 under
+	fighter 2 2 under
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "big explosion" 8
+	description "Not quite the oldest design in the Valuutian's stable of warships, but still thousands of years old and relatively unchanged, the Scorpion can stand up to enemy fire with ease, and houses up to four fighters as well."
+
+ship "Steel Scorpion"
+	sprite "ship/steelscorpion"
+	attributes
+		category "Medium Warship"
+		"cost" 20835000
+		"shields" 15770
+		"hull" 31550
+		"required crew" 34
+		"bunks" 78
+		"mass" 520
+		"drag" 8.4
+		"heat dissipation" .75
+		"jump drive" 1
+		"jump speed" .3
+		"ramscoop" 2
+		"fuel capacity" 500
+		"cargo space" 40
+		"outfit space" 472
+		"weapon capacity" 206
+		"engine capacity" 97
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"V602 Zeus Reactor"
+		"V630L Cell Array"
+		"V640 Generator"
+		"V641 Regenerator"
+		"LNaK Cooling"
+		"Ares Beam" 2
+		"Poseidon Cannon" 2
+		"Athena Anti-Missile" 2
+		"V612 Hermes Thruster"
+		"V622 Hermes Steering"
+		
+	engine -34 122
+	engine 34 122
+	gun -34 -119 "Ares Beam"
+	gun 34 -119 "Ares Beam"
+	gun 0 14 "Poseidon Cannon"
+	gun 0 -94 "Poseidon Cannon"
+	turret -34 -74
+	turret 34 -74
+	fighter 0 0 under
+	fighter 1 1 under
+	fighter -1 -1 under
+	fighter 2 2 under
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "big explosion" 8
+	description "Part of the Eternals' unpublicized war-fleet, the Steel Scorpion comes equipped with an improved shield matrix and built-in jump capability."
+
+ship "Tianlong"
+	sprite "ship/tianlong"
+	attributes
+		category "Fighter"
+		"cost" 754000
+		"shields" 1200
+		"hull" 2500
+		"required crew" 1
+		"bunks" 1
+		"mass" 32
+		"drag" .8
+		"heat dissipation" .95
+		"solar collection" 2.7
+		"outfit space" 77
+		"weapon capacity" 20
+		"engine capacity" 22
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Artemis Missile Launcher" 2
+		"Artemis Missile" 60
+		"V600 Zeus Reactor"
+		"LCL Module"
+		"V610 Hermes Thruster"
+		"V620 Hermes Steering"
+
+	engine -8 10
+	engine 8 10
+	gun 8 -16
+	gun -8 -16
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "The Tianlong is a redesigned Chilong with an integrated shield matrix, developed and manufactured in secret by the Eternals for their personal fleet."
+
+ship "Twin Crescent"
+	sprite "ship/twincrescent"
+	attributes
+		category "Interceptor"
+		"cost" 670000
+		"shields" 3600
+		"hull" 7200
+		"required crew" 4
+		"bunks" 6
+		"mass" 120
+		"drag" 2.1
+		"heat dissipation" .8
+		"fuel capacity" 300
+		"cargo space" 15
+		"outfit space" 258
+		"weapon capacity" 84
+		"engine capacity" 65
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"V601 Zeus Reactor"
+		"V630S Cell Array"
+		"V640 Generator"
+		"LCL Module"
+		"Ares Beam"
+		"Poseidon Cannon" 2
+		"V611 Hermes Thruster"
+		"V621 Hermes Steering"
+		"Hyperdrive"
+		
+	engine -12 63
+	engine 12 63
+	gun -16 -59 "Poseidon Cannon"
+	gun 16 -59 "Poseidon Cannon"
+	gun 0 -24 "Ares Beam"
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "The Twin Crescent is a speedy interceptor commonly used by merchant guards and pirates."
+
+ship "Typhon"
+	sprite "ship/typhon"
+	attributes
+		category "Heavy Warship"
+		"cost" 36700000
+		"shields" 27290
+		"hull" 54590
+		"required crew" 84
+		"bunks" 146
+		"mass" 870
+		"drag" 12.1
+		"heat dissipation" .7
+		"jump drive" 1
+		"jump speed" .3
+		"ramscoop" 2
+		"fuel capacity" 600
+		"cargo space" 30
+		"outfit space" 819
+		"weapon capacity" 372
+		"engine capacity" 154
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"V603 Zeus Reactor"
+		"V630L Cell Array"
+		"V640 Generator"
+		"V641 Regenerator"
+		"Ramscoop"
+		"LNaK Cooling"
+		"LCL Module"
+		"Dragon's Fire"
+		"Dragon's Ice" 2
+		"Ares Beam" 2
+		"Poseidon Cannon" 2
+		"Athena Anti-Missile" 2
+		"V613 Hermes Thruster"
+		"V623 Hermes Steering"
+		
+	engine -51 170
+	engine 51 170
+	gun -99 -48 "Poseidon Cannon"
+	gun -79 -62 "Poseidon Cannon"
+	gun -59 -68 "Dragon's Ice"
+	gun 59 -68 "Dragon's Ice"
+	gun 79 -62 "Ares Beam"
+	gun 99 -48 "Ares Beam"
+	gun 0 -189 "Dragon's Fire"
+	turret 0 -62
+	turret 0 -8
+	turret 0 44
+	fighter 0 0 under
+	fighter 1 1 under
+	fighter -1 -1 under
+	fighter 2 2 under
+	fighter -2 -2 under
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "big explosion" 45
+	explode "huge explosion" 30
+	description "The Eternals reworked the Ladon over thousands of years in an attempt to improve it. After failing completely, they settled on a slightly improved shield matrix and built-in jump capability."
+
+ship "Winged Serpent"
+	sprite "ship/wingedserpent"
+	attributes
+		category "Heavy Freighter"
+		"cost" 17200000
+		"shields" 10500
+		"hull" 31700
+		"required crew" 9
+		"bunks" 12
+		"mass" 510
+		"drag" 8.6
+		"heat dissipation" .7
+		"fuel capacity" 600
+		"cargo space" 444
+		"outfit space" 303
+		"weapon capacity" 76
+		"engine capacity" 83
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"V602 Zeus Reactor"
+		"V640 Generator"
+		"V641 Regenerator"
+		"LCL Module"
+		"Dragon's Ice"
+		
+		"V611 Hermes Thruster"
+		"V622 Hermes Steering"
+		"Hyperdrive"
+		
+	engine -54 59
+	engine 54 59
+	gun 0 -170
+	explode "small explosion" 15
+	explode "medium explosion" 30
+	explode "big explosion" 20
+	explode "huge explosion" 5
+	description "An archaic design unneeded by the Valuutians until recently, the Winged Serpent has been put into service for both trade with the Lost Ones, and to support their rapidly growing off-world colonies."

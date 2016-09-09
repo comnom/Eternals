@@ -1,0 +1,200 @@
+ship "Excalibur" "Excalibur (Var1)"
+	outfits
+		"Hyperdrive"
+		"Ramscoop"
+		"V640 Generator"
+		"LNaK Cooling" 2
+		"V641 Regenerator"
+		"Security Forcefield" 4
+		"V603 Zeus Reactor"
+		"V612 Hermes Thruster"
+		"V622 Hermes Steering"
+		"V630L Cell Array"
+		"Ares Turret" 4
+		"Poseidon Cannon" 6
+		"Poseidon Turret" 2
+	turret "Poseidon Turret"
+	turret "Poseidon Turret"
+	turret "Ares Turret"
+	turret "Ares Turret"
+	turret "Ares Turret"
+	turret "Ares Turret"
+
+ship "Excalibur" "Excalibur (Var2)"
+	outfits
+		"Hyperdrive"
+		"Ramscoop"
+		"V640 Generator" 2
+		"LNaK Cooling" 2
+		"V641 Regenerator" 2
+		"Security Forcefield" 4
+		"V603 Zeus Reactor"
+		"V612 Hermes Thruster"
+		"V623 Hermes Steering"
+		"V630L Cell Array"
+		"Ares Beam" 6
+		"Athena Anti-Missile" 6
+
+ship "Halberd" "Halberd (Var1)"
+	outfits
+		"Hyperdrive"
+		"Ramscoop"
+		"V640 Generator"
+		"LNaK Cooling"
+		"V641 Regenerator"
+		"Security Forcefield" 4
+		"V603 Zeus Reactor"
+		"V612 Hermes Thruster"
+		"V623 Hermes Steering"
+		"V630L Cell Array"
+		"Dragon's Fire" 2
+		"Dragon's Ice" 2
+		"Ares Turret" 12
+		"Athena Anti-Missile" 3
+		"Poseidon Cannon"
+	gun "Dragon's Ice"
+	gun "Dragon's Ice"
+	gun "Poseidon Cannon"
+	gun "Dragon's Fire"
+	gun "Dragon's Fire"
+	turret "Athena Anti-Missile"
+	turret "Athena Anti-Missile"
+	turret "Athena Anti-Missile"
+	turret "Ares Turret"
+
+ship "Halberd" "Halberd (Var2)"
+	outfits
+		"Hyperdrive"
+		"Ramscoop"
+		"V640 Generator" 2
+		"LNaK Cooling" 2
+		"V641 Regenerator" 2
+		"Security Forcefield" 10
+		"V603 Zeus Reactor"
+		"V612 Hermes Thruster"
+		"V623 Hermes Steering"
+		"V630L Cell Array"
+		"Ares Beam" 6
+		"Athena Anti-Missile" 4
+
+ship "Ladon" "Ladon (Var1)"
+	outfits
+		"Hyperdrive"
+		"Ramscoop"
+		"V640 Generator" 2
+		"LCL Module" 2
+		"LNaK Cooling"
+		"V641 Regenerator" 2
+		"V603 Zeus Reactor"
+		"V613 Hermes Thruster"
+		"V623 Hermes Steering"
+		"V630L Cell Array"
+		"Dragon's Ice" 2
+		"Athena Anti-Missile" 3
+		"Poseidon Cannon" 5
+	gun "Poseidon Cannon"
+	gun "Poseidon Cannon"
+	gun "Dragon's Ice"
+	gun "Dragon's Ice"
+	gun "Poseidon Cannon"
+	gun "Poseidon Cannon"
+	gun "Poseidon Cannon"
+
+ship "Ladon" "Ladon (Var2)"
+	outfits
+		"Hyperdrive"
+		"Ramscoop"
+		"V640 Generator"
+		"LCL Module"
+		"LNaK Cooling"
+		"V641 Regenerator"
+		"V603 Zeus Reactor"
+		"V612 Hermes Thruster"
+		"V623 Hermes Steering"
+		"V630L Cell Array"
+		"Ares Beam" 2
+		"Dragon's Fire"
+		"Ares Turret" 3
+		"Poseidon Cannon" 3
+	gun "Ares Beam"
+	gun "Poseidon Cannon"
+	gun "Poseidon Cannon"
+	gun "Poseidon Cannon"
+	gun
+	gun "Ares Beam"
+
+ship "Longinus" "Longinus (Var1)"
+	outfits
+		"Hyperdrive"
+		"V640 Generator"
+		"LCL Module"
+		"V641 Regenerator"
+		"V601 Zeus Reactor"
+		"V612 Hermes Thruster"
+		"V622 Hermes Steering"
+		"V630M Cell Array"
+		"Ares Beam" 2
+		"Poseidon Cannon" 2
+		"Poseidon Turret" 2
+	gun "Poseidon Cannon"
+	gun "Poseidon Cannon"
+	gun "Ares Beam"
+	gun "Ares Beam"
+
+ship "Longinus" "Longinus (Var2)"
+	outfits
+		"Hyperdrive"
+		"V640 Generator"
+		"LCL Module"
+		"V641 Regenerator" 2
+		"V601 Zeus Reactor"
+		"V612 Hermes Thruster"
+		"V622 Hermes Steering"
+		"Athena Anti-Missile" 2
+		"Artemis Missile" 120
+		"Artemis Missile Launcher" 4
+
+ship "Scorpion" "Scorpion (Var1)"
+	outfits
+		"Hyperdrive"
+		"V640 Generator"
+		"LNaK Cooling"
+		"V641 Regenerator" 2
+		"V602 Zeus Reactor"
+		"V612 Hermes Thruster"
+		"V622 Hermes Steering"
+		"V630M Cell Array"
+		"Ares Beam" 2
+		"Poseidon Cannon" 2
+		"Poseidon Turret" 2
+	gun "Ares Beam"
+	gun "Ares Beam"
+	gun "Poseidon Cannon"
+	gun "Poseidon Cannon"
+
+ship "Scorpion" "Scorpion (Var2)"
+	outfits
+		"Hyperdrive"
+		"V640 Generator"
+		"LCL Module"
+		"V641 Regenerator" 2
+		"Security Forcefield" 2
+		"V601 Zeus Reactor"
+		"V612 Hermes Thruster"
+		"V622 Hermes Steering"
+		"Athena Anti-Missile" 2
+		"Artemis Missile" 120
+		"Artemis Missile Launcher" 4
+
+ship "Twin Crescent" "Twin Crescent (Var1)"
+	outfits
+		"Hyperdrive"
+		"V640 Generator"
+		"LCL Module"
+		"V641 Regenerator"
+		"V601 Zeus Reactor"
+		"V611 Hermes Thruster"
+		"V621 Hermes Steering"
+		"V630S Cell Array"
+		"Artemis Missile" 90
+		"Artemis Missile Launcher" 3

@@ -1,0 +1,71 @@
+effect "ares impact"
+	sprite "effect/ares_impact"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 5
+	"random angle" 2
+	"random spin" 1
+	"velocity scale" -.003
+
+effect "athena anti missile"
+	sprite "effect/athena"
+		"no repeat"
+		"frame rate" 6
+	sound "heavy anti-missile"
+	"lifetime" 11
+	"velocity scale" 1
+
+effect "dragonf impact"
+	sprite "effect/dragonf_impact"
+		"no repeat"
+		"frame rate" 7
+	sound "explosion tiny"
+	"lifetime" 28
+	"random angle" 10
+	"random velocity" .1
+	"velocity scale" .001
+
+effect "dragoni impact"
+	sprite "effect/dragoni_impact"
+		"no repeat"
+		"frame rate" 7
+	"lifetime" 28
+	"random angle" 360
+	"random spin" 1
+	"velocity scale" -.003
+
+effect "dragoni impact sub"
+	sprite "effect/dragoni_impact_sub"
+		"no repeat"
+		"frame rate" 7
+	"lifetime" 28
+	"random angle" 360
+	"random spin" 1
+	"velocity scale" -.003
+
+effect "dragoni impact sub sub"
+	sprite "effect/dragoni_impact_sub_sub"
+		"no repeat"
+		"frame rate" 7
+	"lifetime" 28
+	"random angle" 360
+	"random spin" 1
+	"velocity scale" -.003
+
+effect "poseidon impact"
+	sprite "effect/poseidon_impact"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 5
+	"random angle" 2
+	"random spin" 1
+	"velocity scale" -.003
+
+effect "2xposeidon impact"
+	sprite "effect/2xposeidon_impact"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 5
+	"random angle" 2
+	"random spin" 1
+	"velocity scale" -.003

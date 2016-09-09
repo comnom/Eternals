@@ -1,0 +1,354 @@
+fleet "Valuutian Merchants"
+	government "Valuut"
+	names "valuut"
+	cargo 3
+	personality
+		confusion 35
+		timid frugal
+	variant 2
+		"Winged Serpent"
+	variant 4
+		"Winged Serpent"
+		"Scorpion"
+	variant 3
+		"Winged Serpent"
+		"Scorpion (Var1)"
+	variant 3
+		"Winged Serpent"
+		"Scorpion (Var2)"
+	variant 1
+		"Winged Serpent" 2
+		"Scorpion"
+	variant 1
+		"Winged Serpent" 2
+		"Scorpion (Var1)"
+	variant 1
+		"Winged Serpent" 2
+		"Scorpion (Var2)"
+
+fleet "Lost Ones Merchants"
+	government "Lost Ones Merchant"
+	names "l_o civilian"
+	cargo 3
+	personality
+		confusion 35
+		timid frugal
+	variant 20
+		"Hourglass"
+	variant 20
+		"Hourglass"
+		"Twin Crescent"
+	variant 20
+		"Hourglass"
+		"Twin Crescent (Var1)"
+	variant 20
+		"Hourglass"
+		"Twin Crescent" 2
+	variant 20
+		"Hourglass"
+		"Twin Crescent (Var1)" 2
+	variant 12
+		"Hourglass" 2
+		"Twin Crescent"
+	variant 12
+		"Hourglass" 2
+		"Twin Crescent (Var1)" 3
+	variant 16
+		"Longinus"
+		"Hourglass"
+	variant 16
+		"Longinus (Var1)"
+		"Hourglass"
+	variant 16
+		"Longinus (Var2)"
+		"Hourglass"
+	variant 14
+		"Longinus"
+		"Twin Crescent"
+		"Hourglass"
+	variant 12
+		"Longinus"
+		"Twin Crescent (Var1)"
+		"Hourglass"
+	variant 12
+		"Longinus"
+		"Twin Crescent" 2
+		"Hourglass" 2
+	variant 12
+		"Longinus (Var1)"
+		"Twin Crescent (Var1)" 3
+		"Hourglass" 2
+
+fleet "Small Valuutian"
+	government "Valuut"
+	names "valuut"
+	fighters "valuut fighter"
+	cargo 0
+	personality
+		heroic disables frugal
+	variant 8
+		"Scorpion"
+		"Chilong" 4
+	variant 8
+		"Scorpion (Var1)"
+		"Chilong" 4
+	variant 8
+		"Scorpion (Var2)"
+		"Chilong" 4
+	variant 4
+		"Scorpion"
+	variant 4
+		"Scorpion (Var1)"
+	variant 4
+		"Scorpion (Var2)"
+
+fleet "Large Valuutian"
+	government "Valuut"
+	names "valuut"
+	fighters "valuut fighter"
+	cargo 0
+	personality
+		heroic disables frugal
+	variant 5
+		"Scorpion" 3
+	variant 5
+		"Scorpion (Var1)" 3
+	variant 5
+		"Scorpion (Var2)" 3
+	variant 15
+		"Scorpion"
+		"Chilong" 4
+		"Scorpion"
+		"Chilong" 4
+	variant 20
+		"Scorpion"
+		"Chilong" 4
+		"Ladon"
+		"Chilong" 5
+	variant 20
+		"Scorpion (Var2)"
+		"Ladon (Var1)"
+		"Chilong" 5
+	variant 20
+		"Scorpion"
+		"Chilong" 4
+		"Bixi"
+		"Hatchling" 6
+	variant 20
+		"Scorpion (Var1)"
+		"Bixi"
+		"Hatchling" 12
+	variant 12
+		"Scorpion (Var2)"
+		"Chilong" 4
+		"Bixi"
+		"Hatchling" 12
+	variant 12
+		"Scorpion (Var2)"
+		"Chilong" 4
+		"Scorpion (Var2)"
+		"Chilong" 4
+		"Ladon (Var2)"
+		"Chilong" 5
+	variant 14
+		"Scorpion (Var2)" 2
+		"Ladon"
+		"Chilong" 5
+	variant 10
+		"Ladon (Var1)"
+		"Chilong" 5
+		"Ladon (Var2)"
+		"Chilong" 5
+	variant 10
+		"Ladon"
+		"Chilong" 5
+		"Bixi"
+		"Hatchling" 6
+	variant 10
+		"Ladon (Var1)"
+		"Chilong" 5
+		"Bixi"
+		"Hatchling" 6
+	variant 10
+		"Ladon (Var2)"
+		"Bixi"
+		"Hatchling" 12
+
+fleet "Valuutian Colony"
+	government "Valuut"
+	names "valuut"
+	fighters "valuut fighter"
+	cargo 0
+	personality
+		timid
+	variant 1
+		"Colony Ship"
+	variant 4
+		"Colony Ship"
+		"Scorpion"
+		"Chilong" 4
+	variant 4
+		"Colony Ship"
+		"Scorpion (Var1)"
+		"Chilong" 4
+	variant 8
+		"Colony Ship"
+		"Ladon"
+		"Chilong" 5
+	variant 8
+		"Colony Ship"
+		"Ladon (Var1)"
+		"Chilong" 5
+	variant 8
+		"Colony Ship"
+		"Ladon (Var2)"
+		"Chilong" 5
+	variant 12
+		"Colony Ship"
+		"Bixi"
+		"Hatchling" 12
+
+fleet "Small Lost Ones"
+	government "Lost Ones"
+	names "l_o military"
+	cargo 0
+	personality
+		heroic frugal
+	variant 2
+		"Twin Crescent"
+	variant 2
+		"Twin Crescent (Var1)"
+	variant 8
+		"Twin Crescent" 2
+	variant 8
+		"Twin Crescent (Var1)" 2
+	variant 8
+		"Longinus"
+	variant 8
+		"Longinus (Var1)"
+	variant 8
+		"Longinus (Var2)"
+
+
+fleet "Large Lost Ones"
+	government "Lost Ones"
+	names "l_o military"
+	fighters "l_o fighter"
+	cargo 0
+	personality
+		heroic frugal
+	variant 5
+		"Excalibur"
+		"Twin Crescent" 3
+	variant 4
+		"Excalibur (Var1)"
+		"Twin Crescent" 3
+	variant 3
+		"Excalibur (Var2)"
+		"Twin Crescent" 3
+	variant 5
+		"Excalibur"
+		"Longinus"
+	variant 4
+		"Excalibur (Var1)"
+		"Longinus (Var1)"
+	variant 3
+		"Excalibur (Var2)"
+		"Longinus (Var2)"
+	variant 10
+		"Excalibur"
+		"Harrier" 6
+	variant 9
+		"Excalibur (Var1)"
+		"Harrier" 6
+	variant 8
+		"Excalibur (Var2)"
+		"Harrier" 6
+	variant 5
+		"Halberd"
+		"Twin Crescent" 3
+	variant 4
+		"Halberd (Var1)"
+		"Twin Crescent" 3
+	variant 3
+		"Halberd (Var2)"
+		"Twin Crescent" 3
+	variant 5
+		"Halberd"
+		"Longinus"
+	variant 4
+		"Halberd (Var1)"
+		"Longinus (Var1)"
+	variant 3
+		"Halberd (Var2)"
+		"Longinus (Var2)"
+	variant 10
+		"Halberd"
+	variant 9
+		"Halberd (Var1)"
+	variant 8
+		"Halberd (Var2)"
+
+fleet "Small L_O Pirate"
+	government "Pirate"
+	names "pirate"
+	cargo 1
+	personality
+		plunders
+	variant 2
+		"Twin Crescent"
+	variant 2
+		"Twin Crescent (Var1)"
+	variant 8
+		"Twin Crescent" 2
+	variant 8
+		"Twin Crescent (Var1)" 2
+	variant 8
+		"Longinus"
+	variant 8
+		"Longinus (Var1)"
+	variant 8
+		"Longinus (Var2)"
+
+fleet "Large L_O Pirate"
+	government "Pirate"
+	names "pirate"
+	cargo 1
+	personality
+		plunders
+	variant 6
+		"Excalibur"
+		"Twin Crescent" 3
+	variant 4
+		"Excalibur (Var1)"
+		"Twin Crescent" 3
+	variant 2
+		"Excalibur (Var2)"
+		"Twin Crescent" 3
+	variant 6
+		"Excalibur"
+		"Longinus"
+	variant 4
+		"Excalibur (Var1)"
+		"Longinus (Var1)"
+	variant 2
+		"Excalibur (Var2)"
+		"Longinus (Var2)"
+	variant 6
+		"Halberd"
+		"Twin Crescent" 3
+	variant 4
+		"Halberd (Var1)"
+		"Twin Crescent" 3
+	variant 2
+		"Halberd (Var2)"
+		"Twin Crescent" 3
+	variant 6
+		"Halberd"
+		"Longinus"
+	variant 4
+		"Halberd (Var1)"
+		"Longinus (Var1)"
+	variant 2
+		"Halberd (Var2)"
+		"Longinus (Var2)"
