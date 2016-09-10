@@ -35,7 +35,7 @@ ship "Excalibur" "Excalibur (Var2)"
 		"Ares Beam" 6
 		"Athena Anti-Missile" 6
 
-ship "Halberd" "Halberd (Var1)"
+ship "Pollaxe" "Pollaxe (Var1)"
 	outfits
 		"Hyperdrive"
 		"Ramscoop"
@@ -62,7 +62,7 @@ ship "Halberd" "Halberd (Var1)"
 	turret "Athena Anti-Missile"
 	turret "Ares Turret"
 
-ship "Halberd" "Halberd (Var2)"
+ship "Pollaxe" "Pollaxe (Var2)"
 	outfits
 		"Hyperdrive"
 		"Ramscoop"

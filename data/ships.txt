@@ -255,8 +255,8 @@ ship "Excalibur"
 	explode "huge explosion" 30
 	description "The Lost Ones' carrier Excalibur was designed and built by the Anstad Corp. Not only can it field a small fleet of fighters, but it has enough weapons to hold it's own in combat."
 
-ship "Halberd"
-	sprite "ship/halberd"
+ship "Pollaxe"
+	sprite "ship/pollaxe"
 	attributes
 		category "Heavy Warship"
 		"cost" 38680000
@@ -307,7 +307,7 @@ ship "Halberd"
 	explode "medium explosion" 35
 	explode "big explosion" 45
 	explode "huge explosion" 30
-	description "Commissioned by the Lost Ones, Anstad Corp's heavy warship Halberd is designed to be a quick, powerful attack ship. With well-rounded offensive, defensive, and maneuvering capabilities, it immediately makes it's presence felt on any battlefield."
+	description "Commissioned by the Lost Ones, Anstad Corp's heavy warship Pollaxe is designed to be a quick, powerful attack ship. With well-rounded offensive, defensive, and maneuvering capabilities, it immediately makes it's presence felt on any battlefield."
 
 ship "Harrier"
 	sprite "ship/harrier"

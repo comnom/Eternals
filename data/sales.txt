@@ -35,7 +35,7 @@ shipyard "Lost Ones Ships"
 	"Twin Crescent"
 	"Harrier"
 	"Excalibur"
-	"Halberd"
+	"Pollaxe"
 	"Hourglass"
 	"Longinus"
 

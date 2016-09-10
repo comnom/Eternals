@@ -11,7 +11,7 @@ Version:	0.8.6
 	* Ships
 		* added bixi/ao
 		* added hatchling/ivory hatchling
-		* reworked halberd to be a much smaller ship as it severely underperformed at it's previous size
+		* reworked pollaxe to be a much smaller ship as it severely underperformed at it's previous size
 	* Outfits
 		* reduced capacity of artemis launcher
 
@@ -77,8 +77,8 @@ Version:	0.8.2
 		* increased cHP(shields+hull) on harrier
 		* reduced mass and drag on chilong/tianlong
 		* reduced cHP(shields+hull) on chilong/tianlong
-		* increased price and drag on halberd
-		* reduced fuel capacity and cargo space on halberd
+		* increased price and drag on pollaxe
+		* reduced fuel capacity and cargo space on pollaxe
 		* fixed price on hourglass
 		* reduced price on winged serpent
 

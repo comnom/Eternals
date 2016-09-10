@@ -265,29 +265,29 @@ fleet "Large Lost Ones"
 		"Excalibur (Var2)"
 		"Harrier" 6
 	variant 5
-		"Halberd"
+		"Pollaxe"
 		"Twin Crescent" 3
 	variant 4
-		"Halberd (Var1)"
+		"Pollaxe (Var1)"
 		"Twin Crescent" 3
 	variant 3
-		"Halberd (Var2)"
+		"Pollaxe (Var2)"
 		"Twin Crescent" 3
 	variant 5
-		"Halberd"
+		"Pollaxe"
 		"Longinus"
 	variant 4
-		"Halberd (Var1)"
+		"Pollaxe (Var1)"
 		"Longinus (Var1)"
 	variant 3
-		"Halberd (Var2)"
+		"Pollaxe (Var2)"
 		"Longinus (Var2)"
 	variant 10
-		"Halberd"
+		"Pollaxe"
 	variant 9
-		"Halberd (Var1)"
+		"Pollaxe (Var1)"
 	variant 8
-		"Halberd (Var2)"
+		"Pollaxe (Var2)"
 
 fleet "Small L_O Pirate"
 	government "Pirate"
@@ -335,20 +335,20 @@ fleet "Large L_O Pirate"
 		"Excalibur (Var2)"
 		"Longinus (Var2)"
 	variant 6
-		"Halberd"
+		"Pollaxe"
 		"Twin Crescent" 3
 	variant 4
-		"Halberd (Var1)"
+		"Pollaxe (Var1)"
 		"Twin Crescent" 3
 	variant 2
-		"Halberd (Var2)"
+		"Pollaxe (Var2)"
 		"Twin Crescent" 3
 	variant 6
-		"Halberd"
+		"Pollaxe"
 		"Longinus"
 	variant 4
-		"Halberd (Var1)"
+		"Pollaxe (Var1)"
 		"Longinus (Var1)"
 	variant 2
-		"Halberd (Var2)"
+		"Pollaxe (Var2)"
 		"Longinus (Var2)"
