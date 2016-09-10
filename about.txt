@@ -1,106 +1,98 @@
 Version:	0.8.6
-Changelog:
-	General:
-		-minor name edits
-		-minor government edits
-		-begin hails
-		-added pirate fleets
-		-reworked all fleets to remove overlap between small/large
-	Map:
-		-minor fleet spawn rate adjustments
-	Ships:
-		-added bixi/ao
-		-added hatchling/ivory hatchling
-		-reworked halberd to be a much smaller ship as it severely
-		 underperformed at it's previous size
-	Outfits:
-		-reduced capacity of artemis launcher
+* Changelog
+	* General
+		* minor name edits
+		* minor government edits
+		* begin hails
+		* added pirate fleets
+		* reworked all fleets to remove overlap between small/large
+	* Map
+		* minor fleet spawn rate adjustments
+	* Ships
+		* added bixi/ao
+		* added hatchling/ivory hatchling
+		* reworked halberd to be a much smaller ship as it severely underperformed at it's previous size
+	* Outfits
+		* reduced capacity of artemis launcher
 
 Version:	0.8.5
-Changelog:
-	General:
-		-added variants
-		-updated fleets.txt with variants
-		-added Lost Ones Merchant government as it was a bit odd to
-		 have them talk about a region of space they haven't seen in
-		 four hundred years
-	Map:
-		-reworked all fleet spawn rates
-	Ships:
-		-fixed longinus weapon coords
-		-reduced engine capacity on twin crescent
-	Outfits:
-		-added mass to artemis missile for consistency
-		-removed all custom outfit dependencies as I encountered a bug
-		 where it would not let me buy the outfit even with enough of
-		 the proper custom attribute
-		-changed descriptions because of the removed attributes
-		-changed name of shield/hull generators because of the removed
-		 attributes(breaks backwards compatibility)
-		-rebalanced v641 regenerator(nano-regen) as a standalone outfit
+* Changelog
+	* General
+		* added variants
+		* updated fleets.txt with variants
+		* added Lost Ones Merchant government as it was a bit odd to have them talk about a region of space they haven't seen in four hundred years
+	* Map
+		* reworked all fleet spawn rates
+	* Ships
+		* fixed longinus weapon coords
+		* reduced engine capacity on twin crescent
+	* Outfits
+		* added mass to artemis missile for consistency
+		* removed all custom outfit dependencies as I encountered a bug where it would not let me buy the outfit even with enough of the proper custom attribute
+		* changed descriptions because of the removed attributes
+		* changed name of shield/hull generators because of the removed attributes(breaks backwards compatibility)
+		* rebalanced v641 regenerator(nano-regen) as a standalone outfit
 
 Version:	0.8.4.1
-Changelog:
-	Map:
-		-hotfix for system compatibility with enigma corp
+* Changelog
+	* Map
+		* hotfix for system compatibility with enigma corp
 
 Version:	0.8.4
-Changelog:
-	General:
-		-switched old name list from "valuut" to "l_o civilian"
-		-culled "l_o civilian" down to ~50
-		-generated new names for "valuut"
-		-added military names for Lost Ones
-		-added fighter names for both factions
-		-updated fleets.txt with the new names
-	Map:
-		-culled ugly planet fg_cloud1
-		-adjusted some habitable planets that were too close to
-		 their star
-	Outfits:
-		-added hit effect for poseidon turret
-		-fixed price on lcl module
-		-reduced cooling on lcl module
-		-increased price on lnak cooling
+* Changelog
+	* General
+		* switched old name list from "valuut" to "l_o civilian"
+		* culled "l_o civilian" down to ~50
+		* generated new names for "valuut"
+		* added military names for Lost Ones
+		* added fighter names for both factions
+		* updated fleets.txt with the new names
+	* Map
+		* culled ugly planet fg_cloud1
+		* adjusted some habitable planets that were too close to their star
+	* Outfits
+		* added hit effect for poseidon turret
+		* fixed price on lcl module
+		* reduced cooling on lcl module
+		* increased price on lnak cooling
 
 Version:	0.8.3
-Changelog:
-	General:
-		-added planet/spaceport descriptions
-		-added landscapes
-		-updated copyright
-	Ships:
-		-changed loadout on colony ship to make it uncapturable
-		-reduced engine/fuel capacity and price on colony ship
-	Outfits:
-		-added poseidon turret
+* Changelog
+	* General
+		* added planet/spaceport descriptions
+		* added landscapes
+		* updated copyright
+	* Ships
+		* changed loadout on colony ship to make it uncapturable
+		* reduced engine/fuel capacity and price on colony ship
+	* Outfits
+		* added poseidon turret
 
 Version:	0.8.2
-Changelog:
-	General:
-		-added descriptions for all ships
-	Ships:
-		-increased mass and drag on harrier
-		-increased cHP(shields+hull) on harrier
-		-reduced mass and drag on chilong/tianlong
-		-reduced cHP(shields+hull) on chilong/tianlong
-		-increased price and drag on halberd
-		-reduced fuel capacity and cargo space on halberd
-		-fixed price on hourglass
-		-reduced price on winged serpent
+* Changelog
+	* General
+		* added descriptions for all ships
+	* Ships
+		* increased mass and drag on harrier
+		* increased cHP(shields+hull) on harrier
+		* reduced mass and drag on chilong/tianlong
+		* reduced cHP(shields+hull) on chilong/tianlong
+		* increased price and drag on halberd
+		* reduced fuel capacity and cargo space on halberd
+		* fixed price on hourglass
+		* reduced price on winged serpent
 
 Version:	0.8.1
-Changelog:
-	General:
-		-added descriptions for all outfits
-	Ships:
-		-fixed longinus engine coords
-	Outfits:
-		-reduced missile strength on artemis
-		-reduced range on poseidon cannon
-		-redistributed the capacity on reactor/battery pairs to put more
-		 "battery" in the battery
+* Changelog
+	* General
+		* added descriptions for all outfits
+	* Ships
+		* fixed longinus engine coords
+	* Outfits
+		* reduced missile strength on artemis
+		* reduced range on poseidon cannon
+		* redistributed the capacity on reactor/battery pairs to put more "battery" in the battery
 
 Version: 	0.8.0
-Changelog:
-	Released
+* Changelog
+	* Released
