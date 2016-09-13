@@ -155,6 +155,9 @@ th {
 
 img {
   max-width:100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
 }
 
 header {
@@ -229,6 +232,17 @@ section {
   padding-bottom:50px;
 }
 
+section p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-indent: 2em;
+  line-height: 160%;
+}
+
+section h3 {
+  text-align: center;
+}
+
 small {
   font-size:11px;
 }
@@ -247,22 +261,6 @@ footer {
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
-
-.center {
-  text-align: center;
-  }
-
-.indent {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  text-indent: 2em;
-  line-height: 160%;
-}
-.displayed {
-  display: block;
-  margin-left: auto;
-  margin-right: auto 
-  }
 
 @media print, screen and (max-width: 960px) {
 
