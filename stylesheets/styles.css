@@ -157,7 +157,10 @@ img {
   max-width:100%;
   display: block;
   margin-left: auto;
-  margin-right: auto 
+  margin-right: auto;
+  background:#000000;
+  border-radius:9px;
+  border:1px solid #989898;
 }
 
 header {
@@ -173,7 +176,7 @@ header ul {
   padding:0;
   background: #f4f4f4;
   border-radius:5px;
-  border:1px solid #e0e0e0;
+  border:1px solid #989898;
   width:270px;
 }
 
@@ -239,7 +242,7 @@ section p {
   line-height: 160%;
 }
 
-section h3 {
+section h2 {
   text-align: center;
 }
 
