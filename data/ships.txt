@@ -688,6 +688,7 @@ ship "Tianlong"
 			"hull damage" 60
 			"hit force" 180
 	outfits
+		"Poseidon Cannon" 2
 		"V600 Zeus Reactor"
 		"LCL Module"
 		"V610 Hermes Thruster"
