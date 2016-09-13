@@ -91,7 +91,7 @@ fleet "Small Valuutian"
 		"Chilong" 4
 	variant 8
 		"Scorpion (Var1)"
-		"Chilong" 4
+		"Chilong (Var1)" 4
 	variant 8
 		"Scorpion (Var2)"
 		"Chilong" 4
@@ -119,12 +119,12 @@ fleet "Large Valuutian"
 		"Scorpion"
 		"Chilong" 4
 		"Scorpion"
-		"Chilong" 4
+		"Chilong (Var1)" 4
 	variant 20
 		"Scorpion"
 		"Chilong" 4
 		"Ladon"
-		"Chilong" 5
+		"Chilong (Var1)" 5
 	variant 20
 		"Scorpion (Var2)"
 		"Ladon (Var1)"
@@ -133,7 +133,7 @@ fleet "Large Valuutian"
 		"Scorpion"
 		"Chilong" 4
 		"Bixi"
-		"Hatchling" 6
+		"Hatchling (Var1)" 6
 	variant 20
 		"Scorpion (Var1)"
 		"Bixi"
@@ -147,7 +147,7 @@ fleet "Large Valuutian"
 		"Scorpion (Var2)"
 		"Chilong" 4
 		"Scorpion (Var2)"
-		"Chilong" 4
+		"Chilong (Var1)" 4
 		"Ladon (Var2)"
 		"Chilong" 5
 	variant 14
@@ -158,7 +158,7 @@ fleet "Large Valuutian"
 		"Ladon (Var1)"
 		"Chilong" 5
 		"Ladon (Var2)"
-		"Chilong" 5
+		"Chilong (Var1)" 5
 	variant 10
 		"Ladon"
 		"Chilong" 5
@@ -198,7 +198,7 @@ fleet "Valuutian Colony"
 	variant 8
 		"Colony Ship"
 		"Ladon (Var1)"
-		"Chilong" 5
+		"Chilong (Var1)" 5
 	variant 8
 		"Colony Ship"
 		"Ladon (Var2)"

@@ -1,3 +1,8 @@
+ship "Chilong" "Chilong (Var1)"
+	outfits
+		"Artemis Missile" 60
+		"Artemis Missile Launcher" 2
+
 ship "Excalibur" "Excalibur (Var1)"
 	outfits
 		"Hyperdrive"
@@ -35,47 +40,15 @@ ship "Excalibur" "Excalibur (Var2)"
 		"Ares Beam" 6
 		"Athena Anti-Missile" 6
 
-ship "Pollaxe" "Pollaxe (Var1)"
+ship "Hatchling" "Hatchling (Var1)"
 	outfits
-		"Hyperdrive"
-		"Ramscoop"
-		"V640 Generator"
-		"LNaK Cooling"
-		"V641 Regenerator"
-		"Security Forcefield" 4
-		"V603 Zeus Reactor"
-		"V612 Hermes Thruster"
-		"V623 Hermes Steering"
-		"V630L Cell Array"
-		"Dragon's Fire" 2
-		"Dragon's Ice" 2
-		"Ares Turret" 12
-		"Athena Anti-Missile" 3
-		"Poseidon Cannon"
-	gun "Dragon's Ice"
-	gun "Dragon's Ice"
-	gun "Poseidon Cannon"
-	gun "Dragon's Fire"
-	gun "Dragon's Fire"
-	turret "Athena Anti-Missile"
-	turret "Athena Anti-Missile"
-	turret "Athena Anti-Missile"
-	turret "Ares Turret"
+		"Artemis Missile" 30
+		"Artemis Missile Launcher"
 
-ship "Pollaxe" "Pollaxe (Var2)"
+ship "Ivory Hatchling" "Ivory Hatchling (Var1)"
 	outfits
-		"Hyperdrive"
-		"Ramscoop"
-		"V640 Generator" 2
-		"LNaK Cooling" 2
-		"V641 Regenerator" 2
-		"Security Forcefield" 10
-		"V603 Zeus Reactor"
-		"V612 Hermes Thruster"
-		"V623 Hermes Steering"
-		"V630L Cell Array"
-		"Ares Beam" 6
-		"Athena Anti-Missile" 4
+		"Artemis Missile" 30
+		"Artemis Missile Launcher"
 
 ship "Ladon" "Ladon (Var1)"
 	outfits
@@ -154,6 +127,48 @@ ship "Longinus" "Longinus (Var2)"
 		"Artemis Missile" 120
 		"Artemis Missile Launcher" 4
 
+ship "Pollaxe" "Pollaxe (Var1)"
+	outfits
+		"Hyperdrive"
+		"Ramscoop"
+		"V640 Generator"
+		"LNaK Cooling"
+		"V641 Regenerator"
+		"Security Forcefield" 4
+		"V603 Zeus Reactor"
+		"V612 Hermes Thruster"
+		"V623 Hermes Steering"
+		"V630L Cell Array"
+		"Dragon's Fire" 2
+		"Dragon's Ice" 2
+		"Ares Turret" 12
+		"Athena Anti-Missile" 3
+		"Poseidon Cannon"
+	gun "Dragon's Ice"
+	gun "Dragon's Ice"
+	gun "Poseidon Cannon"
+	gun "Dragon's Fire"
+	gun "Dragon's Fire"
+	turret "Athena Anti-Missile"
+	turret "Athena Anti-Missile"
+	turret "Athena Anti-Missile"
+	turret "Ares Turret"
+
+ship "Pollaxe" "Pollaxe (Var2)"
+	outfits
+		"Hyperdrive"
+		"Ramscoop"
+		"V640 Generator" 2
+		"LNaK Cooling" 2
+		"V641 Regenerator" 2
+		"Security Forcefield" 10
+		"V603 Zeus Reactor"
+		"V612 Hermes Thruster"
+		"V623 Hermes Steering"
+		"V630L Cell Array"
+		"Ares Beam" 6
+		"Athena Anti-Missile" 4
+
 ship "Scorpion" "Scorpion (Var1)"
 	outfits
 		"Hyperdrive"
@@ -185,6 +200,11 @@ ship "Scorpion" "Scorpion (Var2)"
 		"Athena Anti-Missile" 2
 		"Artemis Missile" 120
 		"Artemis Missile Launcher" 4
+
+ship "Tianlong" "Tianlong (Var1)"
+	outfits
+		"Artemis Missile" 60
+		"Artemis Missile Launcher" 2
 
 ship "Twin Crescent" "Twin Crescent (Var1)"
 	outfits

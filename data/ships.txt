@@ -136,8 +136,7 @@ ship "Chilong"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Artemis Missile Launcher" 2
-		"Artemis Missile" 60
+		"Poseidon Cannon" 2
 		"V600 Zeus Reactor"
 		"LCL Module"
 		"V610 Hermes Thruster"
@@ -255,59 +254,6 @@ ship "Excalibur"
 	explode "huge explosion" 30
 	description "The Lost Ones' carrier Excalibur was designed and built by the Anstad Corp. Not only can it field a small fleet of fighters, but it has enough weapons to hold it's own in combat."
 
-ship "Pollaxe"
-	sprite "ship/pollaxe"
-	attributes
-		category "Heavy Warship"
-		"cost" 38680000
-		"shields" 21380
-		"hull" 64160
-		"required crew" 81
-		"bunks" 121
-		"mass" 940
-		"drag" 13.2
-		"heat dissipation" .74
-		"fuel capacity" 400
-		"cargo space" 64
-		"outfit space" 879
-		"weapon capacity" 422
-		"engine capacity" 144
-		weapon
-			"blast radius" 260
-			"shield damage" 2600
-			"hull damage" 1300
-			"hit force" 3900
-	outfits
-		"V603 Zeus Reactor"
-		"V630L Cell Array"
-		"V640 Generator"
-		"V641 Regenerator"
-		"Ramscoop"
-		"LNaK Cooling"
-		"Security Forcefield" 4
-		"Poseidon Cannon" 6
-		"Ares Turret" 4
-		"V612 Hermes Thruster"
-		"V623 Hermes Steering"
-		"Hyperdrive"
-		
-	engine -10 210
-	engine 10 210
-	gun -20 -133
-	gun 20 -133
-	gun 0 -133
-	gun -25 42
-	gun 25 42
-	gun 0 42
-	turret -80 78
-	turret -58 114
-	turret -58 157
-	turret -80 194
-	explode "small explosion" 25
-	explode "medium explosion" 35
-	explode "big explosion" 45
-	explode "huge explosion" 30
-	description "Commissioned by the Lost Ones, Anstad Corp's heavy warship Pollaxe is designed to be a quick, powerful attack ship. With well-rounded offensive, defensive, and maneuvering capabilities, it immediately makes it's presence felt on any battlefield."
 
 ship "Harrier"
 	sprite "ship/harrier"
@@ -363,8 +309,7 @@ ship "Hatchling"
 	outfits
 		"V600 Zeus Reactor"
 		"LCL Module"
-		"Artemis Missile" 30
-		"Artemis Missile Launcher"
+		"Poseidon Cannon"
 		"V610 Hermes Thruster"
 		"V620 Hermes Steering"
 		
@@ -439,8 +384,7 @@ ship "Ivory Hatchling"
 	outfits
 		"V600 Zeus Reactor"
 		"LCL Module"
-		"Artemis Missile" 30
-		"Artemis Missile Launcher"
+		"Poseidon Cannon"
 		"V610 Hermes Thruster"
 		"V620 Hermes Steering"
 		
@@ -559,6 +503,60 @@ ship "Longinus"
 	explode "medium explosion" 25
 	explode "big explosion" 10
 	description "A nimble light warship favored by merchants, mercenaries, and pirates alike, the Longinus lacks neither agility nor firepower."
+
+ship "Pollaxe"
+	sprite "ship/pollaxe"
+	attributes
+		category "Heavy Warship"
+		"cost" 38680000
+		"shields" 21380
+		"hull" 64160
+		"required crew" 81
+		"bunks" 121
+		"mass" 940
+		"drag" 13.2
+		"heat dissipation" .74
+		"fuel capacity" 400
+		"cargo space" 64
+		"outfit space" 879
+		"weapon capacity" 422
+		"engine capacity" 144
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"V603 Zeus Reactor"
+		"V630L Cell Array"
+		"V640 Generator"
+		"V641 Regenerator"
+		"Ramscoop"
+		"LNaK Cooling"
+		"Security Forcefield" 4
+		"Poseidon Cannon" 6
+		"Ares Turret" 4
+		"V612 Hermes Thruster"
+		"V623 Hermes Steering"
+		"Hyperdrive"
+		
+	engine -10 210
+	engine 10 210
+	gun -20 -133
+	gun 20 -133
+	gun 0 -133
+	gun -25 42
+	gun 25 42
+	gun 0 42
+	turret -80 78
+	turret -58 114
+	turret -58 157
+	turret -80 194
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "big explosion" 45
+	explode "huge explosion" 30
+	description "Commissioned by the Lost Ones, Anstad Corp's heavy warship Pollaxe is designed to be a quick, powerful attack ship. With well-rounded offensive, defensive, and maneuvering capabilities, it immediately makes it's presence felt on any battlefield."
 
 ship "Scorpion"
 	sprite "ship/scorpion"
@@ -690,8 +688,6 @@ ship "Tianlong"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Artemis Missile Launcher" 2
-		"Artemis Missile" 60
 		"V600 Zeus Reactor"
 		"LCL Module"
 		"V610 Hermes Thruster"
