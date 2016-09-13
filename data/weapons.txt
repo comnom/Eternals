@@ -202,10 +202,10 @@ outfit "Poseidon Cannon"
 	"gun ports" -1
 	weapon
 		sprite "projectile/poseidonparticle"
-			"frame rate" 20
+			"frame rate" 15
 		sound "particle"
 		"hit effect" "poseidon impact"
-		"inaccuracy" .5
+		"inaccuracy" 2.5
 		"velocity" 20
 		"lifetime" 20
 		"reload" 20
@@ -225,10 +225,10 @@ outfit "Poseidon Turret"
 	"turret mounts" -1
 	weapon
 		sprite "projectile/2xposeidonparticle"
-			"frame rate" 20
+			"frame rate" 15
 		sound "particle"
 		"hit effect" "2xposeidon impact"
-		"inaccuracy" .5
+		"inaccuracy" 2.5
 		"velocity" 20
 		"lifetime" 20
 		"reload" 20
