@@ -14,8 +14,8 @@ outfit "LCL Module"
 	thumbnail "outfit/lclmodule"
 	"mass" 8
 	"outfit space" -8
-	"cooling" 16
-	"energy generation" -.1
+	"cooling" 15.4
+	"energy generation" -.2
 	description "The Laser-Cooled Liquid Module provides excellent cooling for it's size, but requires a small amount of energy to operate."
 
 outfit "LNaK Cooling"
@@ -24,8 +24,8 @@ outfit "LNaK Cooling"
 	thumbnail "outfit/lscooler"
 	"mass" 18
 	"outfit space" -18
-	"cooling" 46.8
-	"energy generation" -.2
+	"cooling" 39.6
+	"energy generation" -.3
 	description "Liquid sodium-potassium makes a great coolant in high-heat applications, but the electromagnetic pumps need a constant energy source to run."
 
 outfit "V641 Regenerator"
