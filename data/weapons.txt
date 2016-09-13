@@ -213,7 +213,7 @@ outfit "Poseidon Cannon"
 		"firing heat" 47.5
 		"shield damage" 30.3
 		"hull damage" 46.1
-	description "Only the most courageous and reckless of fighter pilots want to be anywhere near a larger ship in combat, and this rather mundane weapon is for them."
+	description "Only the most courageous and reckless of fighter pilots want to be anywhere near a larger ship in combat, and this rapid fire projectile weapon is for them."
 
 outfit "Poseidon Turret"
 	category "Turrets"
