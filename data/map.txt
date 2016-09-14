@@ -8,6 +8,9 @@ system Charybdis
 	asteroids "small metal" 16 6.578
 	asteroids "medium metal" 26 5.98
 	asteroids "large metal" 2 3.3488
+	minables aluminum 1 1.81803
+	minables copper 12 1.48149
+	minables silver 59 2.13643
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -33,24 +36,27 @@ system Charybdis
 		offset 180
 	object
 		sprite planet/fg_lava1
-		distance 179.77
-		period 28.9165
+		distance 318.53
+		period 68.2018
 	object "Nowhere Paradise"
 		sprite planet/fg_inhabited5
-		distance 455.01
-		period 116.44
+		distance 1081.78
+		period 426.852
+		offset 126.073
 	object
 		sprite planet/fg_icegiant3
-		distance 1213.77
-		period 507.311
+		distance 2169.48
+		period 1212.28
+		offset 77.6351
 	object
 		sprite planet/fg_gas8
-		distance 1702.41
-		period 842.687
+		distance 2863.73
+		period 1838.52
+		offset 9.44446
 	object
 		sprite planet/fg_gas7
-		distance 2605.17
-		period 1595.23
+		distance 5357.73
+		period 4704.81
 
 system Ismaros
 	pos 258.91 -757.241
@@ -65,6 +71,8 @@ system Ismaros
 	asteroids "small metal" 41 6.832
 	asteroids "medium metal" 3 8.12
 	asteroids "large metal" 3 7.336
+	minables neodymium 17 5.3117
+	minables silver 8 8.15115
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -86,28 +94,34 @@ system Ismaros
 		period 10
 	object
 		sprite planet/fg_terrestrial2
-		distance 241.09
-		period 72.5546
+		distance 202.115
+		period 55.6921
+		offset 318.405
 	object
 		sprite planet/fg_terrestrial4
-		distance 575.65
-		period 267.691
+		distance 571.265
+		period 264.638
+		offset 293.313
 		object
 			sprite planet/fg_moon6
-			distance 170
-			period 23.9337
+			distance 115.375
+			period 32.433
+			offset 85.6285
 	object
 		sprite planet/fg_gas6
-		distance 1308.29
-		period 917.175
+		distance 1262.04
+		period 868.974
+		offset 224.891
 		object
 			sprite planet/fg_moon7
-			distance 193
-			period 14.1134
+			distance 176.366
+			period 29.4431
+			offset 41.4959
 	object
 		sprite planet/fg_gas5
-		distance 1856.65
-		period 1550.57
+		distance 2062.66
+		period 1815.67
+		offset 6.2644
 
 system Masuul
 	pos 125.91 -734.241
@@ -137,32 +151,39 @@ system Masuul
 		period 10
 	object
 		sprite planet/fg_lava2
-		distance 198.89
-		period 62.7198
+		distance 144
+		period 38.6393
+		offset 251.957
 	object
 		sprite planet/fg_lava3
-		distance 397.73
-		period 177.365
+		distance 324
+		period 130.407
+		offset 119.861
 	object
 		sprite planet/fg_terrestrial3
-		distance 625.73
-		period 349.998
+		distance 483
+		period 237.359
+		offset 95.9712
 	object
 		sprite planet/fg_terrestrial7
-		distance 899.69
-		period 603.426
+		distance 646
+		period 367.142
+		offset 117.336
 	object
 		sprite planet/fg_gas2
-		distance 2249.7
-		period 2386.01
+		distance 1816.09
+		period 1730.58
+		offset 187.407
 		object
 			sprite planet/fg_moon4
-			distance 237
-			period 14.5827
+			distance 165.531
+			period 15.7108
+			offset 140.666
 		object
 			sprite planet/fg_moon5
-			distance 329
-			period 23.8512
+			distance 250.531
+			period 29.2531
+			offset 124.47
 
 system Nileem
 	pos 157.91 -709.241
@@ -175,6 +196,8 @@ system Nileem
 	asteroids "small metal" 41 2.4882
 	asteroids "medium metal" 49 2.4882
 	asteroids "large metal" 25 1.9162
+	minables aluminum 17 5.38505
+	minables iron 11 3.31743
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -194,42 +217,50 @@ system Nileem
 	object
 		sprite star/m8
 		period 10
-	object
-		sprite planet/fg_cloud0
-		distance 274.21
-		period 156.321
-		object
-			sprite planet/fg_moon8
-			distance 151
-			period 22.4225
 	object Saa
 		sprite planet/fg_inhabited0
-		distance 784.97
-		period 757.134
+		distance 137.159
+		period 55.3008
+		offset 7.84846	
+	object
+		sprite planet/fg_cloud0
+		distance 518.312
+		period 406.237
+		offset 119.292
 		object
 			sprite planet/fg_moon3
-			distance 172
-			period 19.2792
+			distance 104
+			period 20.123
+			offset 17.692
+		object
+			sprite planet/fg_moon8
+			distance 181
+			period 46.2019
+			offset 120.588
 	object
 		sprite planet/fg_gas9
-		distance 1965.26
-		period 2999.32
+		distance 1579.56
+		period 2161.21
+		offset 42.654
 		object
 			sprite planet/fg_moon9
-			distance 267
-			period 12.3162
+			distance 141
+			period 17.4443
 		object
 			sprite planet/fg_moon10
-			distance 372
-			period 20.2546
+			distance 215
+			period 32.8461
+			offset 30.1781
 		object
 			sprite planet/fg_moon11
-			distance 527
-			period 34.1528
+			distance 290
+			period 51.4545
+			offset 262.288
 		object
 			sprite planet/fg_moon12
-			distance 728
-			period 55.4507
+			distance 430.826
+			period 93.1705
+			offset 70.7771
 
 system Ogygia
 	pos 256.91 -788.241
@@ -242,6 +273,7 @@ system Ogygia
 	asteroids "small metal" 34 2.8272
 	asteroids "medium metal" 35 3.192
 	asteroids "large metal" 17 2.6448
+	minables iron 26 3.72119
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -261,29 +293,39 @@ system Ogygia
 		sprite star/g0
 		period 10
 	object
+		sprite star/m0
+		distance 101.973
+		period 11.802
+	object
 		sprite planet/fg_terrestrial10
-		distance 152.49
-		period 22.9198
+		distance 611.991
+		period 184.275
+		offset 121.861
 	object "New Salvation"
 		sprite planet/fg_inhabited2
-		distance 359.5
-		period 82.9653
+		distance 1093.66
+		period 440.223
+		offset 316.902
 	object
 		sprite planet/fg_icegiant0
-		distance 765.75
-		period 257.916
+		distance 2114.75
+		period 1183.69
+		offset 189.079
 	object
 		sprite planet/fg_gas15
-		distance 1025.96
-		period 399.985
+		distance 3622.64
+		period 2653.91
+		offset 179.66
 	object
 		sprite planet/fg_gas0
-		distance 1291.97
-		period 565.232
+		distance 4458.84
+		period 3623.94
+		offset 30.7319
 	object
 		sprite planet/fg_gas1
-		distance 2989.26
-		period 1989.27
+		distance 6520.78
+		period 6409.1
+		offset 35.044
 
 system Pirtaal
 	pos 193.91 -766.241
@@ -297,6 +339,7 @@ system Pirtaal
 	asteroids "small metal" 5 1.4416
 	asteroids "medium metal" 24 3.808
 	asteroids "large metal" 4 1.5232
+	minables tungsten 4 7.5751
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -316,38 +359,43 @@ system Pirtaal
 	object
 		sprite star/m8
 		period 10
-	object
-		sprite planet/fg_terrestrial5
-		distance 200.21
-		period 97.5263
 	object Nyy
 		sprite planet/fg_inhabited1
-		distance 647.46
-		period 567.169
+		distance 158.376
+		period 68.6163
+		offset 114.607
+	object
+		sprite planet/fg_terrestrial5
+		distance 318.376
+		period 195.571
+		offset 130.638
 	object
 		sprite planet/fg_icegiant4
-		distance 1282.46
-		period 1581.1
+		distance 1077.7
+		period 1217.98
+		offset 283.424
 	object
 		sprite planet/fg_gas10
-		distance 1637.5
-		period 2281.21
+		distance 2637.24
+		period 4662.49
+		offset 77.4072
 	object
 		sprite planet/fg_gas11
-		distance 2693.11
-		period 4811.43
+		distance 3811.01
+		period 8099.41
+		offset 55.0682
 		object
 			sprite planet/fg_moon13
-			distance 197
-			period 14.5545
+			distance 202
+			period 15.1121
 		object
 			sprite planet/fg_moon14
-			distance 297
-			period 26.9421
+			distance 295
+			period 26.6704
 		object
 			sprite planet/fg_moon15
-			distance 476
-			period 54.6648
+			distance 449
+			period 50.0803
 
 system Risiit
 	pos 214.91 -677.241
@@ -360,6 +408,8 @@ system Risiit
 	asteroids "small metal" 11 4.7328
 	asteroids "medium metal" 109 5.568
 	asteroids "large metal" 15 2.9696
+	minables copper 17 7.2985
+	minables gold 8 4.45585
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -381,32 +431,38 @@ system Risiit
 		period 10
 	object
 		sprite planet/fg_terrestrial6
-		distance 144.04
-		period 16.6975
+		distance 1042.07
+		period 324.918
+		offset 246.788
 	object
 		sprite planet/fg_icegiant5
-		distance 788.04
-		period 213.673
+		distance 3167.43
+		period 1721.82
+		offset 170.087
 		object
 			sprite planet/fg_moon16
-			distance 248
-			period 14.6443
+			distance 419.593
+			period 45.7529
+			offset 147.042
 		object
 			sprite planet/fg_moon17
-			distance 381
-			period 27.8855
+			distance 554.593
+			period 69.5245
+			offset 288.185
 	object
 		sprite planet/fg_icegiant6
-		distance 1686.4
-		period 668.912
+		distance 4640.63
+		period 3053.47
+		offset 53.3042
 		object
 			sprite planet/fg_moon18
-			distance 222
-			period 13.2204
+			distance 259
+			period 15.6293
 		object
 			sprite planet/fg_moon19
-			distance 366
-			period 27.9858
+			distance 798.604
+			period 84.6229
+			offset 190.886
 
 system Thrinacia
 	pos 303.91 -725.241
@@ -445,24 +501,29 @@ system Thrinacia
 		offset 180
 	object
 		sprite planet/fg_terrestrial10
-		distance 189.434
-		period 31.2794
-	object
-		sprite planet/fg_icegiant2
-		distance 463.874
-		period 119.859
-	object
-		sprite planet/fg_terrestrial1
-		distance 773.124
-		period 257.896
-	object
-		sprite planet/fg_gas14
-		distance 1974.96
-		period 1052.95
+		distance 1071.35
+		period 420.696
+		offset 301.407
 		object "Odyssey Outpost"
 			sprite planet/fg_inhabited_tiny0
-			distance 252
-			period 12.5708
+			distance 145.807
+			period 16.5599
+			offset 118.489
+	object
+		sprite planet/fg_terrestrial1
+		distance 1443.16
+		period 657.72
+		offset 287.324
+	object
+		sprite planet/fg_icegiant2
+		distance 2182.57
+		period 1223.27
+		offset 303.467
+	object
+		sprite planet/fg_gas14
+		distance 3125.9
+		period 2096.68
+		offset 48.3412		
 
 system Valiit
 	pos 223.91 -714.241
@@ -495,28 +556,32 @@ system Valiit
 		period 10
 	object
 		sprite planet/fg_lava0
-		distance 175.24
-		period 42.0618
+		distance 126
+		period 25.6445
+		offset 5.3355
 	object Valuutia
 		sprite planet/fg_inhabited3
-		distance 388.13
-		period 138.645
+		distance 505.25
+		period 205.92
 	object
 		sprite planet/fg_icegiant1
-		distance 881.77
-		period 474.757
+		distance 936.573
+		period 519.698
+		offset 11.5088
 	object
 		sprite planet/fg_gas4
-		distance 2037.02
-		period 1666.98
+		distance 1974.18
+		period 1590.45
 		object
 			sprite planet/fg_moon0
-			distance 209
-			period 15.9044
+			distance 393.609
+			period 33.3634
+			offset 176.733
 		object
 			sprite planet/fg_moon1
-			distance 286
-			period 25.4593
+			distance 870.61
+			period 109.751
+			offset 143.508
 
 system Wanool
 	pos 326.91 -763.241
@@ -527,6 +592,9 @@ system Wanool
 	asteroids "large rock" 4 1.08
 	asteroids "medium metal" 3 2.268
 	asteroids "large metal" 1 3.0456
+	minables copper 32 6.53713
+	minables lead 1 10.1532
+	minables silver 6 9.57567
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -548,38 +616,44 @@ system Wanool
 	object
 		sprite star/m4
 		period 10
-	object
-		sprite planet/fg_terrestrial8
-		distance 117.29
-		period 33.2669
 	object Luu
 		sprite planet/fg_inhabited4
-		distance 422.29
-		period 227.268
+		distance 208
+		period 78.5627
+		offset 152.475
 		object
 			sprite planet/fg_moon20
-			distance 164
-			period 28.6637
+			distance 109
+			period 15.5313
+			offset 294.802
+	object
+		sprite planet/fg_terrestrial8
+		distance 470
+		period 266.851
+		offset 352.225
 	object
 		sprite planet/fg_gas12
-		distance 1050.33
-		period 891.476
+		distance 987.646
+		period 812.875
+		offset 46.7542
 		object
 			sprite planet/fg_moon21
-			distance 225
-			period 11.9034
+			distance 142
+			period 21.704
 	object
 		sprite planet/fg_terrestrial9
-		distance 1395.89
-		period 1365.83
+		distance 1303.83
+		period 1232.97
+		offset 223.652
 	object
 		sprite planet/fg_icegiant7
-		distance 1841.14
-		period 2068.96
+		distance 1680.83
+		period 1804.71
+		offset 291.581
 	object
 		sprite planet/fg_gas13
-		distance 5375.83
-		period 10322.6
+		distance 6706.08
+		period 14382.2
 
 planet Luu
 	landscape land/frantzou0
