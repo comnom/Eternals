@@ -28,11 +28,11 @@ effect "dragonf impact"
 effect "dragoni impact"
 	sprite "effect/dragoni_impact"
 		"no repeat"
-		"frame rate" 7
-	"lifetime" 28
+		"frame rate" 15
+	"lifetime" 20
 	"random angle" 360
 	"random spin" 1
-	"velocity scale" -.003
+	"velocity scale" .4
 
 effect "dragoni impact sub"
 	sprite "effect/dragoni_impact_sub"
