@@ -26,7 +26,7 @@ effect "dragonf impact"
 	"velocity scale" .001
 
 effect "dragoni impact"
-	sprite "effect/dragoni_impact"
+	sprite "effect/dragonsice/dragoni_impact"
 		"no repeat"
 		"frame rate" 15
 	"lifetime" 20
@@ -35,7 +35,7 @@ effect "dragoni impact"
 	"velocity scale" .4
 
 effect "dragoni impact sub"
-	sprite "effect/dragoni_impact_sub"
+	sprite "effect/dragonsice/dragoni_impact_sub"
 		"no repeat"
 		"frame rate" 7
 	"lifetime" 28
@@ -44,7 +44,7 @@ effect "dragoni impact sub"
 	"velocity scale" -.003
 
 effect "dragoni impact sub sub"
-	sprite "effect/dragoni_impact_sub_sub"
+	sprite "effect/dragonsice/dragoni_impact_sub_sub"
 		"no repeat"
 		"frame rate" 7
 	"lifetime" 28
