@@ -1,3 +1,88 @@
+phrase "merchant chatter"
+	word
+		"The "
+		"That "
+	word	
+		"new mining town "
+		"new farming village "
+		"new industrial center "
+		"tax reduction "
+		"tax break "
+	word
+		"on "
+	word
+		"Luu "
+		"Saa "
+		"New Salvation "
+		"Valuutia "
+	word
+		"has sent "
+		"is sending "
+		"will send "
+	word
+		"my "
+		"our "
+	word
+		"profits "
+		"revenue "
+		"earnings "
+		"income "
+	word
+		"through the roof"
+		"soaring"
+		"sky-high"
+		"flying"
+	word
+		"!"
+		
+phrase "merchant chatter"
+	word
+		"You'll never believe that "
+		"I can't believe "
+		"I'm so upset that "
+		"I don't understand why "
+	word
+		"my "
+		"our "
+		"their "
+		"his "
+		"her "
+	word
+		"son "
+		"daughter "
+		"nephew "
+		"niece "
+		"grandson "
+		"granddaughter "
+		"cousin "
+	word
+		"ran off to "
+		"took off to "
+		"left to "
+		"decided to "
+	word
+		"become "
+		"be "
+		"shack up with "
+		"live with "
+		"marry "
+	word
+		"a pirate"
+		"a thief"
+		"a swindler"
+		"a drifter"
+		"a con artist"
+		"a bum."
+		"a hobo."
+		"a mercenary"
+		"a hippie"
+		"a hipster"
+		"a cult leader"
+		"a lawyer"
+	word
+		"."
+		"!"
+
 phrase "valuut mix"
 	word
 		"Vumuu"

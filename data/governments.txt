@@ -26,6 +26,7 @@ government "Lost Ones Merchant"
 		"Pirate" -.2
 	"bribe" .05
 	"fine" 0
+	"friendly hail" "merchant chatter"
 
 government "Valuut"
 	swizzle 0
