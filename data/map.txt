@@ -9,8 +9,8 @@ system Charybdis
 	asteroids "medium metal" 26 5.98
 	asteroids "large metal" 2 3.3488
 	minables aluminum 1 1.81803
-	minables copper 12 1.48149
-	minables silver 59 2.13643
+	minables copper 3 1.48149
+	minables silver 7 2.13643
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -71,8 +71,8 @@ system Ismaros
 	asteroids "small metal" 41 6.832
 	asteroids "medium metal" 3 8.12
 	asteroids "large metal" 3 7.336
-	minables neodymium 17 5.3117
-	minables silver 8 8.15115
+	minables neodymium 12 5.3117
+	minables silver 6 8.15115
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -273,7 +273,7 @@ system Ogygia
 	asteroids "small metal" 34 2.8272
 	asteroids "medium metal" 35 3.192
 	asteroids "large metal" 17 2.6448
-	minables iron 26 3.72119
+	minables iron 18 3.72119
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -592,7 +592,6 @@ system Wanool
 	asteroids "large rock" 4 1.08
 	asteroids "medium metal" 3 2.268
 	asteroids "large metal" 1 3.0456
-	minables copper 32 6.53713
 	minables lead 1 10.1532
 	minables silver 6 9.57567
 	trade Clothing 290
