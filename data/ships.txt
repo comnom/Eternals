@@ -54,7 +54,7 @@ ship "Ao"
 	drone -68 74 left
 	explode "small explosion" 25
 	explode "medium explosion" 35
-	explode "big explosion" 45
+	explode "large explosion" 45
 	explode "huge explosion" 30
 	description "The Eternal's version of the Bixi, the Ao uses a more consistent method of crafting the hull, resulting in less variation and strength, but allowing an improved shield matrix to be used."
 
@@ -112,7 +112,7 @@ ship "Bixi"
 	drone -68 74 left
 	explode "small explosion" 25
 	explode "medium explosion" 35
-	explode "big explosion" 45
+	explode "large explosion" 45
 	explode "huge explosion" 30
 	description "Functioning as the Valuutian's main drone carrier, the Bixi lacks the weaponry of other heavy warships, but makes up for it with exceptional hull plating and drone capacity. The hulls are built by hot-dipping multiple layers of metal, resulting in unparalleled strength at the cost of a highly inefficient shield matrix."
 
@@ -185,7 +185,7 @@ ship "Colony Ship"
 	explode "tiny explosion" 30
 	explode "small explosion" 45
 	explode "medium explosion" 50
-	explode "big explosion" 40
+	explode "large explosion" 40
 	explode "huge explosion" 50
 	description "The most recently developed ship to come from the Valuutians, Colony Ships were designed to meet the growing expansionist sentiment now sweeping throughout their people. The massive ships are constructed around existing small towns on Valuutia."
 
@@ -250,7 +250,7 @@ ship "Excalibur"
 	fighter 56 103 right
 	explode "small explosion" 25
 	explode "medium explosion" 35
-	explode "big explosion" 45
+	explode "large explosion" 45
 	explode "huge explosion" 30
 	description "The Lost Ones' carrier Excalibur was designed and built by the Anstad Corp. Not only can it field a small fleet of fighters, but it has enough weapons to hold it's own in combat."
 
@@ -360,7 +360,7 @@ ship "Hourglass"
 	explode "tiny explosion" 10
 	explode "small explosion" 25
 	explode "medium explosion" 30
-	explode "big explosion" 15
+	explode "large explosion" 15
 	description "The Hourglass freighter is the Lost Ones go-to ship for trade with the Valuutians. Commissioned by the Lost Ones and manufactured by Anstad Corp, these ships went into service shortly after the Lost Ones were granted nation-state status by the Valuutian government."
 
 ship "Ivory Hatchling"
@@ -452,7 +452,7 @@ ship "Ladon"
 	fighter -2 -2 under
 	explode "small explosion" 25
 	explode "medium explosion" 35
-	explode "big explosion" 45
+	explode "large explosion" 45
 	explode "huge explosion" 30
 	description "The oldest ship in the Valuutian defense fleets, the Ladon is a relatively agile heavy warship with enough offense and defense to stand up to other large ships."
 
@@ -501,7 +501,7 @@ ship "Longinus"
 	explode "tiny explosion" 10
 	explode "small explosion" 25
 	explode "medium explosion" 25
-	explode "big explosion" 10
+	explode "large explosion" 10
 	description "A nimble light warship favored by merchants, mercenaries, and pirates alike, the Longinus lacks neither agility nor firepower."
 
 ship "Pollaxe"
@@ -554,7 +554,7 @@ ship "Pollaxe"
 	turret -80 194
 	explode "small explosion" 25
 	explode "medium explosion" 35
-	explode "big explosion" 45
+	explode "large explosion" 45
 	explode "huge explosion" 30
 	description "Commissioned by the Lost Ones, Anstad Corp's heavy warship Pollaxe is designed to be a quick, powerful attack ship. With well-rounded offensive, defensive, and maneuvering capabilities, it immediately makes it's presence felt on any battlefield."
 
@@ -608,7 +608,7 @@ ship "Scorpion"
 	explode "tiny explosion" 18
 	explode "small explosion" 36
 	explode "medium explosion" 24
-	explode "big explosion" 8
+	explode "large explosion" 8
 	description "Not quite the oldest design in the Valuutian's stable of warships, but still thousands of years old and relatively unchanged, the Scorpion can stand up to enemy fire with ease, and houses up to four fighters as well."
 
 ship "Steel Scorpion"
@@ -663,7 +663,7 @@ ship "Steel Scorpion"
 	explode "tiny explosion" 18
 	explode "small explosion" 36
 	explode "medium explosion" 24
-	explode "big explosion" 8
+	explode "large explosion" 8
 	description "Part of the Eternals' unpublicized war-fleet, the Steel Scorpion comes equipped with an improved shield matrix and built-in jump capability."
 
 ship "Tianlong"
@@ -804,7 +804,7 @@ ship "Typhon"
 	fighter -2 -2 under
 	explode "small explosion" 25
 	explode "medium explosion" 35
-	explode "big explosion" 45
+	explode "large explosion" 45
 	explode "huge explosion" 30
 	description "The Eternals reworked the Ladon over thousands of years in an attempt to improve it. After failing completely, they settled on a slightly improved shield matrix and built-in jump capability."
 
@@ -846,6 +846,6 @@ ship "Winged Serpent"
 	gun 0 -170
 	explode "small explosion" 15
 	explode "medium explosion" 30
-	explode "big explosion" 20
+	explode "large explosion" 20
 	explode "huge explosion" 5
 	description "An archaic design unneeded by the Valuutians until recently, the Winged Serpent has been put into service for both trade with the Lost Ones, and to support their rapidly growing off-world colonies."
