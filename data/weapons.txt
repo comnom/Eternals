@@ -9,6 +9,7 @@ outfit "Ares Beam"
 	weapon
 		sprite "projectile/ares"
 			"frame rate" 60
+			"rewind"
 		sound "electron beam"
 		"hit effect" "ares impact"
 		"inaccuracy" .2
@@ -34,6 +35,7 @@ outfit "Ares Turret"
 	weapon
 		sprite "projectile/2xares"
 			"frame rate" 60
+			"rewind"
 		sound "electron beam"
 		"hit effect" "ares impact"
 		"inaccuracy" .2

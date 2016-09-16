@@ -18,45 +18,48 @@ effect "athena anti missile"
 effect "dragonf impact"
 	sprite "effect/dragonf_impact"
 		"no repeat"
-		"frame rate" 7
+		"frame rate" 10
 	sound "explosion tiny"
-	"lifetime" 28
+	"lifetime" 20
 	"random angle" 10
-	"random velocity" .1
 	"velocity scale" .001
+	"random frame rate" 5
 
 effect "dragoni impact"
 	sprite "effect/dragonsice/dragoni_impact"
 		"no repeat"
 		"frame rate" 15
-	"lifetime" 20
+	"lifetime" 30
 	"random angle" 360
-	"random spin" 1
-	"velocity scale" .4
+	"random spin" 18
+	"velocity scale" .2
+	"random frame rate" 10
 
 effect "dragoni impact sub"
 	sprite "effect/dragonsice/dragoni_impact_sub"
 		"no repeat"
-		"frame rate" 7
-	"lifetime" 28
+		"frame rate" 15
+	"lifetime" 30
 	"random angle" 360
-	"random spin" 1
-	"velocity scale" -.003
+	"random spin" 18
+	"velocity scale" .2
+	"random frame rate" 10
 
 effect "dragoni impact sub sub"
 	sprite "effect/dragonsice/dragoni_impact_sub_sub"
 		"no repeat"
-		"frame rate" 7
-	"lifetime" 28
+		"frame rate" 15
+	"lifetime" 30
 	"random angle" 360
-	"random spin" 1
-	"velocity scale" -.003
+	"random spin" 18
+	"velocity scale" .2
+	"random frame rate" 10
 
 effect "poseidon impact"
 	sprite "effect/poseidon_impact"
 		"no repeat"
-		"frame rate" 30
-	"lifetime" 5
+		"frame rate" 15
+	"lifetime" 20
 	"random angle" 2
 	"random spin" 1
 	"velocity scale" -.003
@@ -64,8 +67,8 @@ effect "poseidon impact"
 effect "2xposeidon impact"
 	sprite "effect/2xposeidon_impact"
 		"no repeat"
-		"frame rate" 30
-	"lifetime" 5
+		"frame rate" 15
+	"lifetime" 20
 	"random angle" 2
 	"random spin" 1
 	"velocity scale" -.003
