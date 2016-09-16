@@ -85,7 +85,7 @@ fleet "Small Valuutian"
 	fighters "valuut fighter"
 	cargo 0
 	personality
-		heroic disables frugal
+		heroic
 	variant 8
 		"Scorpion"
 		"Chilong" 4
@@ -108,7 +108,7 @@ fleet "Large Valuutian"
 	fighters "valuut fighter"
 	cargo 0
 	personality
-		heroic disables frugal
+		heroic
 	variant 5
 		"Scorpion" 3
 	variant 5
@@ -315,7 +315,7 @@ fleet "Large L_O Pirate"
 	names "pirate"
 	cargo 1
 	personality
-		plunders
+		plunders coward
 	variant 6
 		"Excalibur"
 		"Twin Crescent" 3
