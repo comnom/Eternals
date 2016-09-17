@@ -1,5 +1,5 @@
 fleet "Valuutian Merchants"
-	government "Valuut"
+	government "Valuut Merchant"
 	names "valuut"
 	cargo 3
 	personality

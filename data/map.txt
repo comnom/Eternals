@@ -23,8 +23,8 @@ system Charybdis
 	trade Plastic 390
 	fleet "Small L_O Pirate" 900
 	fleet "Large L_O Pirate" 1200
-	fleet "Large Valuutian" 1400
-	fleet "Large Lost Ones" 1600
+	fleet "Large Valuutian" 2600
+	fleet "Large Lost Ones" 2200
 	object
 		sprite star/g5
 		distance 49.47
@@ -83,12 +83,13 @@ system Ismaros
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Small Valuutian" 1200
-	fleet "Large Valuutian" 1600
-	fleet "Small Lost Ones" 1300
+	fleet "Small Valuutian" 1000
+	fleet "Large Valuutian" 2200
+	fleet "Small Lost Ones" 1200
+	fleet "Large Lost Ones" 2400
 	fleet "Valuutian Merchants" 900
 	fleet "Lost Ones Merchants" 1000
-	fleet "Large L_O Pirate" 2800
+	fleet "Large L_O Pirate" 3200
 	object
 		sprite star/k5
 		period 10
@@ -140,12 +141,12 @@ system Masuul
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Small Valuutian" 1400
-	fleet "Large Valuutian" 1200
-	fleet "Small Lost Ones" 1500
-	fleet "Large Lost Ones" 1300
-	fleet "Small L_O Pirate" 1000
-	fleet "Large L_O Pirate" 1500
+	fleet "Small Valuutian" 1700
+	fleet "Large Valuutian" 2400
+	fleet "Small Lost Ones" 1400
+	fleet "Large Lost Ones" 2200
+	fleet "Small L_O Pirate" 1200
+	fleet "Large L_O Pirate" 1600
 	object
 		sprite star/m0
 		period 10
@@ -209,11 +210,11 @@ system Nileem
 	trade Metal 390
 	trade Plastic 390
 	fleet "Small Valuutian" 1200
-	fleet "Large Valuutian" 1400
-	fleet "Valuutian Merchants" 800
-	fleet "Lost Ones Merchants" 900
+	fleet "Large Valuutian" 1600
+	fleet "Valuutian Merchants" 900
+	fleet "Lost Ones Merchants" 1100
 	fleet "Valuutian Colony" 4000
-	fleet "Large L_O Pirate" 2800
+	fleet "Large L_O Pirate" 3200
 	object
 		sprite star/m8
 		period 10
@@ -286,9 +287,10 @@ system Ogygia
 	trade Plastic 390
 	fleet "Lost Ones Merchants" 800
 	fleet "Valuutian Merchants" 900
-	fleet "Small Lost Ones" 1000
-	fleet "Large Lost Ones" 1200
-	fleet "Small Valuutian" 1400
+	fleet "Small Lost Ones" 1200
+	fleet "Large Lost Ones" 1400
+	fleet "Small Valuutian" 1800
+	fleet "Large Valuutian" 2400
 	object
 		sprite star/g0
 		period 10
@@ -352,10 +354,10 @@ system Pirtaal
 	trade Plastic 390
 	fleet "Valuutian Merchants" 1200
 	fleet "Lost Ones Merchants" 1600
-	fleet "Large Valuutian" 900
-	fleet "Small Lost Ones" 1000
+	fleet "Large Valuutian" 1900
+	fleet "Small Lost Ones" 1500
 	fleet "Valuutian Colony" 5000
-	fleet "Small L_O Pirate" 2200
+	fleet "Small L_O Pirate" 2600
 	object
 		sprite star/m8
 		period 10
@@ -420,12 +422,12 @@ system Risiit
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Small Valuutian" 1000
-	fleet "Large Valuutian" 1100
-	fleet "Small Lost Ones" 1200
-	fleet "Large Lost Ones" 1300
+	fleet "Small Valuutian" 1200
+	fleet "Large Valuutian" 1400
+	fleet "Small Lost Ones" 1500
+	fleet "Large Lost Ones" 1700
 	fleet "Small L_O Pirate" 900
-	fleet "Large L_O Pirate" 1200
+	fleet "Large L_O Pirate" 1100
 	object
 		sprite star/f5
 		period 10
@@ -485,11 +487,11 @@ system Thrinacia
 	trade Plastic 390
 	fleet "Lost Ones Merchants" 800
 	fleet "Valuutian Merchants" 900
-	fleet "Small Valuutian" 1100
-	fleet "Large Valuutian" 1200
-	fleet "Valuutian Colony" 3000
-	fleet "Small Lost Ones" 1300
-	fleet "Large Lost Ones" 1400
+	fleet "Small Valuutian" 1000
+	fleet "Large Valuutian" 1600
+	fleet "Valuutian Colony" 3400
+	fleet "Small Lost Ones" 1100
+	fleet "Large Lost Ones" 1700
 	object
 		sprite star/g5
 		distance 46.4055
@@ -547,10 +549,10 @@ system Valiit
 	fleet "Valuutian Merchants" 800
 	fleet "Lost Ones Merchants" 900
 	fleet "Small Valuutian" 1000
-	fleet "Large Valuutian" 1200
-	fleet "Valuutian Colony" 2000
+	fleet "Large Valuutian" 1400
+	fleet "Valuutian Colony" 2200
 	fleet "Small Lost Ones" 1100
-	fleet "Large Lost Ones" 1200
+	fleet "Large Lost Ones" 1300
 	object
 		sprite star/k0
 		period 10
@@ -609,9 +611,9 @@ system Wanool
 	fleet "Small Valuutian" 1100
 	fleet "Large Valuutian" 1300
 	fleet "Valuutian Colony" 4000
-	fleet "Small Lost Ones" 1200
-	fleet "Large Lost Ones" 1400
-	fleet "Large L_O Pirate" 2000
+	fleet "Small Lost Ones" 1400
+	fleet "Large Lost Ones" 1600
+	fleet "Large L_O Pirate" 2400
 	object
 		sprite star/m4
 		period 10
