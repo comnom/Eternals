@@ -105,7 +105,7 @@ system Ismaros
 		offset 293.313
 		object
 			sprite planet/fg_moon6
-			distance 115.375
+			distance 185.375
 			period 32.433
 			offset 85.6285
 	object
@@ -502,7 +502,7 @@ system Thrinacia
 		period 13.0927
 		offset 180
 	object
-		sprite planet/fg_terrestrial10
+		sprite planet/fg_terrestrial1
 		distance 1071.35
 		period 420.696
 		offset 301.407
@@ -512,8 +512,8 @@ system Thrinacia
 			period 16.5599
 			offset 118.489
 	object
-		sprite planet/fg_terrestrial1
-		distance 1443.16
+		sprite planet/fg_gas3
+		distance 1643.16
 		period 657.72
 		offset 287.324
 	object
