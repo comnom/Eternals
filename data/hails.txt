@@ -168,11 +168,11 @@ phrase "merchant chatter"
 	word
 		"there's this cult "
 		"some nonsense about a secret group "
-		"that there's an organization "
+		"there's an organization "
 	word
 		"called the "
 		"named the "
-		"that's goes by the name "
+		"that goes by the name "
 	word
 		"Eternals, "
 		"Echidnas, "
