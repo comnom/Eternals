@@ -2,6 +2,10 @@ ship "Chilong" "Chilong (Var1)"
 	outfits
 		"Artemis Missile" 60
 		"Artemis Missile Launcher" 2
+		"V600 Zeus Reactor"
+		"LCL Module"
+		"V610 Hermes Thruster"
+		"V620 Hermes Steering"
 
 ship "Excalibur" "Excalibur (Var1)"
 	outfits
@@ -44,11 +48,19 @@ ship "Hatchling" "Hatchling (Var1)"
 	outfits
 		"Artemis Missile" 30
 		"Artemis Missile Launcher"
+		"V600 Zeus Reactor"
+		"LCL Module"
+		"V610 Hermes Thruster"
+		"V620 Hermes Steering"
 
 ship "Ivory Hatchling" "Ivory Hatchling (Var1)"
 	outfits
 		"Artemis Missile" 30
 		"Artemis Missile Launcher"
+		"V600 Zeus Reactor"
+		"LCL Module"
+		"V610 Hermes Thruster"
+		"V620 Hermes Steering"
 
 ship "Ladon" "Ladon (Var1)"
 	outfits
@@ -205,6 +217,10 @@ ship "Tianlong" "Tianlong (Var1)"
 	outfits
 		"Artemis Missile" 60
 		"Artemis Missile Launcher" 2
+		"V600 Zeus Reactor"
+		"LCL Module"
+		"V610 Hermes Thruster"
+		"V620 Hermes Steering"
 
 ship "Twin Crescent" "Twin Crescent (Var1)"
 	outfits
