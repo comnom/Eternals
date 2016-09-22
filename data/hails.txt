@@ -196,6 +196,39 @@ phrase "merchant chatter"
 		"."
 		"!"
 
+phrase "lo military"
+	word
+		"The Lost Ones "
+		"Our government "
+		"Our military "
+		"Lost Ones defense fleets "
+	word
+		"will do "
+		"are doing "
+		"are trying "
+	word
+		"our best "
+	word
+		"to "
+		"in order to "
+	word
+		"promote free trade"
+		"defend independent merchants"
+		"ensure our independence"
+		"protect everyone"
+		"eliminate the pirate threat"
+		"maintain peace"
+		"see justice done"
+		"uphold your rights"
+		"enforce our laws"
+		"secure our borders"
+		"assist anyone in need"
+	word
+		"."
+		"."
+		"."
+		"!"
+
 phrase "valuut mix"
 	word
 		"Vumuu"
@@ -416,6 +449,45 @@ phrase "valuut military"
 		"."
 		"."
 		"?"
+
+phrase "merchant hostile"
+	word
+		"I can't believe you'd attack me!"
+		"What are you trying to do!?"
+		"You won't find an easy target here!"
+		"I'll destroy that rustbucket you call a ship!"
+		"You don't know who you're messing with!"
+		"Stop! I just bought this ship!"
+		"I knew I should've hired more guards!"
+		"The Lost Ones will kill you for this!"
+		"Ah! If you want the cargo in my hold just take it!"
+		"If I live through this I'm going back to med school!"
+		"Die pirate scum!"
+		"Someone help!"
+		"Uh-oh, I shouldn't have bought my guns wholesale..."
+		"My tax dollars at work! Where's the military when you need 'em?"
+		"Aw come on! I'm still paying off the loan on this thing!"
+		"I hope my insurance covers pirate attacks..."
+		"Is that the best you've got!?"
+		"That cloaking paint I bought outta the back of that magazine isn't working!"
+		"I'm not even supposed to be here today!"
+
+phrase "lo hostile"
+	word
+		"The Lost Ones "
+		"We "
+	word
+		"have decided you are a threat to "
+		"have deemed you hostile to "
+		"hereby name you an enemy of "
+		"will eliminate any danger to "
+		"will destroy you on behalf of "
+	word
+		"our people"
+		"our society"
+		"peace"
+		"justice"
+		"those we are sworn to protect"
 
 phrase "valuut hostile"
 	word

@@ -19,6 +19,8 @@ government "Lost Ones"
 		"Merchant" .2
 		"Lost Ones Merchant" .2
 		"Valuut Merchant" .2
+	"friendly hail" "lo military"
+	"hostile hail" "lo hostile"
 
 government "Lost Ones Merchant"
 	swizzle 5
@@ -30,6 +32,7 @@ government "Lost Ones Merchant"
 	"bribe" .05
 	"fine" 0
 	"friendly hail" "merchant chatter"
+	"hostile hail" "merchant hostile"
 
 government "Valuut Merchant"
 	swizzle 0
