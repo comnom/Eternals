@@ -1,10 +1,27 @@
-Verions:	0.8.6.1
+#Version:	0.8.7
+* Changelog
+	* General
+		* all projectiles and effects have been reworked for prettiness
+		* added hails for all factions
+		* valuutian fleets no longer use "disable"
+	* Map
+		* add mineables (requires Endless Sky v0.9.3)
+		* final fleet spawn rate adjustments
+		* most systems have had their orbits reworked to reduce crowding
+		* fixed a planet sprite that was used twice, and one that wasn't used
+	* Ships
+		* switched small ships to use poseidon cannon as artemis creates too much spam
+	* Outfits
+		* changed poseidon's description, raised it's inaccuracy to look more natural
+		* adjust lcl/lnak to keep them in between wanderer/korath
+
+#Version:	0.8.6.1
 * Changelog
 	* General
 		* some changes in filenames from the move to github
-		* change halberd to pollaxe for SU compatibility
+		* change halberd to pollaxe for SU compatibility (breaks backwards compatibility)
 
-Version:	0.8.6
+#Version:	0.8.6
 * Changelog
 	* General
 		* minor name edits
@@ -21,7 +38,7 @@ Version:	0.8.6
 	* Outfits
 		* reduced capacity of artemis launcher
 
-Version:	0.8.5
+#Version:	0.8.5
 * Changelog
 	* General
 		* added variants
@@ -39,12 +56,12 @@ Version:	0.8.5
 		* changed name of shield/hull generators because of the removed attributes(breaks backwards compatibility)
 		* rebalanced v641 regenerator(nano-regen) as a standalone outfit
 
-Version:	0.8.4.1
+#Version:	0.8.4.1
 * Changelog
 	* Map
 		* hotfix for system compatibility with enigma corp
 
-Version:	0.8.4
+#Version:	0.8.4
 * Changelog
 	* General
 		* switched old name list from "valuut" to "l_o civilian"
@@ -62,7 +79,7 @@ Version:	0.8.4
 		* reduced cooling on lcl module
 		* increased price on lnak cooling
 
-Version:	0.8.3
+#Version:	0.8.3
 * Changelog
 	* General
 		* added planet/spaceport descriptions
@@ -74,7 +91,7 @@ Version:	0.8.3
 	* Outfits
 		* added poseidon turret
 
-Version:	0.8.2
+#Version:	0.8.2
 * Changelog
 	* General
 		* added descriptions for all ships
@@ -88,7 +105,7 @@ Version:	0.8.2
 		* fixed price on hourglass
 		* reduced price on winged serpent
 
-Version:	0.8.1
+#Version:	0.8.1
 * Changelog
 	* General
 		* added descriptions for all outfits
@@ -99,6 +116,6 @@ Version:	0.8.1
 		* reduced range on poseidon cannon
 		* redistributed the capacity on reactor/battery pairs to put more "battery" in the battery
 
-Version: 	0.8.0
+#Version: 	0.8.0
 * Changelog
 	* Released
