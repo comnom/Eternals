@@ -199,9 +199,9 @@ phrase "merchant chatter"
 phrase "lo military"
 	word
 		"The Lost Ones "
-		"Our government "
-		"Our military "
-		"Lost Ones defense fleets "
+		"Government officials "
+		"Military commanders "
+		"Lost Ones' defense fleets "
 	word
 		"will do "
 		"are doing "
