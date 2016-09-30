@@ -433,18 +433,18 @@ ship "Ladon"
 		"V623 Hermes Steering"
 		"Hyperdrive"
 		
-	engine -51 170
-	engine 51 170
-	gun -99 -48 "Poseidon Cannon"
-	gun -79 -62 "Poseidon Cannon"
-	gun -59 -68 "Dragon's Ice"
-	gun 59 -68 "Dragon's Ice"
-	gun 79 -62 "Ares Beam"
-	gun 99 -48 "Ares Beam"
-	gun 0 -189 "Dragon's Fire"
-	turret 0 -62
-	turret 0 -8
-	turret 0 44
+	engine -47 179
+	engine 47 179
+	gun 0 -204 "Dragon's Fire"
+	gun -110 -48 "Poseidon Cannon"
+	gun -88 -64 "Ares Beam"
+	gun -65 -72 "Dragon's Ice"
+	gun 110 -48 "Poseidon Cannon"
+	gun 88 -64 "Ares Beam"
+	gun 65 -72 "Dragon's Ice"
+	turret 0 -63
+	turret 0 -5
+	turret 0 55
 	fighter 0 0 under
 	fighter 1 1 under
 	fighter -1 -1 under
@@ -785,18 +785,18 @@ ship "Typhon"
 		"V613 Hermes Thruster"
 		"V623 Hermes Steering"
 		
-	engine -51 170
-	engine 51 170
-	gun -99 -48 "Poseidon Cannon"
-	gun -79 -62 "Poseidon Cannon"
-	gun -59 -68 "Dragon's Ice"
-	gun 59 -68 "Dragon's Ice"
-	gun 79 -62 "Ares Beam"
-	gun 99 -48 "Ares Beam"
-	gun 0 -189 "Dragon's Fire"
-	turret 0 -62
-	turret 0 -8
-	turret 0 44
+	engine -47 179
+	engine 47 179
+	gun 0 -204 "Dragon's Fire"
+	gun -110 -48 "Poseidon Cannon"
+	gun -88 -64 "Ares Beam"
+	gun -65 -72 "Dragon's Ice"
+	gun 110 -48 "Poseidon Cannon"
+	gun 88 -64 "Ares Beam"
+	gun 65 -72 "Dragon's Ice"
+	turret 0 -63
+	turret 0 -5
+	turret 0 55
 	fighter 0 0 under
 	fighter 1 1 under
 	fighter -1 -1 under
