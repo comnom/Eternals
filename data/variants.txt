@@ -20,7 +20,7 @@ ship "Excalibur" "Excalibur (Var1)"
 		"V622 Hermes Steering"
 		"V630L Cell Array"
 		"Ares Turret" 4
-		"Poseidon Cannon" 6
+		"Poseidon Cannon" 4
 		"Poseidon Turret" 2
 	turret "Poseidon Turret"
 	turret "Poseidon Turret"
@@ -41,7 +41,7 @@ ship "Excalibur" "Excalibur (Var2)"
 		"V612 Hermes Thruster"
 		"V623 Hermes Steering"
 		"V630L Cell Array"
-		"Ares Beam" 6
+		"Ares Beam" 4
 		"Athena Anti-Missile" 6
 
 ship "Hatchling" "Hatchling (Var1)"

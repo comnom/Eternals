@@ -221,27 +221,24 @@ ship "Excalibur"
 		"Security Forcefield" 4
 		"Dragon's Ice" 2
 		"Ares Beam" 2
-		"Poseidon Cannon" 2
 		"Ares Turret" 2
 		"Athena Anti-Missile" 2
 		"V612 Hermes Thruster"
 		"V623 Hermes Steering"
 		"Hyperdrive"
 		
-	engine -18 232
-	engine 18 232
-	gun -14 -203 "Dragon's Ice"
-	gun 14 -203 "Dragon's Ice"
-	gun -37 -148 "Ares Beam"
-	gun 37 -148 "Ares Beam"
-	gun -70 7 "Poseidon Cannon"
-	gun 70 7 "Poseidon Cannon"
-	turret -29 -124
-	turret 29 -124
-	turret -54 14 "Ares Turret"
-	turret 54 14 "Ares Turret"
-	turret -95 183 "Athena Anti-Missile"
-	turret 95 183 "Athena Anti-Missile"
+	engine -14 226
+	engine 14 226
+	gun -16 -207 "Dragon's Ice"
+	gun 16 -207 "Dragon's Ice"
+	gun -38 -158 "Ares Beam"
+	gun 38 -158 "Ares Beam"
+	turret -21 -127
+	turret 21 -127
+	turret -55 16 "Ares Turret"
+	turret 55 16 "Ares Turret"
+	turret -36 16 "Athena Anti-Missile"
+	turret 36 16 "Athena Anti-Missile"
 	fighter -38 84 over
 	fighter 38 84 over
 	fighter -56 -60 left
