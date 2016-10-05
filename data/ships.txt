@@ -350,10 +350,10 @@ ship "Hourglass"
 		"V622 Hermes Steering"
 		"Hyperdrive"
 		
-	engine -49 60
-	engine 49 60
-	turret -70 -9
-	turret 70 -9
+	engine -77 44
+	engine 77 44
+	turret -77 -10
+	turret 77 -10
 	explode "tiny explosion" 10
 	explode "small explosion" 25
 	explode "medium explosion" 30
