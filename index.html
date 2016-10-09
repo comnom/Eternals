@@ -9,6 +9,15 @@
 		<!--[if lt IE 9]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
+		<script src="javascripts/jquery-3.1.1.min.js"></script>
+        <script>
+            jQuery(document).ready (function () {
+                jQuery.getJSON("https://api.github.com/repos/comnom/Eternals/releases/latest").done(function (data) {
+                    jQuery("#eternals-zip").attr ("href", "https://github.com/comnom/Eternals/archive/"+data.tag_name+".zip"); 
+					jQuery("#eternals-tar").attr ("href", "https://github.com/comnom/Eternals/archive/"+data.tag_name+".tar.gz");
+				})
+            });
+        </script>
 	</head>
 	<body>
 		<div class="wrapper">
@@ -16,8 +25,8 @@
 				<h1>Eternals</h1>
 				<p>A plugin for <a href="https://endless-sky.github.io/">Endless Sky</a></p>	
 				<ul>
-					<li><a href="https://github.com/comnom/Eternals/archive/v0.8.7.zip">Download <strong>zip</strong></a></li>
-					<li><a href="https://github.com/comnom/Eternals/archive/v0.8.7.tar.gz">Download <strong>tar.gz</strong></a></li>
+					<li><a id="eternals-zip">Download <strong>zip</strong></a></li>
+					<li><a id="eternals-tar">Download <strong>tar.gz</strong></a></li>
 					<li><a href="https://github.com/comnom/Eternals/">View On <strong>GitHub</strong></a></li>
 				</ul>
 				<h3>Install</h3>
