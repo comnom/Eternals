@@ -142,10 +142,10 @@ ship "Chilong"
 		"V610 Hermes Thruster"
 		"V620 Hermes Steering"
 
-	engine -8 10
-	engine 8 10
-	gun 8 -16
-	gun -8 -16
+	engine -10 9
+	engine 10 9
+	gun -13 -17
+	gun 13 -17
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description "An ancient fighter craft used by the Valuutians to complement their carriers."
@@ -691,10 +691,10 @@ ship "Tianlong"
 		"V610 Hermes Thruster"
 		"V620 Hermes Steering"
 
-	engine -8 10
-	engine 8 10
-	gun 8 -16
-	gun -8 -16
+	engine -10 9
+	engine 10 9
+	gun -13 -17
+	gun 13 -17
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description "The Tianlong is a redesigned Chilong with an integrated shield matrix, developed and manufactured in secret by the Eternals for their personal fleet."
