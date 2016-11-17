@@ -1,0 +1,34 @@
+mission "Intro, Valuut [0]"
+	name "Meet with the Valuutian Minister"
+	description "Head to Valuutia to meet with Minister Iismal."
+	source
+		attributes "valuut colony"
+	destination "Valuutia"
+	on offer
+		conversation
+			`This colony's spaceport is bustling with the activity of a diverse range of aliens. Long-limbed ape-like creatures with thick shells on their backs and large arthropods with shiny black carapaces and segmented tails labor under the weight of heavy cargo containers. Small, wirey, bipedal beings with translucent flesh and mouths full of pointed teeth flit about taking inventory on narrow electronic pads. The presence of human merchant captains and crewmen comes with little shock; it simply confirms your suspicions about some of the ship chatter you heard out in space.`
+			`	At first no one pays you any mind excepting the uniformed quadrupeds that presumably make up the security force. Any notion they are simply massive, shaggy beasts is quickly disabused by the clear light of intelligence in their yellowed eyes. Then, from one of the office buildings that ring the unloading area comes a procession of another distinct group. Your first impression is one of elegance. They are tall, graceful, and suprisingly humanoid aliens with brilliant silver skin adorned in thin robes made of a semi-transparent flowing material that gathers in folds at their feet as they come to stand before you. The one in the middle takes an extra step forward, and in a deep voice quite adept at your language he asks, "You are the captain of the jump-ship that recently arrived in our space?"`
+			choice
+				`	"Yes, I'm Captain <last>."`
+				`	"That's a bit obvious isn't it?"`
+			`	He smiles, perhaps amused, or maybe just as a diplomatic gesture. "Well Captain, I regret to inform you that we have strict policies in place that regulate contact with other species, and you are in violation of several of them." Sensing the incredulous look about to form on your face given the amount of human merchants in the spaceport, he smiles even wider this time, revealing a double row of small, sharp teeth and wryly states, "However, considering the diplomatic relations we have with other humans, I think we can forgo the usual imprisonment and contacting your government."`
+			choice
+				`	"I thank you for that."`
+				`	"Well I should hope so."`
+			`	Bowing his head slightly, whether apologetic or simply acknowledging that he's doing you a favor, he continues, "Instead we would request that you meet with our Minister of Foreign Affairs, Iismal, in our Capital of Uucriis. He expressed interest in meeting with you, and likely has several questions concerning the nature of your visit."`
+			choice
+				`	"I'll make a point to do so then, thank you."`
+					goto l_end
+				`	"I think I'll just go my own way, thanks."`
+			`	His deep black eyes narrow as his expression darkens. "I'm afraid you misunderstand Captain. If you wish to travel our space peacefully you will meet with the Minister. If not..." he trails off, leaving the threat unfinished.`
+			choice
+				`	"I've reconsidered, I'll meet with this minister of yours."`
+					goto l_end
+				`	"I won't take orders from you."`
+			`	"Very well Captain, I wish you luck in your return home." The security tenses up, but they allow you to board your ship and leave.`
+				flee
+			label l_end
+			`	"Excellent", he says, "You can find him in the Valuutian Capital of Uucriis. All spaceport officials have your ship and personal description, and will aid you in finding it. I'd escort you, but I have urgent business elsewhere." He and his group bow their heads slightly, then glide off back to the building they came from.`
+				accept
+	on decline
+		event "valuut hostile" 2

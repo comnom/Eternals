@@ -657,6 +657,7 @@ system Wanool
 		period 14382.2
 
 planet Luu
+	attributes "valuut colony"
 	landscape land/frantzou0
 	description `Luu was the first planet colonized by the Valuutians a little over four centuries ago. The domed Colony Ships have all been disassembled, leaving pockets of out-of-place vegetation as the only sign that these towns are alien to this world. Industry here is varied; including mining towns, small industrial districts, and even a few corporate districts populated by wealthier Valuutians.`
 	spaceport `The spaceport is a series of modest sized buildings situated next to large landing pads. An enclosed pair of mag-lev rail lines jutt out of each building, with both empty and laden cargo containers zipping underground, and on to their destination.`
@@ -678,6 +679,7 @@ planet "Nowhere Paradise"
 	bribe 0
 
 planet Nyy
+	attributes "valuut colony"
 	landscape land/aaziz0
 	description `Almost entirely ocean, Nyy has very few landmasses big enough to support a Colony Ship. The most recent planet to attract settlers, there are less than a dozen towns established, all with their domes still raised. The atmosphere here is toxic to several races of Valuutians, causing the settlers to utilize the dome's energy field as a large scale atmospheric filter. Even with all the towns working in tandem, it will still take many years before the atmosphere is breathable. Off-world workers speckle the ocean in various survey craft, all adorned with the logos of their respective corporations, in an attempt to uncover the safest way to exploit the planets resources.`
 	bribe 0
@@ -692,6 +694,7 @@ planet "Odyssey Outpost"
 	bribe 0
 
 planet Saa
+	attributes "valuut colony"
 	landscape land/dbow2
 	description `Saa is the second planet colonized by the Valuutians, but despite the first Colony Ships touching down less than half a century ago, it's quickly on the way to becoming the most developed Valuutian colony. The mountainous regions of the planet contain an unprecedented wealth of minerals that are extremely rare on Valuutia. The profit these minerals will bring is the cause of the hurried buildup of settlements, and the swift population surge. Outside the mining towns, the domed ship villages are almost ghost towns, excepting the few that deal in off-world trading.`
 	spaceport `The spaceport is adjacent to the largest city, and appears to be hastily assembled from the remainder of the Colony Ship's dome generator. In fact, everywhere you look you see warehouses, rail lines, security checkpoints, and all manner of the port's essential buildings still under varying degrees of construction.`
