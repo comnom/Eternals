@@ -103,7 +103,7 @@ outfit "Athena Anti-Missile"
 	"turret mounts" -1
 	weapon
 		"hit effect" "athena anti missile"
-		"anti-missile" 9
+		"anti-missile" 8
 		"velocity" 350
 		"lifetime" 1
 		"reload" 4
@@ -219,7 +219,7 @@ outfit "Poseidon Cannon"
 
 outfit "Poseidon Turret"
 	category "Turrets"
-	cost 312000
+	cost 624000
 	thumbnail "outfit/poseidonturret"
 	"mass" 24
 	"outfit space" -24
