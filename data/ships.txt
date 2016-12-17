@@ -734,9 +734,9 @@ ship "Twin Crescent"
 		
 	engine -12 63
 	engine 12 63
-	gun -16 -59 "Poseidon Cannon"
-	gun 16 -59 "Poseidon Cannon"
-	gun 0 -24 "Ares Beam"
+	gun -14 -52 "Poseidon Cannon"
+	gun 14 -52 "Poseidon Cannon"
+	gun 0 -21 "Ares Beam"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description "The Twin Crescent is a speedy interceptor commonly used by merchant guards and pirates."
