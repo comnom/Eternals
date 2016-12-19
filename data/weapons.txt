@@ -72,7 +72,7 @@ outfit "Artemis Missile Launcher"
 		sound "meteor"
 		ammo "Artemis Missile"
 		icon "icon/artemis_icon"
-		"fire effect" "meteor fire"
+		"fire effect" "artemis fire"
 		"die effect" "missile death"
 		"hit effect" "medium explosion"
 		"inaccuracy" 6
