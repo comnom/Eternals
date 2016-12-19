@@ -94,6 +94,15 @@ outfit "V603 Zeus Reactor"
 	"energy capacity" 6308
 	description "The largest reactor in the Anstad Corp's Zeus series, the V603 is used in the biggest military ships with extreme energy requirements."
 
+outfit "V605 Fuel Pod"
+	category "Systems"
+	cost "44000"
+	thumbnail "outfit/v605fuelpod"
+	"mass" 14
+	"outfit space" -14
+	"fuel capacity" 200
+	description "The V605 Fuel Pod holds twice as much fuel as a standard fuel pod due to more efficient compression techniques. Allows your ship to make two additional hyperspace jumps before it needs to land and refuel."
+
 outfit "V610 Hermes Thruster"
 	category "Engines"
 	"cost" 300000
