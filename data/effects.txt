@@ -18,12 +18,35 @@ effect "athena anti missile"
 effect "dragonf impact"
 	sprite "effect/dragonf_impact"
 		"no repeat"
-		"frame rate" 10
+		"frame rate" 12
 	sound "explosion tiny"
-	"lifetime" 20
+	"lifetime" 30
 	"random angle" 10
 	"velocity scale" .001
-	"random frame rate" 5
+
+effect "dragonf fire"
+	sprite "effect/dragonf_fire"
+		"no repeat"
+		"frame rate" 12
+	"lifetime" 30
+	"random angle" 5
+	"velocity scale" 1
+
+effect "dragonf live"
+	sprite "effect/dragonf_live"
+		"no repeat"
+		"frame rate" 12
+	"lifetime" 30
+	"random angle" 5
+	"velocity scale" -.001
+
+effect "dragonf die"
+	sprite "effect/dragonf_die"
+		"no repeat"
+		"frame rate" 12
+	"lifetime" 24
+	"random angle" 5
+	"velocity scale" 1
 
 effect "dragoni impact"
 	sprite "effect/dragonsice/dragoni_impact"

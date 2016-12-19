@@ -124,6 +124,9 @@ outfit "Dragon's Fire"
 			"frame rate" 10
 		sound "particle"
 		"hit effect" "dragonf impact"
+		"fire effect" "dragonf fire"
+		"live effect" "dragonf live" 2
+		"die effect" "dragonf die"
 		"inaccuracy" .5
 		"velocity" 10
 		"lifetime" 70
