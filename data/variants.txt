@@ -10,7 +10,7 @@ ship "Chilong" "Chilong (Var1)"
 ship "Excalibur" "Excalibur (Var1)"
 	outfits
 		"Hyperdrive"
-		"Ramscoop"
+		"V606 Ramscoop"
 		"V640 Generator"
 		"LNaK Cooling" 2
 		"V641 Regenerator"
@@ -32,7 +32,7 @@ ship "Excalibur" "Excalibur (Var1)"
 ship "Excalibur" "Excalibur (Var2)"
 	outfits
 		"Hyperdrive"
-		"Ramscoop"
+		"V606 Ramscoop"
 		"V640 Generator" 2
 		"LNaK Cooling" 2
 		"V641 Regenerator" 2
@@ -65,7 +65,7 @@ ship "Ivory Hatchling" "Ivory Hatchling (Var1)"
 ship "Ladon" "Ladon (Var1)"
 	outfits
 		"Hyperdrive"
-		"Ramscoop"
+		"V606 Ramscoop"
 		"V640 Generator" 2
 		"LCL Module" 2
 		"LNaK Cooling"
@@ -88,7 +88,7 @@ ship "Ladon" "Ladon (Var1)"
 ship "Ladon" "Ladon (Var2)"
 	outfits
 		"Hyperdrive"
-		"Ramscoop"
+		"V606 Ramscoop"
 		"V640 Generator"
 		"LCL Module"
 		"LNaK Cooling"
@@ -142,7 +142,7 @@ ship "Longinus" "Longinus (Var2)"
 ship "Pollaxe" "Pollaxe (Var1)"
 	outfits
 		"Hyperdrive"
-		"Ramscoop"
+		"V606 Ramscoop"
 		"V640 Generator"
 		"LNaK Cooling"
 		"V641 Regenerator"
@@ -169,7 +169,7 @@ ship "Pollaxe" "Pollaxe (Var1)"
 ship "Pollaxe" "Pollaxe (Var2)"
 	outfits
 		"Hyperdrive"
-		"Ramscoop"
+		"V606 Ramscoop"
 		"V640 Generator" 2
 		"LNaK Cooling" 2
 		"V641 Regenerator" 2

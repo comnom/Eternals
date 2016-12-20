@@ -103,6 +103,16 @@ outfit "V605 Fuel Pod"
 	"fuel capacity" 200
 	description "The V605 Fuel Pod holds twice as much fuel as a standard fuel pod due to more efficient compression techniques. Allows your ship to make two additional hyperspace jumps before it needs to land and refuel."
 
+outfit "V606 Ramscoop"
+	category "Systems"
+	cost "480000"
+	thumbnail "outfit/v606ramscoop"
+	"mass" 16
+	"outfit space" -16
+	"ramscoop" 9
+	"energy generation" -.1
+	description "Utilizing the infinitely malleable Valuutian forcefield technology, the V606 Ramscoop is able to filter out unnecessary particles during the collection process, resulting in improved efficiency. Requires a small amount of energy to operate.
+
 outfit "V610 Hermes Thruster"
 	category "Engines"
 	"cost" 300000
