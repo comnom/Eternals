@@ -9,17 +9,9 @@
 		<!--[if lt IE 9]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<script src="javascripts/jquery-3.1.1.min.js"></script>
-		<script>
-			jQuery(document).ready (function () {
-				jQuery.getJSON("https://api.github.com/repos/comnom/Eternals/releases/latest").done(function (data) {
-					jQuery("#eternals-zip").attr ("href", "https://github.com/comnom/Eternals/archive/"+data.tag_name+".zip"); 
-					jQuery("#eternals-tar").attr ("href", "https://github.com/comnom/Eternals/archive/"+data.tag_name+".tar.gz");
-				})
-			});
-		</script>
+		<script src="javascripts/main.js"></script>
 	</head>
-	<body>
+	<body onload="apiGet()">
 		<div class="wrapper">
 			<header>
 				<h1>Eternals</h1>
@@ -29,8 +21,10 @@
 					<li><a id="eternals-tar">Download <strong>tar.gz</strong></a></li>
 					<li><a href="https://github.com/comnom/Eternals/">View On <strong>GitHub</strong></a></li>
 				</ul>
-				<h3>Install</h3>
-				<p>Unzip the latest release to your plugins folder found here:<br><strong>Linux:</strong> ~/.local/share/endless-sky/<br><strong>Windows:</strong> %AppData%\endless-sky\<br><strong>Mac OS X:</strong> ~/Library/ApplicationSupport/endless-sky/</p>
+				<h4>Install Instructions</h4>
+				<p>Extract to your plugins folder:<br>Linux: ~/.local/share/endless-sky/<br>Windows: %AppData%\endless-sky\<br>Mac OS X: ~/Library/ApplicationSupport/endless-sky/</p>
+				<h4>Current Version</h4>
+				<p id="current-version"></p>
 			</header>
 			<section>
 				<h2>About</h2>
@@ -38,19 +32,25 @@
 				<p>This plugin introduces two new factions, the Valuutians and the Lost Ones. The Valuutians are an alien species inhabiting a small sector of space northeast of Unfettered Hai territory. An ancient people wary of contact with outsiders, this species has only recently begun colonizing other planets in their sector.</p>
 				<img alt="Planet" src="images/lo_homeworld.png" title="The Lost Ones Homeworld"/>
 				<p>The Lost Ones are a human faction, descendants of a crew of privately funded scientists and engineers who ended up in Valuutian space. After the Valuutians welcomed these strange new creatures into their society, many humans grew dissatisfied with their lack of standing in the Valuut government and staged a series of peaceful protests to gain independence. Massive public pressure from the younger generation of Valuutians, who quickly became enamored with human culture, resulted in the Valuut government granting the newly formed Lost Ones nation-state status.</p>
-				<h2>Content</h2>
-				<img alt="Spaceship" src="images/wireframe.png" title="Twin Crescent in Blender"/>
-				<p>This plugin is a work in progress, with new content often being added. It currently contains:</p>
-				<ul>
-					<li>Ten new systems</li>
-					<li>Sixy-nine new planet and moon sprites</li>
-					<li>Eighteen new ships, twelve of which are immediately purchaseable</li>
-					<li>Thirty new outfits with custom projectiles/effects</li>
-				</ul>
+				<div class="content">
+					<h2>Content</h2>
+					<img alt="Spaceship" src="images/wireframe.png" title="Twin Crescent in Blender"/>
+					<p>This plugin is a work in progress. It currently contains: </p>
+					<ul>
+						<li>Ten new systems</li>
+						<li>Sixy-nine new planet and moon sprites</li>
+						<li>Eighteen new ships, twelve of which are immediately purchaseable</li>
+						<li>Thirty new outfits with custom effects</li>
+					</ul>
+					<div class="changelog-back" onclick="toggleChangelog()">
+						<p>View Changelog</p>
+						<img id="changelog-arrow" src="images/arrow.svg"/>
+						<pre id="changelog"></pre>
+					</div>
+				</div>
 			</section>
 			<footer>
-				<p>This project is maintained by <a href="https://github.com/comnom">comnom</a></p>
-				<p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+				<p>This project is maintained by <a href="https://github.com/comnom">comnom</a><br><small>Website theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
 			</footer>
 		</div>
     <script src="javascripts/scale.fix.js"></script>
