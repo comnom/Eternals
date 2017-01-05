@@ -111,7 +111,7 @@ outfit "V606 Ramscoop"
 	"outfit space" -16
 	"ramscoop" 9
 	"energy generation" -.1
-	description "Utilizing the infinitely malleable Valuutian forcefield technology, the V606 Ramscoop is able to filter out unnecessary particles during the collection process, resulting in improved efficiency. Requires a small amount of energy to operate.
+	description "Utilizing the infinitely malleable Valuutian forcefield technology, the V606 Ramscoop is able to filter out unnecessary particles during the collection process, resulting in improved efficiency. Requires a small amount of energy to operate."
 
 outfit "V610 Hermes Thruster"
 	category "Engines"
