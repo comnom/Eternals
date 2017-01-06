@@ -1,5 +1,5 @@
 outfit "Artemis Missile Rack"
-	category "Systems"
+	category "Ammunition"
 	cost 13400
 	thumbnail "outfit/artemisstorage"
 	"mass" 2.5
