@@ -1,3 +1,13 @@
+outfit "Artemis Missile Rack"
+	category "Systems"
+	cost 13400
+	thumbnail "outfit/artemisstorage"
+	"mass" 2.5
+	"outfit space" -5
+	"artemis capacity" 15
+	ammo "Artemis Missile"
+	description "The Artemis Missile Rack stores extra ammunition for the Artemis Missile Launcher."
+
 outfit "V640 Generator"
 	category "Systems"
 	cost 950000
