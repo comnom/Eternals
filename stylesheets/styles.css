@@ -112,6 +112,15 @@ a:hover small {
   color:#777;
 }
 
+#screenshots {
+	color:#39c;
+}
+
+#screenshots:hover {
+	cursor: pointer;
+	color:#069;
+}
+
 .wrapper {
   width:860px;
   margin:0 auto;
@@ -305,6 +314,84 @@ footer {
 
 .changelog-back pre {
 	display: none;
+}
+
+.modal-back {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .8);
+}
+
+.modal-back img {
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 0;
+	border: none;
+	box-shadow: none;
+}
+
+.modal-image-back {
+	display: inline-block;
+	position: relative;
+	padding: 20px;
+	margin-top: 5%;
+}
+
+#modal-image {
+	max-width: 80%;
+	max-height: 80%;
+}
+
+.modal-close-button {
+	position: absolute;
+	width: 100%;
+	height: 10%;
+	top: 0;
+	right: 0;
+}
+
+#modal-close {
+	position: absolute;
+	top: 10%;
+	right: 10%;
+	width: 40px;
+	height: 40px;
+}
+
+.modal-previous-button, .modal-next-button {
+	position: absolute;
+	width: 10%;
+	height: 100%;
+	top: 40%;
+}
+
+.modal-previous-button {
+	left: 5%;
+}
+
+.modal-next-button {
+	right: 5%;
+}
+
+#modal-previous {
+	transform: rotate(90deg);
+}
+
+#modal-next {
+	transform: rotate(-90deg);
+}
+
+#modal-close, #modal-previous, #modal-next {
+	cursor: pointer;
+	opacity: .2;
+}
+
+#modal-close:hover, #modal-previous:hover, #modal-next:hover {
+	opacity: .8;
 }
 
 @media print, screen and (max-width: 960px) {

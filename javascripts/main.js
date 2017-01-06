@@ -1,4 +1,4 @@
-function apiGet() {
+function apiGetLatest() {
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
@@ -31,5 +31,52 @@ function toggleChangelog() {
 		state = 1;
 		img.style.transform = "rotate(180deg)";
 		pre.style.display = "block";
+	}
+}
+
+var imgList = [];
+var imgIndex = 0;
+
+function apiGetAssets() {
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			var data = JSON.parse(this.responseText);
+			for (var i = 0; i < data.length; i++) {
+				imgList.push(data[i].path);
+			}
+		}
+	};
+	xhttp.open("GET", "https://api.github.com/repos/comnom/Eternals/contents/images/screenshots?ref=gh-pages", true);
+	xhttp.setRequestHeader("Accept", "application/vnd.github.v3+json");
+	xhttp.send();
+}
+
+function showModal() {
+	document.getElementsByClassName("modal-back")[0].style.display = "inline-block";
+	document.getElementById("modal-image").src = imgList[imgIndex];
+}
+
+function closeModal() {
+	document.getElementsByClassName("modal-back")[0].style.display = "none";
+}
+
+function nextImage() {
+	if (imgIndex >= imgList.length - 1) {
+		return;
+	}
+	else {
+		imgIndex += 1;
+		document.getElementById("modal-image").src = imgList[imgIndex];
+	}
+}
+
+function previousImage() {
+	if (imgIndex <= 0) {
+		return;
+	}
+	else {
+		imgIndex -= 1;
+		document.getElementById("modal-image").src = imgList[imgIndex];
 	}
 }
