@@ -22,3 +22,10 @@
 
 # Don't export high_dpi/**
 high_dpi/** export-ignore
+
+# Don't export the github readme
+README.md export-ignore
+
+# Don't export the github license.txt as
+# the copyright handles it
+license.txt export-ignore
