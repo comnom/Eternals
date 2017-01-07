@@ -537,8 +537,8 @@ ship "Pollaxe"
 		"V623 Hermes Steering"
 		"Hyperdrive"
 		
-	engine -10 210
-	engine 10 210
+	engine -12 210
+	engine 12 210
 	gun -20 -133
 	gun 20 -133
 	gun 0 -133
