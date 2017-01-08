@@ -83,9 +83,7 @@ system Ismaros
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Small Valuutian" 1000
 	fleet "Large Valuutian" 2200
-	fleet "Small Lost Ones" 1200
 	fleet "Large Lost Ones" 2400
 	fleet "Valuutian Merchants" 900
 	fleet "Lost Ones Merchants" 1000
@@ -100,7 +98,7 @@ system Ismaros
 		offset 318.405
 	object
 		sprite planet/fg_terrestrial4
-		distance 571.265
+		distance 771.265
 		period 264.638
 		offset 293.313
 		object
@@ -110,17 +108,17 @@ system Ismaros
 			offset 85.6285
 	object
 		sprite planet/fg_gas6
-		distance 1262.04
+		distance 1462.04
 		period 868.974
 		offset 224.891
 		object
 			sprite planet/fg_moon7
-			distance 176.366
+			distance 376.366
 			period 29.4431
 			offset 41.4959
 	object
 		sprite planet/fg_gas5
-		distance 2062.66
+		distance 2662.66
 		period 1815.67
 		offset 6.2644
 
@@ -141,12 +139,10 @@ system Masuul
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Small Valuutian" 1700
 	fleet "Large Valuutian" 2400
-	fleet "Small Lost Ones" 1400
 	fleet "Large Lost Ones" 2200
-	fleet "Small L_O Pirate" 1200
 	fleet "Large L_O Pirate" 1600
+	fleet "Unfettered Raid" 12000
 	object
 		sprite star/m0
 		period 10
@@ -157,17 +153,17 @@ system Masuul
 		offset 251.957
 	object
 		sprite planet/fg_lava3
-		distance 324
+		distance 424
 		period 130.407
 		offset 119.861
 	object
 		sprite planet/fg_terrestrial3
-		distance 483
+		distance 683
 		period 237.359
 		offset 95.9712
 	object
 		sprite planet/fg_terrestrial7
-		distance 646
+		distance 1246
 		period 367.142
 		offset 117.336
 	object
@@ -177,12 +173,12 @@ system Masuul
 		offset 187.407
 		object
 			sprite planet/fg_moon4
-			distance 165.531
-			period 15.7108
+			distance 210.531
+			period 20.7108
 			offset 140.666
 		object
 			sprite planet/fg_moon5
-			distance 250.531
+			distance 360.531
 			period 29.2531
 			offset 124.47
 
@@ -225,41 +221,41 @@ system Nileem
 		offset 7.84846	
 	object
 		sprite planet/fg_cloud0
-		distance 518.312
+		distance 750.312
 		period 406.237
 		offset 119.292
 		object
 			sprite planet/fg_moon3
-			distance 104
+			distance 204
 			period 20.123
 			offset 17.692
 		object
 			sprite planet/fg_moon8
-			distance 181
+			distance 381
 			period 46.2019
 			offset 120.588
 	object
 		sprite planet/fg_gas9
-		distance 1579.56
-		period 2161.21
+		distance 1879.56
+		period 2400.21
 		offset 42.654
 		object
 			sprite planet/fg_moon9
-			distance 141
+			distance 241
 			period 17.4443
 		object
 			sprite planet/fg_moon10
-			distance 215
+			distance 315
 			period 32.8461
 			offset 30.1781
 		object
 			sprite planet/fg_moon11
-			distance 290
+			distance 390
 			period 51.4545
 			offset 262.288
 		object
 			sprite planet/fg_moon12
-			distance 430.826
+			distance 530.826
 			period 93.1705
 			offset 70.7771
 
@@ -310,12 +306,12 @@ system Ogygia
 		offset 316.902
 	object
 		sprite planet/fg_icegiant0
-		distance 2114.75
+		distance 1800.75
 		period 1183.69
 		offset 189.079
 	object
 		sprite planet/fg_gas15
-		distance 3622.64
+		distance 3200.64
 		period 2653.91
 		offset 179.66
 	object
@@ -368,7 +364,7 @@ system Pirtaal
 		offset 114.607
 	object
 		sprite planet/fg_terrestrial5
-		distance 318.376
+		distance 418.376
 		period 195.571
 		offset 130.638
 	object
@@ -389,11 +385,11 @@ system Pirtaal
 		object
 			sprite planet/fg_moon13
 			distance 202
-			period 15.1121
+			period 60.1121
 		object
 			sprite planet/fg_moon14
 			distance 295
-			period 26.6704
+			period 40.6704
 		object
 			sprite planet/fg_moon15
 			distance 449
@@ -422,9 +418,7 @@ system Risiit
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Small Valuutian" 1200
 	fleet "Large Valuutian" 1400
-	fleet "Small Lost Ones" 1500
 	fleet "Large Lost Ones" 1700
 	fleet "Small L_O Pirate" 900
 	fleet "Large L_O Pirate" 1100
@@ -518,12 +512,12 @@ system Thrinacia
 		offset 287.324
 	object
 		sprite planet/fg_icegiant2
-		distance 2182.57
+		distance 2582.57
 		period 1223.27
 		offset 303.467
 	object
 		sprite planet/fg_gas14
-		distance 3125.9
+		distance 3525.9
 		period 2096.68
 		offset 48.3412		
 
@@ -581,7 +575,7 @@ system Valiit
 			offset 176.733
 		object
 			sprite planet/fg_moon1
-			distance 870.61
+			distance 770.61
 			period 109.751
 			offset 143.508
 
@@ -619,41 +613,41 @@ system Wanool
 		period 10
 	object Luu
 		sprite planet/fg_inhabited4
-		distance 208
+		distance 258
 		period 78.5627
 		offset 152.475
 		object
 			sprite planet/fg_moon20
-			distance 109
+			distance 129
 			period 15.5313
 			offset 294.802
 	object
 		sprite planet/fg_terrestrial8
-		distance 470
+		distance 670
 		period 266.851
 		offset 352.225
 	object
 		sprite planet/fg_gas12
-		distance 987.646
+		distance 1087.646
 		period 812.875
 		offset 46.7542
 		object
 			sprite planet/fg_moon21
-			distance 142
+			distance 202
 			period 21.704
 	object
 		sprite planet/fg_terrestrial9
-		distance 1303.83
+		distance 1503.83
 		period 1232.97
 		offset 223.652
 	object
 		sprite planet/fg_icegiant7
-		distance 1680.83
+		distance 2080.83
 		period 1804.71
 		offset 291.581
 	object
 		sprite planet/fg_gas13
-		distance 6706.08
+		distance 4706.08
 		period 14382.2
 
 planet Luu

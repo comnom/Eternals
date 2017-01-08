@@ -39,6 +39,7 @@ government "Valuut Merchant"
 	
 	"player reputation" 10
 	"attitude toward"
+		"Hai (Unfettered)" -.2
 		"Pirate" -.2
 		"Lost Ones Merchant" .2
 	"bribe" .05
@@ -52,6 +53,7 @@ government "Valuut"
 
 	"player reputation" 1
 	"attitude toward"
+		"Hai (Unfettered)" -.2
 		"Pirate" -.2
 		"Merchant" .2
 		"Lost Ones Merchant" .2
