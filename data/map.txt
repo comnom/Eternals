@@ -265,6 +265,7 @@ system Nileem
 system Ogygia
 	pos 256.91 -788.241
 	government "Lost Ones"
+	music "ambient/spacey tune two"
 	habitable 1080
 	link Ismaros
 	asteroids "small rock" 2 1.1628
@@ -469,6 +470,7 @@ system Risiit
 system Thrinacia
 	pos 303.91 -725.241
 	government "Anstad Corp"
+	music "ambient/spacey tune two"
 	habitable 1111.68
 	link Valiit
 	link Ismaros
