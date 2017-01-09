@@ -10,7 +10,7 @@ outfit "Ares Beam"
 		sprite "projectile/ares"
 			"frame rate" 60
 			"rewind"
-		sound "electron beam"
+		sound "ares"
 		"hit effect" "ares impact"
 		"inaccuracy" .2
 		"velocity" 400
@@ -36,7 +36,7 @@ outfit "Ares Turret"
 		sprite "projectile/2xares"
 			"frame rate" 60
 			"rewind"
-		sound "electron beam"
+		sound "ares"
 		"hit effect" "ares impact"
 		"inaccuracy" .2
 		"velocity" 400
@@ -69,7 +69,7 @@ outfit "Artemis Missile Launcher"
 	weapon
 		sprite "projectile/artemis"
 			"frame rate" 30
-		sound "meteor"
+		sound "artemis"
 		ammo "Artemis Missile"
 		icon "icon/artemis_icon"
 		"fire effect" "artemis fire"
@@ -122,7 +122,7 @@ outfit "Dragon's Fire"
 	weapon
 		sprite "projectile/dragonfparticle"
 			"frame rate" 10
-		sound "particle"
+		sound "dragonsfire"
 		"hit effect" "dragonf impact"
 		"fire effect" "dragonf fire"
 		"live effect" "dragonf live" 2
@@ -150,7 +150,7 @@ outfit "Dragon's Ice"
 	"gun ports" -1
 	weapon
 		sprite "projectile/dragonsice"
-		sound "particle"
+		sound "dragonsice"
 		"hit effect" "dragoni impact"
 		"submunition" "di_sub" 4
 		"inaccuracy" .5
@@ -208,7 +208,7 @@ outfit "Poseidon Cannon"
 	weapon
 		sprite "projectile/poseidonparticle"
 			"frame rate" 15
-		sound "particle"
+		sound "poseidon"
 		"hit effect" "poseidon impact"
 		"inaccuracy" 2.5
 		"velocity" 20
@@ -231,7 +231,7 @@ outfit "Poseidon Turret"
 	weapon
 		sprite "projectile/2xposeidonparticle"
 			"frame rate" 15
-		sound "particle"
+		sound "poseidon2x"
 		"hit effect" "2xposeidon impact"
 		"inaccuracy" 2.5
 		"velocity" 20

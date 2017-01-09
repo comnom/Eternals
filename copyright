@@ -14,6 +14,10 @@ License: public-domain
  Taken from unsplash.com, a collection of photographs that have been donated and
  placed in the public domain.
 
+Files: sounds/*
+Copyright: Frederick Goy IV <fredgoy2003@gmail.com>
+License: CC-BY-SA-4.0
+
 License: GPL-3+
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by

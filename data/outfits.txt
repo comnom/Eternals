@@ -135,7 +135,7 @@ outfit "V610 Hermes Thruster"
 	"thrusting heat" 1.7
 	"flare sprite" "effect/engines/hermes_flare_tiny"
 		"frame rate" 10
-	"flare sound" "atomic tiny"
+	"flare sound" "hermes"
 	description "The tiniest in the Hermes line of thrusters, the V610 is more than adequate for small fighter craft."
 
 outfit "V611 Hermes Thruster"
@@ -150,7 +150,7 @@ outfit "V611 Hermes Thruster"
 	"thrusting heat" 5.8
 	"flare sprite" "effect/engines/hermes_flare_small"
 		"frame rate" 10
-	"flare sound" "atomic small"
+	"flare sound" "hermes"
 	description "These small thrusters are perfect for interceptors, or when getting there fast isn't as important as just getting there."
 
 outfit "V612 Hermes Thruster"
@@ -165,7 +165,7 @@ outfit "V612 Hermes Thruster"
 	"thrusting heat" 10.0
 	"flare sprite" "effect/engines/hermes_flare_medium"
 		"frame rate" 10
-	"flare sound" "atomic medium"
+	"flare sound" "hermes"
 	description "The mid-line V612 is sized to fit a wide variety of ships, serving to upgrade lighter ships, or free up space in heavier ones."
 
 outfit "V613 Hermes Thruster"
@@ -180,7 +180,7 @@ outfit "V613 Hermes Thruster"
 	"thrusting heat" 16.9
 	"flare sprite" "effect/engines/hermes_flare_large"
 		"frame rate" 10
-	"flare sound" "atomic large"
+	"flare sound" "hermes"
 	description "Anstad Corp's V613 is the largest in the Hermes line of thrusters. Provides ample thrust for the most massive ships."
 
 outfit "V620 Hermes Steering"
