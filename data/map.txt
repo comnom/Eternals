@@ -1,6 +1,7 @@
 system Charybdis
 	pos 328.91 -684.241
 	government Pirate
+	music "ambient/spacey tune three"
 	habitable 1111.68
 	link Thrinacia
 	asteroids "small rock" 1 3.4086
