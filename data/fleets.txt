@@ -26,20 +26,37 @@ fleet "Valuutian Merchants"
 		"Winged Serpent" 2
 		"Scorpion (Var2)"
 
+fleet "Valuutian Miners"
+	government "Valuut Merchant"
+	names "valuut"
+	cargo 0
+	personality
+		confusion 35
+		mining harvests
+	variant 3
+		"Myrmex"
+	variant 2
+		"Myrmex" 2
+	variant 1
+		"Myrmex" 3
+
 fleet "Lost Ones Merchants"
 	government "Lost Ones Merchant"
 	names "l_o civilian"
+	fighters "l_o fighter"
 	cargo 3
 	personality
 		confusion 35
 		timid frugal
 	variant 20
 		"Hourglass"
+		"Harrier" 2
 	variant 20
 		"Hourglass"
 		"Twin Crescent"
 	variant 20
 		"Hourglass"
+		"Harrier (Var1)" 2
 		"Twin Crescent (Var1)"
 	variant 20
 		"Hourglass"
@@ -49,6 +66,7 @@ fleet "Lost Ones Merchants"
 		"Twin Crescent (Var1)" 2
 	variant 12
 		"Hourglass" 2
+		"Harrier" 4
 		"Twin Crescent"
 	variant 12
 		"Hourglass" 2
@@ -56,6 +74,7 @@ fleet "Lost Ones Merchants"
 	variant 16
 		"Longinus"
 		"Hourglass"
+		"Harrier (Var1)" 2
 	variant 16
 		"Longinus (Var1)"
 		"Hourglass"
@@ -260,7 +279,7 @@ fleet "Large Lost Ones"
 		"Harrier" 6
 	variant 9
 		"Excalibur (Var1)"
-		"Harrier" 6
+		"Harrier (Var1)" 6
 	variant 8
 		"Excalibur (Var2)"
 		"Harrier" 6

@@ -44,6 +44,15 @@ ship "Excalibur" "Excalibur (Var2)"
 		"Ares Beam" 4
 		"Athena Anti-Missile" 6
 
+ship "Harrier" "Harrier (Var1)"
+	outfits
+		"Artemis Missile" 60
+		"Artemis Missile Launcher" 2
+		"V600 Zeus Reactor"
+		"LCL Module"
+		"V610 Hermes Thruster"
+		"V620 Hermes Steering"
+
 ship "Hatchling" "Hatchling (Var1)"
 	outfits
 		"Artemis Missile" 30

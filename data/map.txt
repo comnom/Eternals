@@ -193,8 +193,8 @@ system Nileem
 	asteroids "small metal" 41 2.4882
 	asteroids "medium metal" 49 2.4882
 	asteroids "large metal" 25 1.9162
-	minables aluminum 17 5.38505
-	minables iron 11 3.31743
+	minables aluminum 27 5.38505
+	minables iron 31 3.31743
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -205,7 +205,7 @@ system Nileem
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Small Valuutian" 1200
+	fleet "Valuutian Miners" 1900
 	fleet "Large Valuutian" 1600
 	fleet "Valuutian Merchants" 900
 	fleet "Lost Ones Merchants" 1100
@@ -406,8 +406,8 @@ system Risiit
 	asteroids "small metal" 11 4.7328
 	asteroids "medium metal" 109 5.568
 	asteroids "large metal" 15 2.9696
-	minables copper 17 7.2985
-	minables gold 8 4.45585
+	minables copper 47 7.2985
+	minables gold 28 4.45585
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -418,6 +418,7 @@ system Risiit
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
+	fleet "Valuutian Miners" 2100
 	fleet "Large Valuutian" 1400
 	fleet "Large Lost Ones" 1700
 	fleet "Small L_O Pirate" 900
