@@ -19,7 +19,7 @@ effect "athena anti missile"
 	sprite "effect/athena"
 		"no repeat"
 		"frame rate" 6
-	sound "heavy anti-missile"
+	sound "athena"
 	"lifetime" 11
 	"velocity scale" 1
 
