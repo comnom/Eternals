@@ -62,7 +62,6 @@ system Charybdis
 system Ismaros
 	pos 258.91 -757.241
 	government Valuut
-	music "ambient/spacey tune"
 	habitable 425.92
 	link Valiit
 	link Thrinacia
@@ -127,7 +126,6 @@ system Ismaros
 system Masuul
 	pos 125.91 -734.241
 	government Valuut
-	music "ambient/spacey tune"
 	habitable 320
 	link Nileem
 	link Pirtaal
@@ -404,7 +402,6 @@ system Pirtaal
 system Risiit
 	pos 214.91 -677.241
 	government Valuut
-	music "ambient/spacey tune"
 	habitable 1715
 	link Valiit
 	asteroids "small rock" 1 6.6352
