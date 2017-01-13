@@ -1,0 +1,1 @@
+This plugin contains 2x resolution sprites for Eternals. These sprites only get used if your zoom level is greater than 100% or you have a high dpi monitor.
