@@ -21,7 +21,7 @@
 .gitignore export-ignore
 
 # Don't export high_dpi/**
-high_dpi/** export-ignore
+eternals_high_dpi/** export-ignore
 
 # Don't export the github readme
 README.md export-ignore
