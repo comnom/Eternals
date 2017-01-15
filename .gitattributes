@@ -1,6 +1,10 @@
 # Convert to LF
 * text eol=lf
 
+# Binary
+*.wav binary
+*.mp3 binary
+
 # Custom for Visual Studio
 *.cs     diff=csharp
 
