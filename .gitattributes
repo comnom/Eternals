@@ -4,6 +4,8 @@
 # Binary
 *.wav binary
 *.mp3 binary
+*.png binary
+*.jpg binary
 
 # Custom for Visual Studio
 *.cs     diff=csharp
