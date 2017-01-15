@@ -1,5 +1,5 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Convert to LF
+* text eol=lf
 
 # Custom for Visual Studio
 *.cs     diff=csharp
@@ -19,13 +19,8 @@
 # Don't export git files in the archive
 .gitattributes export-ignore
 .gitignore export-ignore
+README.md export-ignore
+license.txt export-ignore
 
 # Don't export high_dpi/**
 eternals_high_dpi/** export-ignore
-
-# Don't export the github readme
-README.md export-ignore
-
-# Don't export the github license.txt as
-# the copyright handles it
-license.txt export-ignore
