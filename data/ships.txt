@@ -535,8 +535,8 @@ ship "Myrmex"
 		"V621 Hermes Steering"
 		"Hyperdrive"
 		
-	engine -35 -12
-	engine 35 -12
+	engine -35 -12 .5
+	engine 35 -12 .5
 	gun -3 -135
 	gun 3 -135
 	explode "small explosion" 15
