@@ -545,6 +545,50 @@ ship "Myrmex"
 	explode "huge explosion" 5
 	description "The Myrmex is a Light Freighter put into production to satisfy the growing number of asteroid mining companies that have sprung up in the last century. Concieved as a quick war-time supply transport from the long-forgotten period of Valuutian civil wars, it has ample space for powerful front mounted cannons."
 
+ship "Myrmidon"
+	sprite "ship/myrmidon"
+	attributes
+		category "Interceptor"
+		"cost" 720000
+		"shields" 4650
+		"hull" 9300
+		"required crew" 1
+		"bunks" 2
+		"mass" 155
+		"drag" 3.1
+		"heat dissipation" .8
+		"jump drive" 1
+		"jump speed" .3
+		"ramscoop" 2
+		"fuel capacity" 400
+		"cargo space" 21
+		"outfit space" 286
+		"weapon capacity" 112
+		"engine capacity" 65
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"V601 Zeus Reactor"
+		"V641 Regenerator"
+		"LCL Module"
+		"Dragon's Fire" 2
+		
+		"V611 Hermes Thruster"
+		"V621 Hermes Steering"
+		
+	engine -27 45 .5
+	engine 27 45 .5
+	gun -2 -53
+	gun 2 -53
+	explode "small explosion" 15
+	explode "medium explosion" 30
+	explode "large explosion" 20
+	explode "huge explosion" 5
+	description "The Myrmidon is a beefy Interceptor with unmatched frontal firepower and excellent defense for it's size."
+
 ship "Pollaxe"
 	sprite "ship/pollaxe"
 	attributes
