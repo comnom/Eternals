@@ -5,8 +5,9 @@ It adds two new factions northeast of Unfettered space, the Valuutians and the L
 
 * Content
   * Ten new systems with sixty-nine new planet sprites
-  * Eighteen new ships, twelve of which are immediately purchasable
-  * Thirty new outfits with associated effects
+  * Twenty new ships, thirteen of which are immediately purchasable
+  * Thirty-two new outfits with associated effects
+  * Custom sound effects and ambient music
 
 ## Install
 Unzip [the latest release](https://github.com/comnom/Eternals/releases/latest) to your plugins folder found here:
