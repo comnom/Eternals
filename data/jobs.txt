@@ -1,3 +1,242 @@
+mission "Bounty (valuut, small)"
+	name "Destroy <npc>"
+	description "The government would like you to track down and destroy the pirate vessel <npc>. The payment is <payment>."
+	repeat
+	job
+	to offer
+		random < 30
+		"combat rating" > 1000
+	source
+		government "Valuut" "Lost Ones"
+	npc kill
+		personality heroic staying nemesis
+		government "Bounty"
+		system
+			distance 1 2
+		fleet
+			names "pirate"
+			variant 1
+				"Longinus"
+			variant 1
+				"Longinus (Var1)" 
+			variant 2
+				"Excalibur"
+			variant 2
+				"Excalibur (Var1)"
+			variant 2
+				"Pollaxe"
+			variant 2
+				"Pollaxe (Var1)"
+		dialog `The <npc> has been destroyed. You can claim your reward on <destination>.`
+	
+	on complete
+		payment 750000
+		dialog `The government graciously pays you <payment> for destroying the <npc>.`
+
+mission "Bounty (valuut, large)"
+	name "Destroy pirate fleet"
+	description "The government would like you to track down and destroy the pirate vessel <npc> and their fleet. The payment is <payment>."
+	repeat
+	job
+	to offer
+		random < 10
+		"combat rating" > 5000
+	source
+		government "Valuut" "Lost Ones"
+	npc kill
+		personality heroic staying nemesis
+		government "Bounty"
+		system
+			distance 1 2
+		fleet
+			names "pirate"
+			variant
+				"Longinus"
+				"Twin Crescent" 3
+			variant
+				"Longinus (Var1)"
+				"Twin Crescent" 3
+			variant
+				"Excalibur"
+				"Twin Crescent" 2
+			variant
+				"Excalibur (Var1)"
+				"Longinus"
+			variant
+				"Pollaxe"
+				"Twin Crescent" 2
+			variant
+				"Pollaxe (Var1)"
+				"Longinus"
+		dialog `The <npc>'s fleet has been destroyed. You can claim your reward on <destination>.`
+	
+	on complete
+		payment 1500000
+		dialog `The government graciously pays you <payment> for destroying the <npc>'s fleet.`
+
+mission "Cargo (valuut, small)"
+	name "Cargo to <planet>"
+	description "Deliver supplies to the colony <destination>. Payment is <payment>."
+	repeat
+	job
+	cargo random 3 9 .2
+	to offer
+		random < 75
+	source
+		government "Valuut" "Lost Ones"
+	destination
+		attributes "valuut colony"
+	on complete
+		payment
+		payment 1500
+		dialog `You drop off the <commodity> at the colony on <planet>, and recieve <payment>.`
+
+mission "Cargo (valuut, medium)"
+	name "Cargo to <planet>"
+	description "Deliver supplies to the colony <destination>. Payment is <payment>."
+	repeat
+	job
+	cargo random 3 12 .2
+	to offer
+		random < 65
+	source
+		government "Valuut" "Lost Ones"
+	destination
+		attributes "valuut colony"
+	on complete
+		payment
+		payment 3500
+		dialog `You drop off the <commodity> at the colony on <planet>, and recieve <payment>.`
+
+mission "Cargo (valuut, large)"
+	name "Cargo to <planet>"
+	description "Deliver supplies to the colony <destination>. Payment is <payment>."
+	repeat
+	job
+	cargo random 3 15 .2
+	to offer
+		random < 55
+	source
+		government "Valuut" "Lost Ones"
+	destination
+		attributes "valuut colony"
+	on complete
+		payment
+		payment 5500
+		dialog `You drop off the <commodity> at the colony on <planet>, and recieve <payment>.`
+
+mission "Cargo (valuut, bulk 1)"
+	name "Bulk delivery to <planet>"
+	description "Deliver supplies to the colony <destination>. Payment is <payment>."
+	repeat
+	job
+	cargo random 24 6 .1
+	to offer
+		random < 55
+	source
+		government "Valuut" "Lost Ones"
+	destination
+		attributes "valuut colony"
+	on complete
+		payment
+		payment 7500
+		dialog `You drop off the <commodity> at the colony on <planet>, and recieve <payment>.`
+
+mission "Cargo (valuut, bulk 2)"
+	name "Bulk delivery to <planet>"
+	description "Deliver supplies to the colony <destination>. Payment is <payment>."
+	repeat
+	job
+	cargo random 33 9 .1
+	to offer
+		random < 45
+	source
+		government "Valuut" "Lost Ones"
+	destination
+		attributes "valuut colony"
+	on complete
+		payment
+		payment 11500
+		dialog `You drop off the <commodity> at the colony on <planet>, and recieve <payment>.`
+
+mission "Cargo (valuut, bulk 3)"
+	name "Bulk delivery to <planet>"
+	description "Deliver supplies to the colony <destination>. Payment is <payment>."
+	repeat
+	job
+	cargo random 42 15 .1
+	to offer
+		random < 35
+	source
+		government "Valuut" "Lost Ones"
+	destination
+		attributes "valuut colony"
+	on complete
+		payment
+		payment 15500
+		dialog `You drop off the <commodity> at the colony on <planet>, and recieve <payment>.`
+
+mission "Cargo (valuut, bulk 4)"
+	name "Bulk delivery to <planet>"
+	description "Deliver supplies to the colony <destination>. Payment is <payment>."
+	repeat
+	job
+	cargo random 60 24 .1
+	to offer
+		random < 25
+	source
+		government "Valuut" "Lost Ones"
+	destination
+		attributes "valuut colony"
+	on complete
+		payment
+		payment 19500
+		dialog `You drop off the <commodity> at the colony on <planet>, and recieve <payment>.`
+
+mission "Diplomat (valuut)"
+	name "Diplomat transport to <planet>"
+	description "Provide secure transport for the Valuutian diplomat to <destination> by <date>. Payment is <payment>."
+	repeat
+	job
+	deadline
+	passengers 1
+	to offer
+		random < 10
+	source "Valuutia"
+	destination
+		government "Lost Ones" "Anstad Corp"
+	npc
+		system destination
+		personality staying nemesis
+		government Pirate
+		fleet "Large L_O Pirate"
+	on complete
+		payment
+		payment 200000
+		dialog `You drop the diplomat off at a secure landing pad and recieve <payment>.`
+
+mission "Diplomat (lost ones)"
+	name "Diplomat transport to <planet>"
+	description "Provide secure transport for the Lost Ones diplomat to <destination> by <date>. Payment is <payment>."
+	repeat
+	job
+	deadline
+	passengers 1
+	to offer
+		random < 10
+	source "New Salvation"
+	destination
+		government "Valuut" "Anstad Corp"
+	npc
+		system destination
+		personality staying nemesis
+		government Pirate
+		fleet "Large L_O Pirate"
+	on complete
+		payment
+		payment 150000
+		dialog `You drop the diplomat off at a secure landing pad and recieve <payment>.`
+
 mission "Escort Colony Ship (easy)"
 	name "Escort Colony to <planet>"
 	description "The people of <origin> will pay you <payment> to escort their Colony Ship <npc> to <destination> by <date>."
@@ -7,7 +246,7 @@ mission "Escort Colony Ship (easy)"
 	to offer
 		random < 20
 		random > 10
-		"combat rating" > 20
+		"combat rating" > 2000
 	source "Valuutia"
 	destination
 		attributes "valuut colony"
@@ -25,9 +264,9 @@ mission "Escort Colony Ship (easy)"
 				"Colony Ship"
 	on complete
 		payment 250000
-		dialog "The colonists of the <npc> thank you for escorting them safely, and pay you <payment>."
+		dialog `The colonists of the <npc> thank you for escorting them safely, and pay you <payment>.`
 	on visit
-		dialog "You have reached <planet>, but you left the <npc> behind! Better depart and wait for them to arrive in this star system."
+		dialog `You have reached <planet>, but you left the <npc> behind! Better depart and wait for them to arrive in this star system.`
 
 mission "Escort Colony Ship (medium)"
 	name "Escort Colony to <planet>"
@@ -38,7 +277,7 @@ mission "Escort Colony Ship (medium)"
 	to offer
 		random < 10
 		random > 5
-		"combat rating" > 100
+		"combat rating" > 5000
 	source "Valuutia"
 	destination
 		attributes "valuut colony"
@@ -56,9 +295,9 @@ mission "Escort Colony Ship (medium)"
 				"Colony Ship"
 	on complete
 		payment 400000
-		dialog "The colonists of the <npc> thank you for escorting them safely, and pay you <payment>."
+		dialog `The colonists of the <npc> thank you for escorting them safely, and pay you <payment>.`
 	on visit
-		dialog "You have reached <planet>, but you left the <npc> behind! Better depart and wait for them to arrive in this star system."
+		dialog `You have reached <planet>, but you left the <npc> behind! Better depart and wait for them to arrive in this star system.`
 
 mission "Escort Colony Ship (hard)"
 	name "Escort Colony to <planet>"
@@ -69,7 +308,7 @@ mission "Escort Colony Ship (hard)"
 	to offer
 		random < 30
 		random > 25
-		"combat rating" > 500
+		"combat rating" > 10000
 	source "Valuutia"
 	destination
 		attributes "valuut colony"
@@ -88,9 +327,9 @@ mission "Escort Colony Ship (hard)"
 				"Colony Ship"
 	on complete
 		payment 750000
-		dialog "The colonists of the <npc> thank you for escorting them safely, and pay you <payment>."
+		dialog `The colonists of the <npc> thank you for escorting them safely, and pay you <payment>.`
 	on visit
-		dialog "You have reached <planet>, but you left the <npc> behind! Better depart and wait for them to arrive in this star system."
+		dialog `You have reached <planet>, but you left the <npc> behind! Better depart and wait for them to arrive in this star system.`
 
 mission "Harvest (aluminum, small)"
 	name "Harvest Aluminum"
@@ -98,13 +337,13 @@ mission "Harvest (aluminum, small)"
 	repeat
 	job
 	to offer
-		random < 50
+		random < 40
 	source
 		government "Valuut" "Lost Ones"
 	on complete
 		outfit "Aluminum" -50
 		payment 157500
-		dialog "You unload the aluminum at the spaceport. The people of <origin> thank you, and pay you <payment>."
+		dialog `You unload the aluminum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (aluminum, large)"
 	name "Harvest Aluminum"
@@ -112,13 +351,13 @@ mission "Harvest (aluminum, large)"
 	repeat
 	job
 	to offer
-		random < 50
+		random < 40
 	source
 		government "Valuut" "Lost Ones"
 	on complete
 		outfit "Aluminum" -100
 		payment 324000
-		dialog "You unload the aluminum at the spaceport. The people of <origin> thank you, and pay you <payment>."
+		dialog `You unload the aluminum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (copper, small)"
 	name "Harvest Copper"
@@ -132,7 +371,7 @@ mission "Harvest (copper, small)"
 	on complete
 		outfit "Copper" -50
 		payment 262500
-		dialog "You unload the copper at the spaceport. The people of <origin> thank you, and pay you <payment>."
+		dialog `You unload the copper at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (copper, large)"
 	name "Harvest Copper"
@@ -146,7 +385,7 @@ mission "Harvest (copper, large)"
 	on complete
 		outfit "Copper" -100
 		payment 540000
-		dialog "You unload the copper at the spaceport. The people of <origin> thank you, and pay you <payment>."
+		dialog `You unload the copper at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (gold, small)"
 	name "Harvest Gold"
@@ -154,13 +393,13 @@ mission "Harvest (gold, small)"
 	repeat
 	job
 	to offer
-		random < 30
+		random < 20
 	source
 		government "Valuut" "Lost Ones"
 	on complete
 		outfit "Gold" -50
 		payment 800000
-		dialog "You unload the gold at the spaceport. The people of <origin> thank you, and pay you <payment>."
+		dialog `You unload the gold at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (gold, large)"
 	name "Harvest Gold"
@@ -168,13 +407,13 @@ mission "Harvest (gold, large)"
 	repeat
 	job
 	to offer
-		random > 70
+		random > 80
 	source
 		government "Valuut" "Lost Ones"
 	on complete
 		outfit "Gold" -100
 		payment 1680000
-		dialog "You unload the gold at the spaceport. The people of <origin> thank you, and pay you <payment>."
+		dialog `You unload the gold at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (iron, small)"
 	name "Harvest Iron"
@@ -188,7 +427,7 @@ mission "Harvest (iron, small)"
 	on complete
 		outfit "Iron" -50
 		payment 105000
-		dialog "You unload the iron at the spaceport. The people of <origin> thank you, and pay you <payment>."
+		dialog `You unload the iron at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (iron, large)"
 	name "Harvest Iron"
@@ -202,7 +441,7 @@ mission "Harvest (iron, large)"
 	on complete
 		outfit "Iron" -100
 		payment 216000
-		dialog "You unload the iron at the spaceport. The people of <origin> thank you, and pay you <payment>."
+		dialog `You unload the iron at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (lead, small)"
 	name "Harvest Lead"
@@ -216,7 +455,7 @@ mission "Harvest (lead, small)"
 	on complete
 		outfit "Lead" -50
 		payment 90000
-		dialog "You unload the lead at the spaceport. The people of <origin> thank you, and pay you <payment>."
+		dialog `You unload the lead at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (lead, large)"
 	name "Harvest Lead"
@@ -230,7 +469,7 @@ mission "Harvest (lead, large)"
 	on complete
 		outfit "Lead" -100
 		payment 189000
-		dialog "You unload the lead at the spaceport. The people of <origin> thank you, and pay you <payment>."
+		dialog `You unload the lead at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (neodymium, small)"
 	name "Harvest Neodymium"
@@ -244,7 +483,7 @@ mission "Harvest (neodymium, small)"
 	on complete
 		outfit "Neodymium" -50
 		payment 380000
-		dialog "You unload the neodymium at the spaceport. The people of <origin> thank you, and pay you <payment>."
+		dialog `You unload the neodymium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (neodymium, large)"
 	name "Harvest Neodymium"
@@ -258,7 +497,7 @@ mission "Harvest (neodymium, large)"
 	on complete
 		outfit "Neodymium" -100
 		payment 798000
-		dialog "You unload the neodymium at the spaceport. The people of <origin> thank you, and pay you <payment>."
+		dialog `You unload the neodymium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (platinum, small)"
 	name "Harvest Platinum"
@@ -272,7 +511,7 @@ mission "Harvest (platinum, small)"
 	on complete
 		outfit "Platinum" -50
 		payment 1500000
-		dialog "You unload the platinum at the spaceport. The people of <origin> thank you, and pay you <payment>."
+		dialog `You unload the platinum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (platinum, large)"
 	name "Harvest Platinum"
@@ -286,7 +525,7 @@ mission "Harvest (platinum, large)"
 	on complete
 		outfit "Platinum" -100
 		payment 3200000
-		dialog "You unload the platinum at the spaceport. The people of <origin> thank you, and pay you <payment>."
+		dialog `You unload the platinum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (silicon, small)"
 	name "Harvest Silicon"
@@ -300,7 +539,7 @@ mission "Harvest (silicon, small)"
 	on complete
 		outfit "Silicon" -50
 		payment 60000
-		dialog "You unload the silicon at the spaceport. The people of <origin> thank you, and pay you <payment>."
+		dialog `You unload the silicon at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (silicon, large)"
 	name "Harvest Silicon"
@@ -314,7 +553,7 @@ mission "Harvest (silicon, large)"
 	on complete
 		outfit "Silicon" -100
 		payment 128000
-		dialog "You unload the silicon at the spaceport. The people of <origin> thank you, and pay you <payment>."
+		dialog `You unload the silicon at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (silver, small)"
 	name "Harvest Silver"
@@ -322,13 +561,13 @@ mission "Harvest (silver, small)"
 	repeat
 	job
 	to offer
-		random < 70
+		random < 60
 	source
 		government "Valuut" "Lost Ones"
 	on complete
 		outfit "Silver" -50
 		payment 450000
-		dialog "You unload the silver at the spaceport. The people of <origin> thank you, and pay you <payment>."
+		dialog `You unload the silver at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (silver, large)"
 	name "Harvest Silver"
@@ -336,13 +575,13 @@ mission "Harvest (silver, large)"
 	repeat
 	job
 	to offer
-		random < 70
+		random < 60
 	source
 		government "Valuut" "Lost Ones"
 	on complete
 		outfit "Silver" -100
 		payment 960000
-		dialog "You unload the silver at the spaceport. The people of <origin> thank you, and pay you <payment>."
+		dialog `You unload the silver at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (titanium, small)"
 	name "Harvest Titanium"
@@ -356,7 +595,7 @@ mission "Harvest (titanium, small)"
 	on complete
 		outfit "Titanium" -50
 		payment 375000
-		dialog "You unload the titanium at the spaceport. The people of <origin> thank you, and pay you <payment>."
+		dialog `You unload the titanium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (titanium, large)"
 	name "Harvest Titanium"
@@ -370,7 +609,7 @@ mission "Harvest (titanium, large)"
 	on complete
 		outfit "Titanium" -100
 		payment 800000
-		dialog "You unload the titanium at the spaceport. The people of <origin> thank you, and pay you <payment>."
+		dialog `You unload the titanium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (tungsten, small)"
 	name "Harvest Tungsten"
@@ -384,7 +623,7 @@ mission "Harvest (tungsten, small)"
 	on complete
 		outfit "Tungsten" -50
 		payment 450000
-		dialog "You unload the tungsten at the spaceport. The people of <origin> thank you, and pay you <payment>."
+		dialog `You unload the tungsten at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (tungsten, large)"
 	name "Harvest Tungsten"
@@ -398,7 +637,7 @@ mission "Harvest (tungsten, large)"
 	on complete
 		outfit "Tungsten" -100
 		payment 945000
-		dialog "You unload the tungsten at the spaceport. The people of <origin> thank you, and pay you <payment>."
+		dialog `You unload the tungsten at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (uranium, small)"
 	name "Harvest Uranium"
@@ -412,7 +651,7 @@ mission "Harvest (uranium, small)"
 	on complete
 		outfit "Uranium" -50
 		payment 750000
-		dialog "You unload the uranium at the spaceport. The people of <origin> thank you, and pay you <payment>."
+		dialog `You unload the uranium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (uranium, large)"
 	name "Harvest Uranium"
@@ -426,4 +665,58 @@ mission "Harvest (uranium, large)"
 	on complete
 		outfit "Uranium" -100
 		payment 1600000
-		dialog "You unload the uranium at the spaceport. The people of <origin> thank you, and pay you <payment>."
+		dialog `You unload the uranium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Humanitarian (nowhere paradise, food)"
+	name "Aid shipment to <planet>"
+	description "Deliver relief supplies of <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 50 250
+	to offer
+		random < 65
+		"combat rating" > 5000
+	source
+		government "Lost Ones"
+	destination "Nowhere Paradise"
+	on complete
+		payment
+		payment 50000
+		dialog `You drop off the <commodity> at a registered Humanitarian Zone, and receive <payment>.`
+
+mission "Humanitarian (nowhere paradise, clothes)"
+	name "Aid shipment to <planet>"
+	description "Deliver relief supplies of <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Clothing" 50 250
+	to offer
+		random < 55
+		"combat rating" > 5000
+	source
+		government "Lost Ones"
+	destination "Nowhere Paradise"
+	on complete
+		payment
+		payment 50000
+		dialog `You drop off the <commodity> at a registered Humanitarian Zone, and receive <payment>.`
+
+mission "Humanitarian (nowhere paradise, medical)"
+	name "Aid shipment to <planet>"
+	description "Deliver relief supplies of <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Medical" 50 250
+	to offer
+		random < 45
+		"combat rating" > 5000
+	source
+		government "Lost Ones"
+	destination "Nowhere Paradise"
+	on complete
+		payment
+		payment 50000
+		dialog `You drop off the <commodity> at a registered Humanitarian Zone, and receive <payment>.`
