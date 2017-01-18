@@ -10,7 +10,6 @@
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<script src="javascripts/main.js"></script>
-		<script src="javascripts/scale.fix.js"></script>
 	</head>
 	<body onload="apiGetLatest(); apiGetAssets();">
 		<div class="wrapper">
@@ -18,15 +17,17 @@
 				<h1>Eternals</h1>
 				<p>A plugin for <a href="https://endless-sky.github.io/">Endless Sky</a></p>	
 				<ul>
-					<li><a id="eternals-zip">Download <strong>zip</strong></a></li>
-					<li><a id="eternals-tar">Download <strong>tar.gz</strong></a></li>
+					<li><a id="eternals-zip" href="https://github.com/comnom/Eternals/releases/latest">Download <strong>zip</strong></a></li>
+					<li><a id="eternals-tar" href="https://github.com/comnom/Eternals/releases/latest">Download <strong>tar</strong></a></li>
 					<li><a href="https://github.com/comnom/Eternals/">View On <strong>GitHub</strong></a></li>
 				</ul>
-				<h4>Install Instructions</h4>
-				<p>Extract to your plugins folder:<br>Linux: ~/.local/share/endless-sky/<br>Windows: %AppData%\endless-sky\<br>Mac OS X: ~/Library/ApplicationSupport/endless-sky/</p>
 				<h4>Current Version</h4>
 				<p id="current-version"></p>
-				<h4 id="screenshots" onclick="showModal()">Screenshot Gallery</h4>
+				<h4>Install Instructions</h4>
+				<p>Extract to your plugins folder:<br>Linux: ~/.local/share/endless-sky/<br>Windows: %AppData%\endless-sky\<br>Mac OS X: ~/Library/ApplicationSupport/endless-sky/</p>
+				<h4><a id="high-dpi">Download High-DPI</a></h4>
+				<p>Extract eternals-high-dpi to your plugins folder. These sprites only get used if your zoom level is greater than 100% or you have a high dpi monitor.</p>
+				<h4 id="screenshots" onclick="showModal()">View Screenshot Gallery</h4>
 			</header>
 			<section>
 				<h2>About</h2>
@@ -41,9 +42,12 @@
 					<ul>
 						<li>Ten new systems</li>
 						<li>Sixy-nine new planet and moon sprites</li>
-						<li>Eighteen new ships, twelve of which are immediately purchaseable</li>
-						<li>Thirty new outfits with custom effects</li>
+						<li>Twenty new ships, thirteen of which are immediately purchaseable</li>
+						<li>Thirty-two new outfits with custom effects</li>
+						<li>Custom sound effects and ambient music</li>
 					</ul>
+					<p>Bugs/Compatibility issues can be reported using Github's <a href="https://github.com/comnom/Eternals/issues">issue tracker</a>. Feature requests are also encouraged.</p>
+					<p>New releases often include features from the latest version of Endless Sky. They will be noted in the changelog as "requires ES x.x or higher". To access these features as they come out, you can opt-in to the "beta" branch on Steam or <a href="https://github.com/endless-sky/endless-sky/wiki/BuildInstructions">build</a> the latest version of Endless Sky from source.
 					<div class="changelog-back" onclick="toggleChangelog()">
 						<p>View Changelog</p>
 						<img id="changelog-arrow" src="images/arrow.svg"/>
@@ -52,15 +56,20 @@
 				</div>
 			</section>
 			<footer>
-				<p>This project is maintained by <a href="https://github.com/comnom">comnom</a><br><small>Website theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+				<p>This project is maintained by <a href="https://github.com/comnom">comnom</a></p>
 			</footer>
 		</div>
+		<noscript>
+			<div class="jscript-back">
+				<p>Javascript is disabled. This site uses javascript to get updated links and display the screenshot gallery.</p>
+			</div>
+		</noscript>
 		<div class="modal-back">
 			<div class="modal-image-back">
+				<img id="modal-image"/>
 				<div class="modal-close-button">
 					<img id="modal-close" src="images/close.svg" onclick="closeModal()"/>
 				</div>
-				<img id="modal-image"/>
 				<div class="modal-previous-button">
 					<img id="modal-previous" src="images/arrow.svg" onclick="previousImage()"/>
 				</div>

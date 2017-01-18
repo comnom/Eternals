@@ -1,3 +1,12 @@
+// Whether the changelog is shown
+var state = 0;
+// The list of screenshot images
+var imgList = [];
+// Index of the screenshot list
+var imgIndex = 0;
+
+
+// Github api get request for the latest release
 function apiGetLatest() {
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
@@ -10,6 +19,7 @@ function apiGetLatest() {
 			document.getElementById("current-version").innerHTML = 
 			data.tag_name + " Released: " + data.published_at.split("T")[0];
 			document.getElementById("changelog").innerHTML = data.body;
+			document.getElementById("high-dpi").href = data.assets.browser_download_url;
 		}
 	};
     xhttp.open("GET", "https://api.github.com/repos/comnom/Eternals/releases/latest", true);
@@ -17,26 +27,7 @@ function apiGetLatest() {
 	xhttp.send();
 }
 
-var state = 0;
-
-function toggleChangelog() {
-	var img = document.getElementById("changelog-arrow");
-	var pre = document.getElementById("changelog");
-	if (state) {
-		state = 0;
-		img.style.transform = "none";
-		pre.style.display = "none";
-	}
-	else {
-		state = 1;
-		img.style.transform = "rotate(180deg)";
-		pre.style.display = "block";
-	}
-}
-
-var imgList = [];
-var imgIndex = 0;
-
+// Github api get request for the screenshots folder
 function apiGetAssets() {
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
@@ -52,6 +43,23 @@ function apiGetAssets() {
 	xhttp.send();
 }
 
+// Toggle the changelog view
+function toggleChangelog() {
+	var img = document.getElementById("changelog-arrow");
+	var pre = document.getElementById("changelog");
+	if (state) {
+		state = 0;
+		img.style.transform = "none";
+		pre.style.display = "none";
+	}
+	else {
+		state = 1;
+		img.style.transform = "rotate(180deg)";
+		pre.style.display = "block";
+	}
+}
+
+// Functions for the screenshot gallery view
 function showModal() {
 	document.getElementsByClassName("modal-back")[0].style.display = "inline-block";
 	document.getElementById("modal-image").src = imgList[imgIndex];
@@ -65,18 +73,14 @@ function nextImage() {
 	if (imgIndex >= imgList.length - 1) {
 		return;
 	}
-	else {
-		imgIndex += 1;
-		document.getElementById("modal-image").src = imgList[imgIndex];
-	}
+	imgIndex += 1;
+	document.getElementById("modal-image").src = imgList[imgIndex];
 }
 
 function previousImage() {
 	if (imgIndex <= 0) {
 		return;
 	}
-	else {
-		imgIndex -= 1;
-		document.getElementById("modal-image").src = imgList[imgIndex];
-	}
+	imgIndex -= 1;
+	document.getElementById("modal-image").src = imgList[imgIndex];
 }
