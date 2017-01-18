@@ -19,7 +19,7 @@ function apiGetLatest() {
 			document.getElementById("current-version").innerHTML = 
 			data.tag_name + " Released: " + data.published_at.split("T")[0];
 			document.getElementById("changelog").innerHTML = data.body;
-			document.getElementById("high-dpi").href = data.assets.browser_download_url;
+			document.getElementById("high-dpi").href = data.assets[0].browser_download_url;
 		}
 	};
     xhttp.open("GET", "https://api.github.com/repos/comnom/Eternals/releases/latest", true);
