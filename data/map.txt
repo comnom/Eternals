@@ -59,6 +59,47 @@ system Charybdis
 		distance 5357.73
 		period 4704.81
 
+system "Ephemeral Reflections"
+	pos 390.966 -713.699
+	habitable 486.68
+	asteroids "small rock" 4 4.0768
+	asteroids "medium rock" 14 5.9072
+	asteroids "large rock" 24 3.952
+	asteroids "small metal" 10 6.032
+	asteroids "medium metal" 12 3.6608
+	asteroids "large metal" 3 5.0336
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/fg_terrestrial11
+		distance 180.64
+		period 44.0209
+	object
+		sprite planet/fg_terrestrial12
+		distance 506.33
+		period 206.58
+		object
+			sprite planet/fg_moon22
+			distance 151
+			period 22.8665
+	object
+		sprite planet/fg_gas16
+		distance 1335.33
+		period 884.751
+		object
+			sprite planet/fg_moon23
+			distance 256
+			period 12.8713
+	object
+		sprite planet/fg_gas17
+		distance 2240.62
+		period 1923.05
+		object
+			sprite planet/fg_moon24
+			distance 212
+			period 16.248
+
 system Ismaros
 	pos 258.91 -757.241
 	government Valuut
