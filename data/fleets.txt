@@ -32,7 +32,7 @@ fleet "Valuutian Miners"
 	cargo 0
 	personality
 		confusion 35
-		mining harvests
+		timid mining harvests
 	variant 3
 		"Myrmex"
 	variant 2
@@ -127,7 +127,7 @@ fleet "Large Valuutian"
 	fighters "valuut fighter"
 	cargo 0
 	personality
-		heroic
+		heroic frugal
 	variant 5
 		"Scorpion" 3
 	variant 5
