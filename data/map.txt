@@ -331,7 +331,7 @@ system Masuul
 	trade Plastic 390
 	fleet "Large Valuutian" 2400
 	fleet "Large Lost Ones" 4200
-	fleet "Large L_O Pirate" 1600
+	fleet "Large L_O Pirate" 2600
 	fleet "Unfettered Raid" 12000
 	object
 		sprite star/m0
