@@ -5,7 +5,6 @@ government "Anstad Corp"
 	"player reputation" 1
 	"attitude toward"
 		"Pirate" -.2
-		"Merchant" .2
 		"Lost Ones Merchant" .2
 		"Valuut Merchant" .2
 
@@ -16,9 +15,8 @@ government "Lost Ones"
 	"player reputation" 1
 	"attitude toward"
 		"Pirate" -.2
-		"Merchant" .2
 		"Lost Ones Merchant" .2
-		"Valuut Merchant" .2
+		"Valuut Merchant" .05
 	"friendly hail" "lo military"
 	"hostile hail" "lo hostile"
 
@@ -27,6 +25,7 @@ government "Lost Ones Merchant"
 	
 	"player reputation" 10
 	"attitude toward"
+		"Hai (Unfettered)" -.05
 		"Pirate" -.2
 		"Valuut Merchant" .2
 	"bribe" .05
@@ -39,7 +38,7 @@ government "Valuut Merchant"
 	
 	"player reputation" 10
 	"attitude toward"
-		"Hai (Unfettered)" -.2
+		"Hai (Unfettered)" -.05
 		"Pirate" -.2
 		"Lost Ones Merchant" .2
 	"bribe" .05
@@ -53,18 +52,17 @@ government "Valuut"
 
 	"player reputation" 1
 	"attitude toward"
-		"Hai (Unfettered)" -.2
-		"Pirate" -.2
-		"Merchant" .2
-		"Lost Ones Merchant" .2
-		"Valuut Merchant" 1.0
+		"Hai (Unfettered)" -.05
+		"Pirate" -.05
+		"Lost Ones Merchant" .05
+		"Valuut Merchant" .2
 	"friendly hail" "valuut military"
 	"hostile hail" "valuut hostile"
 
 #make base game pirates hostile
 government "Pirate"
 	"attitude toward"
-		"Lost Ones Merchant" -.1
-		"Valuut Merchant" -.1
-		"Valuut" -.1
-		"Lost Ones" -.1
+		"Lost Ones Merchant" -.05
+		"Valuut Merchant" -.05
+		"Valuut" -.05
+		"Lost Ones" -.05
