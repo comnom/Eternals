@@ -15,6 +15,10 @@
 	"planet/fg_gas13"
 	"planet/fg_gas14"
 	"planet/fg_gas15"
+	"planet/fg_gas18"
+	"planet/fg_gas19"
+	"planet/fg_gas20"
+	"planet/fg_gas21"
 
 "landing message" "This planet has too much tectonic activity for you to land safely."
 	"planet/fg_lava0"
