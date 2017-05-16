@@ -9,7 +9,7 @@ ship "Chilong" "Chilong (Var1)"
 
 ship "Excalibur" "Excalibur (Var1)"
 	outfits
-		"Hyperdrive"
+		"V607 Hyperdrive"
 		"V606 Ramscoop"
 		"V640 Generator"
 		"LNaK Cooling" 2
@@ -31,7 +31,7 @@ ship "Excalibur" "Excalibur (Var1)"
 
 ship "Excalibur" "Excalibur (Var2)"
 	outfits
-		"Hyperdrive"
+		"V607 Hyperdrive"
 		"V606 Ramscoop"
 		"V640 Generator" 2
 		"LNaK Cooling" 2
@@ -73,7 +73,7 @@ ship "Ivory Hatchling" "Ivory Hatchling (Var1)"
 
 ship "Ladon" "Ladon (Var1)"
 	outfits
-		"Hyperdrive"
+		"V607 Hyperdrive"
 		"V606 Ramscoop"
 		"V640 Generator" 2
 		"LCL Module" 2
@@ -96,7 +96,7 @@ ship "Ladon" "Ladon (Var1)"
 
 ship "Ladon" "Ladon (Var2)"
 	outfits
-		"Hyperdrive"
+		"V607 Hyperdrive"
 		"V606 Ramscoop"
 		"V640 Generator"
 		"LCL Module"
@@ -119,7 +119,7 @@ ship "Ladon" "Ladon (Var2)"
 
 ship "Longinus" "Longinus (Var1)"
 	outfits
-		"Hyperdrive"
+		"V607 Hyperdrive"
 		"V640 Generator"
 		"LCL Module"
 		"V641 Regenerator"
@@ -137,7 +137,7 @@ ship "Longinus" "Longinus (Var1)"
 
 ship "Longinus" "Longinus (Var2)"
 	outfits
-		"Hyperdrive"
+		"V607 Hyperdrive"
 		"V640 Generator"
 		"LCL Module"
 		"V641 Regenerator" 2
@@ -150,7 +150,7 @@ ship "Longinus" "Longinus (Var2)"
 
 ship "Pollaxe" "Pollaxe (Var1)"
 	outfits
-		"Hyperdrive"
+		"V607 Hyperdrive"
 		"V606 Ramscoop"
 		"V640 Generator"
 		"LNaK Cooling"
@@ -177,7 +177,7 @@ ship "Pollaxe" "Pollaxe (Var1)"
 
 ship "Pollaxe" "Pollaxe (Var2)"
 	outfits
-		"Hyperdrive"
+		"V607 Hyperdrive"
 		"V606 Ramscoop"
 		"V640 Generator" 2
 		"LNaK Cooling" 2
@@ -192,7 +192,7 @@ ship "Pollaxe" "Pollaxe (Var2)"
 
 ship "Scorpion" "Scorpion (Var1)"
 	outfits
-		"Hyperdrive"
+		"V607 Hyperdrive"
 		"V640 Generator"
 		"LNaK Cooling"
 		"V641 Regenerator" 2
@@ -210,7 +210,7 @@ ship "Scorpion" "Scorpion (Var1)"
 
 ship "Scorpion" "Scorpion (Var2)"
 	outfits
-		"Hyperdrive"
+		"V607 Hyperdrive"
 		"V640 Generator"
 		"LCL Module"
 		"V641 Regenerator" 2
@@ -233,7 +233,7 @@ ship "Tianlong" "Tianlong (Var1)"
 
 ship "Twin Crescent" "Twin Crescent (Var1)"
 	outfits
-		"Hyperdrive"
+		"V607 Hyperdrive"
 		"V640 Generator"
 		"LCL Module"
 		"V641 Regenerator"

@@ -90,7 +90,7 @@ ship "Bixi"
 		"Athena Anti-Missile" 2
 		"V612 Hermes Thruster"
 		"V623 Hermes Steering"
-		"Hyperdrive"
+		"V607 Hyperdrive"
 		
 	engine -18 145
 	engine 18 145
@@ -180,7 +180,7 @@ ship "Colony Ship"
 		"LNaK Cooling"
 		"V611 Hermes Thruster"
 		"V622 Hermes Steering"
-		"Hyperdrive"
+		"V607 Hyperdrive"
 	
 	explode "tiny explosion" 30
 	explode "small explosion" 45
@@ -225,7 +225,7 @@ ship "Excalibur"
 		"Athena Anti-Missile" 2
 		"V612 Hermes Thruster"
 		"V623 Hermes Steering"
-		"Hyperdrive"
+		"V607 Hyperdrive"
 		
 	engine -14 226
 	engine 14 226
@@ -348,7 +348,7 @@ ship "Hourglass"
 		"Athena Anti-Missile" 2
 		"V612 Hermes Thruster"
 		"V622 Hermes Steering"
-		"Hyperdrive"
+		"V607 Hyperdrive"
 		
 	engine -77 44
 	engine 77 44
@@ -430,7 +430,7 @@ ship "Ladon"
 		"Athena Anti-Missile" 2
 		"V613 Hermes Thruster"
 		"V623 Hermes Steering"
-		"Hyperdrive"
+		"V607 Hyperdrive"
 		
 	engine -48 209
 	engine 48 209
@@ -486,7 +486,7 @@ ship "Longinus"
 		"Athena Anti-Missile" 2
 		"V611 Hermes Thruster"
 		"V622 Hermes Steering"
-		"Hyperdrive"
+		"V607 Hyperdrive"
 		
 	engine -22 152
 	engine 22 152
@@ -532,7 +532,7 @@ ship "Myrmex"
 		
 		"V611 Hermes Thruster"
 		"V621 Hermes Steering"
-		"Hyperdrive"
+		"V607 Hyperdrive"
 		
 	engine -35 -12 .5
 	engine 35 -12 .5
@@ -622,7 +622,7 @@ ship "Pollaxe"
 		"Ares Turret" 4
 		"V612 Hermes Thruster"
 		"V623 Hermes Steering"
-		"Hyperdrive"
+		"V607 Hyperdrive"
 		
 	engine -10 210
 	engine 10 210
@@ -675,7 +675,7 @@ ship "Scorpion"
 		"Athena Anti-Missile" 2
 		"V612 Hermes Thruster"
 		"V622 Hermes Steering"
-		"Hyperdrive"
+		"V607 Hyperdrive"
 		
 	engine -36 106
 	engine 36 106
@@ -817,7 +817,7 @@ ship "Twin Crescent"
 		"Poseidon Cannon" 2
 		"V611 Hermes Thruster"
 		"V621 Hermes Steering"
-		"Hyperdrive"
+		"V607 Hyperdrive"
 		
 	engine -12 63
 	engine 12 63
@@ -922,7 +922,7 @@ ship "Winged Serpent"
 		
 		"V611 Hermes Thruster"
 		"V622 Hermes Steering"
-		"Hyperdrive"
+		"V607 Hyperdrive"
 		
 	engine -54 59
 	engine 54 59

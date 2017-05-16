@@ -123,6 +123,18 @@ outfit "V606 Ramscoop"
 	"energy generation" -.1
 	description "Utilizing the infinitely malleable Valuutian forcefield technology, the V606 Ramscoop is able to filter out unnecessary particles during the collection process, resulting in improved efficiency. Requires a small amount of energy to operate."
 
+outfit "V607 Hyperdrive"
+	category "Systems"
+	cost "120000"
+	thumbnail "outfit/v607hyperdrive"
+	"mass" 20
+	"outfit space" 20
+	"heat generation" 10
+	"jump speed" .5
+	"jump fuel" 125
+	"hyperdrive" 1
+	description "The V607 Hyperdrive designed by the Anstad Corp is a large step up in hyperdrive technology. For a small extra fuel cost and a small amount of heat generation, it allows a ship to jump at more that twice the speed of a conventional hyperdrive."
+
 outfit "V610 Hermes Thruster"
 	category "Engines"
 	"cost" 300000
