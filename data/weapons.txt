@@ -36,6 +36,8 @@ outfit "Ares Turret"
 		sprite "projectile/2xares"
 			"frame rate" 60
 			"rewind"
+		"hardpoint sprite" "hardpoint/aresturrethardpoint"
+		"hardpoint offset" 16.
 		sound "ares"
 		"hit effect" "ares impact"
 		"inaccuracy" .2
@@ -103,6 +105,8 @@ outfit "Athena Anti-Missile"
 	"turret mounts" -1
 	weapon
 		"hit effect" "athena anti missile"
+		"hardpoint sprite" "hardpoint/athenaantimissilehardpoint"
+		"hardpoint offset" 4.
 		"anti-missile" 8
 		"velocity" 350
 		"lifetime" 1
@@ -231,6 +235,8 @@ outfit "Poseidon Turret"
 	weapon
 		sprite "projectile/2xposeidonparticle"
 			"frame rate" 15
+		"hardpoint sprite" "hardpoint/poseidonturrethardpoint"
+		"hardpoint offset" 16.
 		sound "poseidon2x"
 		"hit effect" "2xposeidon impact"
 		"inaccuracy" 2.5

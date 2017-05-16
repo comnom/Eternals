@@ -84,7 +84,7 @@ ship "Ladon" "Ladon (Var1)"
 		"V623 Hermes Steering"
 		"V630L Cell Array"
 		"Dragon's Ice" 2
-		"Athena Anti-Missile" 3
+		"Athena Anti-Missile" 2
 		"Poseidon Cannon" 5
 	gun "Poseidon Cannon"
 	gun "Poseidon Cannon"
@@ -108,7 +108,7 @@ ship "Ladon" "Ladon (Var2)"
 		"V630L Cell Array"
 		"Ares Beam" 2
 		"Dragon's Fire"
-		"Ares Turret" 3
+		"Ares Turret" 2
 		"Poseidon Cannon" 3
 	gun "Ares Beam"
 	gun "Poseidon Cannon"

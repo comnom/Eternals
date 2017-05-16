@@ -38,8 +38,8 @@ ship "Ao"
 	engine 18 145
 	gun -42 -106
 	gun 42 -106
-	turret 0 -51
-	turret 0 -101
+	turret -36 -42
+	turret 36 -42
 	drone 72 -42 right
 	drone 84 16 right
 	drone 68 74 right
@@ -96,8 +96,8 @@ ship "Bixi"
 	engine 18 145
 	gun -42 -106
 	gun 42 -106
-	turret 0 -51
-	turret 0 -101
+	turret -36 -42
+	turret 36 -42
 	drone 72 -42 right
 	drone 84 16 right
 	drone 68 74 right
@@ -233,12 +233,12 @@ ship "Excalibur"
 	gun 16 -207 "Dragon's Ice"
 	gun -38 -158 "Ares Beam"
 	gun 38 -158 "Ares Beam"
-	turret -21 -127
-	turret 21 -127
-	turret -55 16 "Ares Turret"
-	turret 55 16 "Ares Turret"
-	turret -36 16 "Athena Anti-Missile"
-	turret 36 16 "Athena Anti-Missile"
+	turret -21 -120
+	turret 21 -120
+	turret -46 26 "Ares Turret"
+	turret 46 26 "Ares Turret"
+	turret -97 180 "Athena Anti-Missile"
+	turret 97 180 "Athena Anti-Missile"
 	fighter -38 84 over
 	fighter 38 84 over
 	fighter -56 -60 left
@@ -352,8 +352,8 @@ ship "Hourglass"
 		
 	engine -77 44
 	engine 77 44
-	turret -77 -10
-	turret 77 -10
+	turret -77 -19
+	turret 77 -19
 	fighter -77 -23
 	fighter 77 -23
 	explode "tiny explosion" 10
@@ -441,9 +441,8 @@ ship "Ladon"
 	gun 100 -48 "Poseidon Cannon"
 	gun 75 -72 "Ares Beam"
 	gun 50 -90 "Dragon's Ice"
-	turret 0 -60
-	turret 0 -6
-	turret 0 72
+	turret -36 -18
+	turret 36 -18
 	fighter 0 0 under
 	fighter 1 1 under
 	fighter -1 -1 under
@@ -879,9 +878,8 @@ ship "Typhon"
 	gun 100 -48 "Poseidon Cannon"
 	gun 75 -72 "Ares Beam"
 	gun 50 -90 "Dragon's Ice"
-	turret 0 -60
-	turret 0 -6
-	turret 0 72
+	turret -36 -18
+	turret 36 -18
 	fighter 0 0 under
 	fighter 1 1 under
 	fighter -1 -1 under
