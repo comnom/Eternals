@@ -41,6 +41,7 @@ outfit "Ares Turret"
 		sound "ares"
 		"hit effect" "ares impact"
 		"inaccuracy" .2
+		"turret turn" 2.5
 		"velocity" 400
 		"lifetime" 1
 		"reload" 1
@@ -240,6 +241,7 @@ outfit "Poseidon Turret"
 		sound "poseidon2x"
 		"hit effect" "2xposeidon impact"
 		"inaccuracy" 2.5
+		"turret turn" 6
 		"velocity" 20
 		"lifetime" 20
 		"reload" 20
