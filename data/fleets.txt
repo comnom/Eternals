@@ -371,3 +371,14 @@ fleet "Large L_O Pirate"
 	variant 2
 		"Pollaxe (Var2)"
 		"Longinus (Var2)"
+
+fleet "Craterustig Swarm"
+	government "Craterustig Spawn"
+	names "pirate"
+	cargo 0
+	personality
+		heroic unconstrained mute
+	variant 2
+		"Craterustig" 5
+	variant 2
+		"Craterustig" 7

@@ -188,6 +188,32 @@ ship "Colony Ship"
 	explode "large explosion" 40
 	explode "huge explosion" 50
 	description "The most recently developed ship to come from the Valuutians, Colony Ships were designed to meet the growing expansionist sentiment now sweeping throughout their people. The massive ships are constructed around existing small towns on Valuutia."
+	
+ship "Craterustig"
+	noun "pest"
+	sprite "ship/craterustig"
+	"never disabled"
+	"swizzle" 0
+	attributes
+		category "Interceptor"
+		"hull" 5600
+		"required crew" 1
+		"bunks" 1
+		"mass" 68
+		"drag" .9
+		"heat dissipation" .9
+		"cargo space" 80
+		"thrust" 8
+		"turn" 150
+		"energy capacity" 1
+		"fuel capacity" 1
+		"inscrutable" 1
+	outfits
+		"Craterustig Spit"
+	
+	gun 0 -45
+	explode "tiny explosion" 15
+	explode "small explosion" 5
 
 ship "Excalibur"
 	sprite "ship/excalibur"

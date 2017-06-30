@@ -116,6 +116,19 @@ outfit "Athena Anti-Missile"
 		"firing heat" 8
 	description "The counter to the Artemis Missile, the Athena Anti-Missile boasts a rapid fire rate, but relatively low strength."
 
+outfit "Craterustig Spit"
+	category "Guns"
+	"gun ports" -1
+	weapon
+		sprite "projectile/acidcloud"
+			"frame rate" 20
+		inaccuracy 20
+		velocity 5
+		lifetime 60
+		reload 80
+		"shield damage" 30
+		"hull damage" 970
+
 outfit "Dragon's Fire"
 	category "Guns"
 	cost 3100000

@@ -8,6 +8,18 @@ government "Anstad Corp"
 		"Lost Ones Merchant" .2
 		"Valuut Merchant" .2
 
+government "Craterustig Spawn"
+	swizzle 0
+	color 1 .712 .466
+
+	"player reputation" -1000
+	"attitude toward"
+		"Hai (Unfettered)" -.05
+		"Lost Ones Merchant" -.05
+		"Lost Ones" -.05
+		"Valuut Merchant" -.05
+		"Valuut" -.05
+
 government "Lost Ones"
 	swizzle 0
 	color 1 .712 .466

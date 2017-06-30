@@ -168,6 +168,7 @@ system Hetuu
 	minables silicon 45 6.68659
 	minables tungsten 2 5.45307
 	fleet "Valuutian Miners" 900
+	fleet "Craterustig Swarm" 2000
 	fleet "Large Valuutian" 3200
 	fleet "Large Lost Ones" 4400
 	fleet "Valuutian Merchants" 900
@@ -283,6 +284,7 @@ system Kijaa
 	minables iron 34 4.26089
 	minables silicon 49 3.44288
 	fleet "Valuutian Miners" 1200
+	fleet "Craterustig Swarm" 12000
 	fleet "Large Valuutian" 2600
 	fleet "Valuutian Merchants" 900
 	fleet "Lost Ones Merchants" 3100
@@ -612,6 +614,7 @@ system Risiit
 	trade Metal 390
 	trade Plastic 390
 	fleet "Valuutian Miners" 2100
+	fleet "Craterustig Swarm" 16000
 	fleet "Large Valuutian" 1200
 	fleet "Large Lost Ones" 3700
 	fleet "Small L_O Pirate" 1900
