@@ -25,7 +25,7 @@ outfit "LCL Module"
 	"mass" 8
 	"outfit space" -8
 	"cooling" 15.4
-	"energy generation" -.2
+	"energy consumption" .2
 	description "The Laser-Cooled Liquid Module provides excellent cooling for it's size, but requires a small amount of energy to operate."
 
 outfit "LNaK Cooling"
@@ -35,7 +35,7 @@ outfit "LNaK Cooling"
 	"mass" 18
 	"outfit space" -18
 	"cooling" 39.6
-	"energy generation" -.3
+	"energy consumption" .3
 	description "Liquid sodium-potassium makes a great coolant in high-heat applications, but the electromagnetic pumps need a constant energy source to run."
 
 outfit "V641 Regenerator"
@@ -57,7 +57,7 @@ outfit "Security Forcefield"
 	"outfit space" -3
 	"unplunderable" 1
 	"capture defense" 7.8
-	"energy generation" -.1
+	"energy consumption" .1
 	description "A Security Forcefield or twelve makes for an impressive defense for any captain facing the potential of enemy boarders. Requires a small amount of energy to operate."
 
 outfit "V600 Zeus Reactor"
@@ -120,7 +120,7 @@ outfit "V606 Ramscoop"
 	"mass" 16
 	"outfit space" -16
 	"ramscoop" 9
-	"energy generation" -.1
+	"energy consumption" .1
 	description "Utilizing the infinitely malleable Valuutian forcefield technology, the V606 Ramscoop is able to filter out unnecessary particles during the collection process, resulting in improved efficiency. Requires a small amount of energy to operate."
 
 outfit "V607 Hyperdrive"
