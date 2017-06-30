@@ -37,7 +37,7 @@ outfit "Ares Turret"
 			"frame rate" 60
 			"rewind"
 		"hardpoint sprite" "hardpoint/aresturrethardpoint"
-		"hardpoint offset" 16.
+		"hardpoint offset" 10.
 		sound "ares"
 		"hit effect" "ares impact"
 		"inaccuracy" .2
@@ -250,7 +250,7 @@ outfit "Poseidon Turret"
 		sprite "projectile/2xposeidonparticle"
 			"frame rate" 15
 		"hardpoint sprite" "hardpoint/poseidonturrethardpoint"
-		"hardpoint offset" 16.
+		"hardpoint offset" 10.
 		sound "poseidon2x"
 		"hit effect" "2xposeidon impact"
 		"inaccuracy" 2.5
