@@ -9,7 +9,7 @@ mission "Bounty (valuut, small)"
 	source
 		government "Valuut" "Lost Ones"
 	npc kill
-		personality heroic staying nemesis
+		personality heroic staying nemesis target
 		government "Bounty"
 		system
 			distance 1 2
@@ -44,7 +44,7 @@ mission "Bounty (valuut, large)"
 	source
 		government "Valuut" "Lost Ones"
 	npc kill
-		personality heroic staying nemesis
+		personality heroic staying nemesis target
 		government "Bounty"
 		system
 			distance 1 2
