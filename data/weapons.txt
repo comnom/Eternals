@@ -121,13 +121,15 @@ outfit "Craterustig Spit"
 	"gun ports" -1
 	weapon
 		sprite "projectile/acidcloud"
-			"frame rate" 20
+			"frame rate" 5
+			rewind
 		inaccuracy 20
-		velocity 5
-		lifetime 60
+		velocity 2.5
+		lifetime 80
 		reload 80
 		"shield damage" 30
 		"hull damage" 970
+		"piercing" .4
 
 outfit "Dragon's Fire"
 	category "Guns"

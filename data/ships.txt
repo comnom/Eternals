@@ -192,6 +192,8 @@ ship "Colony Ship"
 ship "Craterustig"
 	noun "pest"
 	sprite "ship/craterustig"
+		"frame rate" 5
+		rewind
 	"never disabled"
 	"swizzle" 0
 	attributes
@@ -213,7 +215,7 @@ ship "Craterustig"
 	outfits
 		"Craterustig Spit"
 	
-	gun 0 -45
+	gun 0 -35
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 
