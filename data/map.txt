@@ -61,7 +61,7 @@ system Charybdis
 
 system Cinoo
 	pos 338.901 -677.231
-	government Valuut
+	government Uninhabited
 	habitable 135
 	link Charybdis
 	link Thrinacia
@@ -74,9 +74,9 @@ system Cinoo
 	fleet "Small L_O Pirate" 1200
 	fleet "Small Lost Ones" 2600
 	fleet "Small Valuutian" 3400
-	fleet "Large L_O Pirate" 4600
-	fleet "Large Valuutian" 5600
-	fleet "Large Lost Ones" 8200
+	fleet "Large L_O Pirate" 8600
+	fleet "Large Valuutian" 12600
+	fleet "Large Lost Ones" 16200
 	object
 		sprite star/m8
 		period 10
@@ -154,7 +154,7 @@ system "Ephemeral Reflections"
 
 system Hetuu
 	pos 221.901 -762.231
-	government Valuut
+	government Uninhabited
 	habitable 1715
 	link Valiit
 	link Pirtaal
@@ -167,12 +167,12 @@ system Hetuu
 	minables lead 21 6.87213
 	minables silicon 45 6.68659
 	minables tungsten 2 5.45307
-	fleet "Valuutian Miners" 900
-	fleet "Craterustig Swarm" 2000
-	fleet "Large Valuutian" 3200
-	fleet "Large Lost Ones" 4400
-	fleet "Valuutian Merchants" 900
-	fleet "Lost Ones Merchants" 1000
+	fleet "Valuutian Miners" 1200
+	fleet "Craterustig Swarm" 1200
+	fleet "Large Valuutian" 6200
+	fleet "Large Lost Ones" 8400
+	fleet "Valuutian Merchants" 1900
+	fleet "Lost Ones Merchants" 2800
 	fleet "Large L_O Pirate" 8200
 	fleet "Valuutian Colony" 4800
 	object
@@ -209,7 +209,7 @@ system Hetuu
 
 system Ismaros
 	pos 295.91 -754.241
-	government Valuut
+	government Uninhabited
 	habitable 425.92
 	link Valiit
 	link Thrinacia
@@ -232,11 +232,11 @@ system Ismaros
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "Large Valuutian" 2200
-	fleet "Large Lost Ones" 3400
+	fleet "Large Valuutian" 4200
+	fleet "Large Lost Ones" 6400
 	fleet "Valuutian Merchants" 900
 	fleet "Lost Ones Merchants" 1000
-	fleet "Large L_O Pirate" 6200
+	fleet "Large L_O Pirate" 8200
 	object
 		sprite star/k5
 		period 10
@@ -273,7 +273,7 @@ system Ismaros
 
 system Kijaa
 	pos 377.901 -781.231
-	government Valuut
+	government Uninhabited
 	habitable 486.68
 	link Thrinacia
 	link Wanool
@@ -283,11 +283,11 @@ system Kijaa
 	minables aluminum 7 3.17333
 	minables iron 34 4.26089
 	minables silicon 49 3.44288
-	fleet "Valuutian Miners" 1200
+	fleet "Valuutian Miners" 1800
 	fleet "Craterustig Swarm" 12000
 	fleet "Large Valuutian" 2600
 	fleet "Valuutian Merchants" 900
-	fleet "Lost Ones Merchants" 3100
+	fleet "Lost Ones Merchants" 4100
 	fleet "Valuutian Colony" 5000
 	fleet "Large L_O Pirate" 4200
 	object
@@ -316,7 +316,7 @@ system Kijaa
 
 system Masuul
 	pos 125.91 -734.241
-	government Valuut
+	government Uninhabited
 	habitable 320
 	link Nileem
 	link Pirtaal
@@ -544,11 +544,11 @@ system Pirtaal
 	trade Metal 390
 	trade Plastic 390
 	fleet "Valuutian Merchants" 1200
-	fleet "Lost Ones Merchants" 1600
-	fleet "Large Valuutian" 2900
-	fleet "Small Lost Ones" 3500
+	fleet "Lost Ones Merchants" 2600
+	fleet "Large Valuutian" 3900
+	fleet "Small Lost Ones" 4500
 	fleet "Valuutian Colony" 5000
-	fleet "Small L_O Pirate" 4600
+	fleet "Small L_O Pirate" 3600
 	object
 		sprite star/m8
 		period 10
@@ -592,7 +592,7 @@ system Pirtaal
 
 system Risiit
 	pos 214.91 -677.241
-	government Valuut
+	government Uninhabited
 	habitable 1715
 	link Valiit
 	asteroids "small rock" 1 6.6352

@@ -374,7 +374,6 @@ fleet "Large L_O Pirate"
 
 fleet "Craterustig Swarm"
 	government "Craterustig Spawn"
-	names "pirate"
 	cargo 0
 	personality
 		heroic unconstrained mute
