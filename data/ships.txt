@@ -206,7 +206,9 @@ ship "Craterustig"
 		"thrust" 8
 		"turn" 150
 		"energy capacity" 1
-		"fuel capacity" 1
+		"hyperdrive" 1
+		"jump speed" .4
+		"fuel capacity" 400
 		"inscrutable" 1
 	outfits
 		"Craterustig Spit"
