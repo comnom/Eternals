@@ -1,3 +1,12 @@
+effect "acidcloud impact"
+	sprite "effect/acidcloud_impact"
+		"no repeat"
+		"frame rate" 15
+	"lifetime" 30
+	"random angle" 2
+	"random spin" 1
+	"velocity scale" -.003
+
 effect "ares impact"
 	sprite "effect/ares_impact"
 		"no repeat"

@@ -124,6 +124,7 @@ outfit "Craterustig Spit"
 			"frame rate" 5
 			rewind
 		sound "spit"
+		"hit effect" "acidcloud impact"
 		inaccuracy 20
 		velocity 2.5
 		lifetime 80
