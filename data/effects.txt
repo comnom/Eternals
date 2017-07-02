@@ -95,6 +95,26 @@ effect "dragoni impact sub sub"
 	"velocity scale" .2
 	"random frame rate" 10
 
+effect "hypnos impact"
+	sprite "effect/hypnos_impact"
+		"no repeat"
+		"frame rate" 15
+	"lifetime" 30
+	"random angle" 360
+	"random spin" 18
+	"velocity scale" .2
+	"random frame rate" 10
+
+effect "hypnossub impact"
+	sprite "effect/dragonsice/hypnossub_impact"
+		"no repeat"
+		"frame rate" 2.5
+	"lifetime" 30
+	"random angle" 360
+	"random spin" 18
+	"velocity scale" .2
+	"random frame rate" 10
+
 effect "poseidon impact"
 	sprite "effect/poseidon_impact"
 		"no repeat"

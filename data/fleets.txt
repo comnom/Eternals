@@ -52,7 +52,7 @@ fleet "Lost Ones Merchants"
 		"Hourglass"
 		"Harrier" 2
 	variant 20
-		"Hourglass"
+		"Hourglass (Var1)"
 		"Twin Crescent"
 	variant 20
 		"Hourglass"
@@ -69,7 +69,8 @@ fleet "Lost Ones Merchants"
 		"Harrier" 4
 		"Twin Crescent"
 	variant 12
-		"Hourglass" 2
+		"Hourglass"
+		"Hourglass (Var1)"
 		"Twin Crescent (Var1)" 3
 	variant 16
 		"Longinus"
@@ -92,7 +93,7 @@ fleet "Lost Ones Merchants"
 	variant 12
 		"Longinus"
 		"Twin Crescent" 2
-		"Hourglass" 2
+		"Hourglass (Var1)" 2
 	variant 12
 		"Longinus (Var1)"
 		"Twin Crescent (Var1)" 3
@@ -376,7 +377,7 @@ fleet "Craterustig Swarm"
 	government "Craterustig Spawn"
 	cargo 0
 	personality
-		heroic unconstrained mute
+		heroic plunders unconstrained mute
 	variant 2
 		"Craterustig" 5
 	variant 2

@@ -62,6 +62,19 @@ ship "Hatchling" "Hatchling (Var1)"
 		"V610 Hermes Thruster"
 		"V620 Hermes Steering"
 
+ship "Hourglass" "Hourglass (Var1)"
+	outfits
+		"V602 Zeus Reactor"
+		"V630M Cell Array"
+		"V640 Generator"
+		"V641 Regenerator"
+		"LNaK Cooling"
+		"Security Forcefield" 2
+		"Hypnos Turret" 2
+		"V612 Hermes Thruster"
+		"V622 Hermes Steering"
+		"V607 Hyperdrive"
+
 ship "Ivory Hatchling" "Ivory Hatchling (Var1)"
 	outfits
 		"Artemis Missile" 30

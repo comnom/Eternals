@@ -219,6 +219,52 @@ outfit "di_sub_sub"
 		"hull damage" 5.9
 		"piercing" .1
 
+outfit "Hypnos Turret"
+	category "Turrets"
+	cost 440000
+	thumbnail "outfit/hypnosturret"
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
+	"turret mounts" -1
+	weapon
+		sprite "projectile/hypnos"
+			"frame rate" 10
+			"random start frame"
+			"rewind"
+		"hardpoint sprite" "hardpoint/hypnosturrethardpoint"
+		"hardpoint offset" 8.
+		sound "ares"
+		"hit effect" "hypnos impact"
+		"submunition" "hypnos sub"
+		"inaccuracy" 60
+		"velocity" 3
+		"turn" 1
+		"lifetime" 120
+		"reload" 120
+		"firing energy" 560
+		"cluster"
+	description "Anstad Corp's Hypnos Turret was designed with the merchant captian in mind. Packed in the smallest turret in Valuutian space is a powerful disabling weapon, whose stationary submunition creates an ionizing and slowing field. Able to alter the wavelength based on targeting data from a ship's computer, this weapon will only affect enemies."
+
+outfit "hypnos sub"
+	weapon
+		sprite "projectile/hypnossub"
+			"frame rate" 1
+			"random start frame"
+			"rewind"
+		"hit effect" "hypnossub impact"
+		"inaccuracy" 180
+		"velocity" .5
+		"turn" .5
+		"lifetime" 600
+		"acceleration" .00001
+		"drag" .05
+		"blast radius" 20
+		"trigger radius" 15
+		"slowing damage" 34
+		"ion damage" 20
+		"safe"
+
 outfit "Poseidon Cannon"
 	category "Guns"
 	cost 312000
