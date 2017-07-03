@@ -57,6 +57,8 @@ government "Valuut Merchant"
 	"fine" 0
 	"friendly hail" "valuut mix"
 	"hostile hail" "valuut hostile"
+	"friendly disabled hail" "valuut friendly disabled"
+	"hostile disabled hail" "valuut hostile disabled"
 
 government "Valuut"
 	swizzle 0
@@ -70,6 +72,8 @@ government "Valuut"
 		"Valuut Merchant" .2
 	"friendly hail" "valuut military"
 	"hostile hail" "valuut hostile"
+	"friendly disabled hail" "valuut friendly disabled"
+	"hostile disabled hail" "valuut hostile disabled"
 
 #make base game pirates hostile
 government "Pirate"
