@@ -169,11 +169,10 @@ system Hetuu
 	minables tungsten 2 5.45307
 	fleet "Valuutian Miners" 1200
 	fleet "Craterustig Swarm" 1200
-	fleet "Large Valuutian" 6200
-	fleet "Large Lost Ones" 8400
+	fleet "Large Valuutian" 8400
+	fleet "Large Lost Ones" 12400
 	fleet "Valuutian Merchants" 1900
 	fleet "Lost Ones Merchants" 2800
-	fleet "Large L_O Pirate" 8200
 	fleet "Valuutian Colony" 4800
 	object
 		sprite star/f5
