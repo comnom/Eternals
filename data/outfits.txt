@@ -128,7 +128,7 @@ outfit "V607 Hyperdrive"
 	cost "120000"
 	thumbnail "outfit/v607hyperdrive"
 	"mass" 20
-	"outfit space" 20
+	"outfit space" -20
 	"heat generation" 10
 	"jump speed" .5
 	"jump fuel" 125
