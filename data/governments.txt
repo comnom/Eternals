@@ -14,11 +14,11 @@ government "Craterustig Spawn"
 
 	"player reputation" -1000
 	"attitude toward"
-		"Hai (Unfettered)" -.05
-		"Lost Ones Merchant" -.05
-		"Lost Ones" -.05
-		"Valuut Merchant" -.05
-		"Valuut" -.05
+		"Hai (Unfettered)" -.01
+		"Lost Ones Merchant" -.01
+		"Lost Ones" -.01
+		"Valuut Merchant" -.01
+		"Valuut" -.01
 
 government "Lost Ones"
 	swizzle 0
@@ -37,7 +37,7 @@ government "Lost Ones Merchant"
 	
 	"player reputation" 10
 	"attitude toward"
-		"Hai (Unfettered)" -.05
+		"Hai (Unfettered)" -.01
 		"Pirate" -.2
 		"Valuut Merchant" .2
 	"bribe" .05
@@ -50,7 +50,7 @@ government "Valuut Merchant"
 	
 	"player reputation" 10
 	"attitude toward"
-		"Hai (Unfettered)" -.05
+		"Hai (Unfettered)" -.01
 		"Pirate" -.2
 		"Lost Ones Merchant" .2
 	"bribe" .05
@@ -66,8 +66,8 @@ government "Valuut"
 
 	"player reputation" 1
 	"attitude toward"
-		"Hai (Unfettered)" -.05
-		"Pirate" -.05
+		"Hai (Unfettered)" -.01
+		"Pirate" -.01
 		"Lost Ones Merchant" .05
 		"Valuut Merchant" .2
 	"friendly hail" "valuut military"
@@ -78,7 +78,7 @@ government "Valuut"
 #make base game pirates hostile
 government "Pirate"
 	"attitude toward"
-		"Lost Ones Merchant" -.05
-		"Valuut Merchant" -.05
-		"Valuut" -.05
-		"Lost Ones" -.05
+		"Lost Ones Merchant" -.01
+		"Valuut Merchant" -.01
+		"Valuut" -.01
+		"Lost Ones" -.01
