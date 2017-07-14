@@ -8,16 +8,6 @@ outfit "Artemis Missile Rack"
 	ammo "Artemis Missile"
 	description "The Artemis Missile Rack stores extra ammunition for the Artemis Missile Launcher."
 
-outfit "V640 Generator"
-	category "Systems"
-	cost 950000
-	thumbnail "outfit/v640gen"
-	"mass" 32
-	"outfit space" -32
-	"shield generation" 2
-	"shield energy" 4.4
-	description "This generator is used on a wide range of Valuutian/Lost Ones' craft, however due to the sub-par shield matrices common on these ships, it is often overlooked in favor of the V641 Regenerator."
-
 outfit "LCL Module"
 	category "Systems"
 	cost 220000
@@ -37,17 +27,6 @@ outfit "LNaK Cooling"
 	"cooling" 39.6
 	"energy consumption" .3
 	description "Liquid sodium-potassium makes a great coolant in high-heat applications, but the electromagnetic pumps need a constant energy source to run."
-
-outfit "V641 Regenerator"
-	category "Systems"
-	cost 650000
-	thumbnail "outfit/v641regen"
-	"mass" 28
-	"outfit space" -28
-	"hull repair rate" 1.7
-	"hull energy" 3.4
-	"hull heat" 2.1
-	description "The V641 Regenerator uses a ship's built-in shield matrix for gathering real-time telemetry data to direct it's nano repair bots to damaged hull sections."
 
 outfit "Security Forcefield"
 	category "Hand to Hand"
@@ -286,3 +265,46 @@ outfit "V630L Cell Array"
 	"energy generation" 5.6
 	"heat generation" 8.9
 	description "Anstad Corp's V630L Cell Array is often paired with the largest reactors to provide enough power and capacity for the most power hungry weapons."
+
+outfit "V640 Generator"
+	category "Systems"
+	cost 950000
+	thumbnail "outfit/v640gen"
+	"mass" 32
+	"outfit space" -32
+	"shield generation" 2
+	"shield energy" 4.4
+	description "This generator is used on a wide range of Valuutian and Lost Ones' craft. Due to the low power shield matrices common on these ships, it is often overlooked in favor of the V641 Regenerator."
+
+outfit "V641 Regenerator"
+	category "Systems"
+	cost 650000
+	thumbnail "outfit/v641regen"
+	"mass" 28
+	"outfit space" -28
+	"hull repair rate" 1.7
+	"hull energy" 3.4
+	"hull heat" 2.1
+	description "The V641 Regenerator uses a ship's built-in shield matrix for gathering real-time telemetry data to direct it's nano repair bots to damaged hull sections."
+
+outfit "V642S Generator"
+	category "Systems"
+	cost 1050000
+	thumbnail "outfit/v642gen"
+	"mass" 38
+	"outfit space" -38
+	"shield generation" 2.38
+	"shield energy" 5.2
+	"slowing resistance" .2
+	description "The V642 Generator is a redesigned model of the V640 focused on providing slowing resistance for ships that heavily rely on outmanuvering their opponent in combat."
+
+outfit "V643I Generator"
+	category "Systems"
+	cost 1250000
+	thumbnail "outfit/v643gen"
+	"mass" 44
+	"outfit space" -44
+	"shield generation" 2.75
+	"shield energy" 6.05
+	"ion resistance" .25
+	description "Built to defend capital ships that tend to have large battery arrays from ion damage, the V643I sees heavy military use."

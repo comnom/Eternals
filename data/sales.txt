@@ -1,6 +1,8 @@
 outfitter "Valuutian Outfits"
 	"V640 Generator"
 	"V641 Regenerator"
+	"V642S Generator"
+	"V643I Generator"
 	"Security Forcefield"
 	"V630L Cell Array"
 	"V630M Cell Array"
