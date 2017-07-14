@@ -295,7 +295,7 @@ outfit "V642S Generator"
 	"outfit space" -38
 	"shield generation" 2.38
 	"shield energy" 5.2
-	"slowing resistance" .2
+	"slowing resistance" .02
 	description "The V642 Generator is a redesigned model of the V640 focused on providing slowing resistance for ships that heavily rely on outmanuvering their opponent in combat."
 
 outfit "V643I Generator"
@@ -306,5 +306,5 @@ outfit "V643I Generator"
 	"outfit space" -44
 	"shield generation" 2.75
 	"shield energy" 6.05
-	"ion resistance" .25
+	"ion resistance" .023
 	description "Built to defend capital ships that tend to have large battery arrays from ion damage, the V643I sees heavy military use."
