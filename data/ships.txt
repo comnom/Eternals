@@ -263,12 +263,12 @@ ship "Excalibur"
 	gun 16 -207 "Dragon's Ice"
 	gun -38 -158 "Ares Beam"
 	gun 38 -158 "Ares Beam"
-	turret -21 -120
-	turret 21 -120
-	turret -46 26 "Ares Turret"
-	turret 46 26 "Ares Turret"
-	turret -97 180 "Athena Anti-Missile"
-	turret 97 180 "Athena Anti-Missile"
+	turret -22 -100
+	turret 22 -100
+	turret -44 1 "Ares Turret"
+	turret 44 1 "Ares Turret"
+	turret -70 177 "Athena Anti-Missile"
+	turret 70 177 "Athena Anti-Missile"
 	fighter -38 84 over
 	fighter 38 84 over
 	fighter -56 -60 left
