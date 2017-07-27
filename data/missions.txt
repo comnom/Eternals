@@ -96,3 +96,81 @@ mission "Intro, Valuut [1]"
 			`	In a brisk tone, clearly considering the matter settled, he explains, "You should begin on Nyy in the colony of Kaavu, where the expedition gathered supplies. From there you can take a vessel down to our underwater colony of Eempra, which is their last confirmed location. Have the utmost care Captain, if the wrong people discover you are more than a curious traveller, it will not end well." Iismal hands you a minature chip, no bigger than your thumbnail, and says, "There is a Ministry Official housed in the administration building of every colony. Should you require aid, or wish to give me a message, present this chip to them. Discreetly. Now, our meeting is dragging on too long Captain, I wish you luck."`
 			`	You make your goodbyes, and return to the spaceport in the same manner you arrived, contemplating all the while just what it is you've gotten mixed up in.`
 				accept
+
+mission "Intro, Valuut [2]"	
+	name "Investigation"
+	description "Defeat the ambush, then head to Odyssey Outpost."
+	landing
+	source "Nyy"
+	destination "Odyssey Outpost"
+	to offer
+		has "Intro, Valuut [1]: done"
+	on offer
+		conversation
+			`Upon arriving at Nyy, automated ground control directs your ship to a landing site adjacent to Kaavu. The site appears to be a retrofitted Colony Ship, devoid of any habitable buildings but with the outskirts full of warhouses. While passing through the domed energy shield you get the distinct impression that it serves as both a malleable barrier and a scanning device. Disembarking, you make your way through the crowd, squeezing through the connecting tunnel towards Kaavu.`
+			`	Once inside the Colony proper a few questions, in what you assume is discreet fashion, reveal the location of the only purveyor of survey equipment in Kaavu. After trying in vain to convince the proprietor, one of the small wirey creatures with razor sharp teeth, to speak of past clientele, you discover they also supply craft to reach Eempra on behalf of the local government, and quickly find yourself descending through the ocean towards the colony.`
+			`	Eempra looks much like Kaavu, which in turn looks much like a town on Valuutia, save for the oppressive weight of the ocean held back by the dome's energy field. After a bit of aimless wandering, you decide to question one of the local laborers about the expedition team.`
+			choice
+				`	(Approach a human laborer.)`
+				`	(Approach one of the small, translucent skinned creatures.)`
+					goto l_uu-nall-voo
+			`	You approach a tall, strong backed young man who doesn't pause in his work at your greeting, but does smile warmly in return.`
+			`	"Expedition team?" he says mostly to himself, furrowing his brow in thought. "We got plenty come through here, mostly with some big company or other."`
+			choice
+				`	"These wouldn't be with a company; it's an independant group."`
+			`	He stops his work briefly, pondering, the smacks his forehead and exclaims, "Yea! Well maybe. 'Bout a week or so ago I saw a group like that talking with the Arhegis on the outskirts. Well, they was talking, he was just floating there like they do."`
+			choice
+				`	"Who, or what, is the Arhegis?"`
+			`	He laughs to himself, and still chuckling a bit says, "You must not get out much. Translates like Sentinel, or Watcher; least that's what my buddy Siilaa says. Wherever they got enough water to hold 'em, they get stationed around colonies to keep an eye on things. Say they can read the minds of everybody in a colony all at once, helps keep the peace. Big fella, bit like a snake I saw in one of them old world holotapes. You'll find him floating around outside. Just head to the outskirts, he probably knows your coming."`
+			`	You thank the man for his time, and he just laughs good naturedly and waves you off as you head towards the outskirts of Eempra.`
+				goto l_arhegis
+			label l_uu-nall-voo
+			`	You approach one of the tiny creatures, supervising a group of laborers unloading cargo from one of the mag-lev rail lines into an adjacent warehouse, and introduce yourself, inquiring as to whether it speaks your language.`
+			`	"First-it interrupts me, then-it talks down to-me like I'm an-animal", It says in a rapid pace, running some words together in difficult to understand fashion. "Yes-human, I'm quite capable-of-speaking thank-you-very-much."`
+			choice
+				`	"Apologies, I meant no disrespect."`
+				`	"Sorry, how should I know what language you speak?"`
+			`	"Pfft, it talks-like-it's never seen Uu-nall-voo before. What do-you-want human? I'm busy, not-like-you care", it snorts derisively.`
+			choice
+				`	"I'm looking for an expedition that was here recently."`
+			`	"Pfft, I take inventory-of-cargo human, not expedition-teams. Ask-the Arhegis, maybe he-wants-to-be interrupted."`
+			choice
+				`	"Where can I find the Arhegis?"`
+				`	"Who or what is the Arhegis?"`
+			`	"Pfft, it's rude and blind. The Arhegis patrols-outside the colony human. Travel to-the-outskirts, he will-find-you", it responds, turning back to it's work and pointedly ignores you.`
+			`	You thank the creature for it's time, to which it gives a final, "Pfft!", and make your way to the outer part of the colony.`
+			label l_arhegis
+			`	At the edge of Eempra you find a lift up to a ledge where the Colony Ship's energy field meets the ocean, and peer into the clear water's depths finding little of interest.`
+			choice
+				`	(Try to reach out to Arhegis with your mind.)`
+				`	(Yell out, "Arhegis, I would like to speak to you!")`
+				`	(Wait silently.)`
+			`	Nothing happens immediately that you can tell, but after a time you begin to see a long, thin shadow move along the sea floor off in the distance. The shadow eventually resolves itself into a brilliantly colored, scaled reptile with a massive maned head. It comes to rest in front of you, one of it's wide, gemlike eyes level with your own.`
+			`	A gentle thought manifests in your mind, "Greetings <first> <last>, I am the Arhegis of Eempra."`
+			choice
+				`	"Greetings Arhegis, I've come to ask about..."`
+			`	"Modaa", the creature finishes for you. "Iismal has not changed much, still ensnaring whoever is convienent to do his bidding."`
+			choice
+				`	"Would you tell me what you know of Modaa?"`
+					goto l_modaa
+				`	"Can you tell me more about Iismal?"`
+			`	"I can not, apologies. There are some minds closed even to my kind. I can tell you to be wary Captain <last>. Iismal would not shed a tear if you were lost, as long as his goals are achieved. My kind have long watched him, but are not able to say if he is malicious, or just singularly focused."`
+			choice
+				`	"I'll keep that in mind. What of Modaa then?"`
+			label l_modaa
+			`	"Modaa was here with his team when a meeting took place between himself and pirates of Nowhere Paradise. Like Iismal, I can not look into the thoughts of Modaa, but the pirates were under the impression that he would manufacture weapons for them in exchange for sanctuary. Modaa then left of his own accord, and the pirates departed some time later."`
+			choice
+				`	"Seems to me this could've all been told to Iismal."`
+			`	The Arhegis shakes with laughter, stirring the water and revealing a row of monstrous, gleaming teeth. "Iismal trusts no one Captain <last>, certainly not me, and least of all the people in the Ministry. A stranger is just as trustworthy to him as his closest allies. It's likely he knew all this already, and is simply watching how it will all turn out."`
+			choice
+				`	"I see. Thank you for the help Arhegis."`
+			`	The Arhegis turns to leave and one last thought appears in your mind, "Take care Captain, events are rarely what they seem. You've travelled too far to lose your life in something as trivial as this." With that chilling thought, you make your way back to Kaavu. Modaa is likely on Nowhere Paradise; now you'll just need to find a way to get there safely.`
+				accept
+	npc kill
+		government "Pirate"
+		personality staying nemesis
+		system "Pirtaal"
+		ship "Pollaxe (Var1)" "False Flag"
+		conversation
+			`After defeating the pirate ship, you recieve a message on an encrypted comm channel. "Greetings Captain <last>, this is the secretary of the Anstad Corp CEO. We would like to extend an invitation for you to come meet with us at your earliest convienence. We have been contacted by a mutual acquantance named Modaa, and believe we can be of some assistance to you."`
+			`	Better head for Odyssey Outpost and see what they have to say.`
