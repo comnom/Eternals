@@ -380,12 +380,12 @@ ship "Hourglass"
 		"V622 Hermes Steering"
 		"V607 Hyperdrive"
 		
-	engine -77 44
-	engine 77 44
-	turret -77 -19
-	turret 77 -19
-	fighter -77 -23
-	fighter 77 -23
+	engine -77 72
+	engine 77 72
+	turret 0 -124
+	turret 0 124
+	fighter 0 -152
+	fighter 0 152
 	explode "tiny explosion" 10
 	explode "small explosion" 25
 	explode "medium explosion" 30
