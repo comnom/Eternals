@@ -518,14 +518,14 @@ ship "Longinus"
 		"V622 Hermes Steering"
 		"V607 Hyperdrive"
 		
-	engine -22 152
-	engine 22 152
-	gun -12 -133
-	gun 12 -133
-	gun -27 -82
-	gun 27 -82
-	turret -35 117
-	turret 35 117
+	engine -12 153
+	engine 12 153
+	gun -38 -44
+	gun 38 -44
+	gun -46 -11
+	gun 46 -11
+	turret -29 130
+	turret 29 130
 	explode "tiny explosion" 10
 	explode "small explosion" 25
 	explode "medium explosion" 25
