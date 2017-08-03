@@ -34,24 +34,24 @@ ship "Ao"
 		"V612 Hermes Thruster"
 		"V623 Hermes Steering"
 		
-	engine -18 145
-	engine 18 145
-	gun -42 -106
-	gun 42 -106
-	turret -36 -42
-	turret 36 -42
-	drone 72 -42 right
-	drone 84 16 right
-	drone 68 74 right
-	drone -72 -42 left
-	drone -84 16 left
-	drone -68 74 left
-	drone 72 -42 right
-	drone 84 16 right
-	drone 68 74 right
-	drone -72 -42 left
-	drone -84 16 left
-	drone -68 74 left
+	engine -16 147
+	engine 16 147
+	gun -81 -85
+	gun 81 -85
+	turret -33 -65
+	turret 33 -65
+	drone -58 102 left
+	drone -58 102 left
+	drone -58 102 left
+	drone 58 -102 right
+	drone 58 -102 right
+	drone 58 -102 right
+	drone -58 -102 left
+	drone -58 -102 left
+	drone -58 -102 left
+	drone 58 102 right
+	drone 58 102 right
+	drone 58 102 right
 	explode "small explosion" 25
 	explode "medium explosion" 35
 	explode "large explosion" 45
@@ -92,24 +92,24 @@ ship "Bixi"
 		"V623 Hermes Steering"
 		"V607 Hyperdrive"
 		
-	engine -18 145
-	engine 18 145
-	gun -42 -106
-	gun 42 -106
-	turret -36 -42
-	turret 36 -42
-	drone 72 -42 right
-	drone 84 16 right
-	drone 68 74 right
-	drone -72 -42 left
-	drone -84 16 left
-	drone -68 74 left
-	drone 72 -42 right
-	drone 84 16 right
-	drone 68 74 right
-	drone -72 -42 left
-	drone -84 16 left
-	drone -68 74 left
+	engine -16 147
+	engine 16 147
+	gun -81 -85
+	gun 81 -85
+	turret -33 -65
+	turret 33 -65
+	drone -58 102 left
+	drone -58 102 left
+	drone -58 102 left
+	drone 58 -102 right
+	drone 58 -102 right
+	drone 58 -102 right
+	drone -58 -102 left
+	drone -58 -102 left
+	drone -58 -102 left
+	drone 58 102 right
+	drone 58 102 right
+	drone 58 102 right
 	explode "small explosion" 25
 	explode "medium explosion" 35
 	explode "large explosion" 45
