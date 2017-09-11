@@ -221,6 +221,7 @@ ship "Craterustig"
 
 ship "Excalibur"
 	sprite "ship/excalibur"
+	swizzle 0
 	attributes
 		category "Heavy Warship"
 		"cost" 35200000
@@ -256,25 +257,28 @@ ship "Excalibur"
 		"V612 Hermes Thruster"
 		"V623 Hermes Steering"
 		"V607 Hyperdrive"
-		
-	engine -14 226
-	engine 14 226
-	gun -16 -207 "Dragon's Ice"
-	gun 16 -207 "Dragon's Ice"
-	gun -38 -158 "Ares Beam"
-	gun 38 -158 "Ares Beam"
-	turret -22 -100
-	turret 22 -100
-	turret -44 1 "Ares Turret"
-	turret 44 1 "Ares Turret"
-	turret -70 177 "Athena Anti-Missile"
-	turret 70 177 "Athena Anti-Missile"
-	fighter -38 84 over
-	fighter 38 84 over
-	fighter -56 -60 left
-	fighter 56 -60 right
-	fighter -56 103 left
-	fighter 56 103 right
+	
+	engine -30 228 .6
+	engine -18 222 .4
+	engine 0 235
+	engine 30 228 .6
+	engine 18 222 .4
+	gun -37 -123 "Dragon's Ice"
+	gun 37 -123 "Dragon's Ice"
+	gun -47 -73 "Ares Beam"
+	gun 47 -73 "Ares Beam"
+	turret -15 -115
+	turret 15 -115
+	turret -24 -56 "Ares Turret"
+	turret 24 -56 "Ares Turret"
+	turret -30 0 "Athena Anti-Missile"
+	turret 30 0 "Athena Anti-Missile"
+	fighter -37 101 over
+	fighter 37 101 over
+	fighter -64 120 left
+	fighter 64 120 right
+	fighter -60 154 left
+	fighter 60 154 right
 	explode "small explosion" 25
 	explode "medium explosion" 35
 	explode "large explosion" 45

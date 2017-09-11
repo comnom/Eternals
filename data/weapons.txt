@@ -200,7 +200,7 @@ outfit "di_sub"
 		"acceleration" .4
 		"drag" .1
 		"slowing damage" 5.4
-		"ion damage" .9
+		"ion damage" 1.
 		"hull damage" 52.5
 		"piercing" .2
 
@@ -215,7 +215,7 @@ outfit "di_sub_sub"
 		"acceleration" .4
 		"drag" .1
 		"slowing damage" .6
-		"ion damage" .1
+		"ion damage" .25
 		"hull damage" 5.9
 		"piercing" .1
 
@@ -228,7 +228,7 @@ outfit "Hypnos Turret"
 	"weapon capacity" -22
 	"turret mounts" -1
 	weapon
-		sprite "projectile/hypnos"
+		sprite "projectile/mainhypnos"
 			"frame rate" 10
 			"random start frame"
 			"rewind"
