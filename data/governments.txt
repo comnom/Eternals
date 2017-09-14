@@ -75,7 +75,7 @@ government "Valuut"
 	"friendly disabled hail" "valuut friendly disabled"
 	"hostile disabled hail" "valuut hostile disabled"
 
-#make base game pirates hostile
+# make base game pirates hostile
 government "Pirate"
 	"attitude toward"
 		"Lost Ones Merchant" -.01

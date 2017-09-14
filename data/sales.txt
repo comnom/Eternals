@@ -43,7 +43,7 @@ outfitter "Valuutian Outfits"
 
 shipyard "Lost Ones Ships"
 	"Twin Crescent"
-	"Harrier"
+	"Gladius"
 	"Excalibur"
 	"Pollaxe"
 	"Hourglass"

@@ -50,13 +50,13 @@ fleet "Lost Ones Merchants"
 		timid frugal
 	variant 20
 		"Hourglass"
-		"Harrier" 2
+		"Gladius" 2
 	variant 20
 		"Hourglass (Var1)"
 		"Twin Crescent"
 	variant 20
 		"Hourglass"
-		"Harrier (Var1)" 2
+		"Gladius (Var1)" 2
 		"Twin Crescent (Var1)"
 	variant 20
 		"Hourglass"
@@ -66,7 +66,7 @@ fleet "Lost Ones Merchants"
 		"Twin Crescent (Var1)" 2
 	variant 12
 		"Hourglass" 2
-		"Harrier" 4
+		"Gladius" 4
 		"Twin Crescent"
 	variant 12
 		"Hourglass"
@@ -75,7 +75,7 @@ fleet "Lost Ones Merchants"
 	variant 16
 		"Longinus"
 		"Hourglass"
-		"Harrier (Var1)" 2
+		"Gladius (Var1)" 2
 	variant 16
 		"Longinus (Var1)"
 		"Hourglass"
@@ -277,13 +277,13 @@ fleet "Large Lost Ones"
 		"Longinus (Var2)"
 	variant 10
 		"Excalibur"
-		"Harrier" 6
+		"Gladius" 6
 	variant 9
 		"Excalibur (Var1)"
-		"Harrier (Var1)" 6
+		"Gladius (Var1)" 6
 	variant 8
 		"Excalibur (Var2)"
-		"Harrier" 6
+		"Gladius" 6
 	variant 5
 		"Pollaxe"
 		"Twin Crescent" 3

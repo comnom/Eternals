@@ -1,0 +1,33 @@
+ship "Harrier"
+	sprite "ship/harrier"
+	attributes
+		category "Fighter"
+		"cost" 770000
+		"shields" 1100
+		"hull" 3300
+		"required crew" 1
+		"bunks" 1
+		"mass" 38
+		"drag" .9
+		"heat dissipation" .9
+		"outfit space" 77
+		"weapon capacity" 20
+		"engine capacity" 22
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Poseidon Cannon" 2
+		"V600 Zeus Reactor"
+		"LCL Module"
+		"V610 Hermes Thruster"
+		"V620 Hermes Steering"
+		
+	engine 0 32
+	gun -5 -27
+	gun 5 -27
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "The first Lost Ones ships to be seen around Valuutian space other than the craft they arrived in, this small ship design was later repurposed to serve as a fighter aboard the Excalibur."

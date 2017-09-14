@@ -44,7 +44,7 @@ ship "Excalibur" "Excalibur (Var2)"
 		"Ares Beam" 4
 		"Athena Anti-Missile" 6
 
-ship "Harrier" "Harrier (Var1)"
+ship "Gladius" "Gladius (Var1)"
 	outfits
 		"Artemis Missile" 60
 		"Artemis Missile Launcher" 2
