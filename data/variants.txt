@@ -44,6 +44,48 @@ ship "Excalibur" "Excalibur (Var2)"
 		"Ares Beam" 4
 		"Athena Anti-Missile" 6
 
+ship "Excalibur" "Excalibur (P)"
+	sprite "ship/excalibur_pirate"
+
+ship "Excalibur" "Excalibur (P_Var1)"
+	sprite "ship/excalibur_pirate"
+	outfits
+		"V607 Hyperdrive"
+		"V606 Ramscoop"
+		"V640 Generator"
+		"LNaK Cooling" 2
+		"V641 Regenerator"
+		"Security Forcefield" 4
+		"V603 Zeus Reactor"
+		"V612 Hermes Thruster"
+		"V622 Hermes Steering"
+		"V630L Cell Array"
+		"Ares Turret" 4
+		"Poseidon Cannon" 4
+		"Poseidon Turret" 2
+	turret "Poseidon Turret"
+	turret "Poseidon Turret"
+	turret "Ares Turret"
+	turret "Ares Turret"
+	turret "Ares Turret"
+	turret "Ares Turret"
+
+ship "Excalibur" "Excalibur (P_Var2)"
+	sprite "ship/excalibur_pirate"
+	outfits
+		"V607 Hyperdrive"
+		"V606 Ramscoop"
+		"V640 Generator" 2
+		"LNaK Cooling" 2
+		"V641 Regenerator" 2
+		"Security Forcefield" 4
+		"V603 Zeus Reactor"
+		"V612 Hermes Thruster"
+		"V623 Hermes Steering"
+		"V630L Cell Array"
+		"Ares Beam" 4
+		"Athena Anti-Missile" 6
+	
 ship "Gladius" "Gladius (Var1)"
 	outfits
 		"Artemis Missile" 60

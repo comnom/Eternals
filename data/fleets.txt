@@ -337,22 +337,22 @@ fleet "Large L_O Pirate"
 	personality
 		plunders coward
 	variant 6
-		"Excalibur"
+		"Excalibur (P)"
 		"Twin Crescent" 3
 	variant 4
-		"Excalibur (Var1)"
+		"Excalibur (P_Var1)"
 		"Twin Crescent" 3
 	variant 2
-		"Excalibur (Var2)"
+		"Excalibur (P_Var2)"
 		"Twin Crescent" 3
 	variant 6
-		"Excalibur"
+		"Excalibur (P)"
 		"Longinus"
 	variant 4
-		"Excalibur (Var1)"
+		"Excalibur (P_Var1)"
 		"Longinus (Var1)"
 	variant 2
-		"Excalibur (Var2)"
+		"Excalibur (P_Var2)"
 		"Longinus (Var2)"
 	variant 6
 		"Pollaxe"
