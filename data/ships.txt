@@ -347,8 +347,8 @@ ship "Hatchling"
 		"V610 Hermes Thruster"
 		"V620 Hermes Steering"
 		
-	engine 0 23
-	gun 0 -17
+	engine 0 24
+	gun 0 -26
 	explode "tiny explosion" 20
 	explode "small explosion" 10
 	description "The Valuutian's Hatchling drone uses the same hot-dipping method of hull construction as the Bixi carrier, making it able to take more of a beating than similar craft."
@@ -424,8 +424,8 @@ ship "Ivory Hatchling"
 		"V610 Hermes Thruster"
 		"V620 Hermes Steering"
 		
-	engine 0 23
-	gun 0 -17
+	engine 0 24
+	gun 0 -26
 	explode "tiny explosion" 20
 	explode "small explosion" 10
 	description "The Eternals integrated a shield matrix into their version of the Hatchling, resulting in better all-around defensive performance."
