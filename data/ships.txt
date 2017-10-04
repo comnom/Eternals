@@ -573,8 +573,8 @@ ship "Myrmex"
 		"V621 Hermes Steering"
 		"V607 Hyperdrive"
 		
-	engine -35 -18
-	engine 35 -18
+	engine -35 -18 .5
+	engine 35 -18 .5
 	gun -3 -135
 	gun 3 -135
 	explode "small explosion" 15
@@ -617,8 +617,8 @@ ship "Myrmidon"
 		"V611 Hermes Thruster"
 		"V621 Hermes Steering"
 		
-	engine -30 48
-	engine 30 48
+	engine -30 48 .5
+	engine 30 48 .5
 	gun -2 -53
 	gun 2 -53
 	explode "small explosion" 15
