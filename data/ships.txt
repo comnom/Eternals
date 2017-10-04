@@ -355,6 +355,7 @@ ship "Hatchling"
 
 ship "Hourglass"
 	sprite "ship/hourglass"
+	swizzle 0
 	attributes
 		category "Heavy Freighter"
 		"cost" 17600000
@@ -493,6 +494,7 @@ ship "Ladon"
 
 ship "Longinus"
 	sprite "ship/longinus"
+	swizzle 0
 	attributes
 		category "Light Warship"
 		"cost" 18700000
@@ -527,10 +529,10 @@ ship "Longinus"
 		
 	engine -12 153
 	engine 12 153
-	gun -38 -44
-	gun 38 -44
-	gun -46 -11
-	gun 46 -11
+	gun -40 -50
+	gun 40 -50
+	gun -50 -14
+	gun 50 -14
 	turret -29 130
 	turret 29 130
 	explode "tiny explosion" 10
@@ -571,8 +573,8 @@ ship "Myrmex"
 		"V621 Hermes Steering"
 		"V607 Hyperdrive"
 		
-	engine -35 -12 .5
-	engine 35 -12 .5
+	engine -35 -18
+	engine 35 -18
 	gun -3 -135
 	gun 3 -135
 	explode "small explosion" 15
@@ -615,8 +617,8 @@ ship "Myrmidon"
 		"V611 Hermes Thruster"
 		"V621 Hermes Steering"
 		
-	engine -27 45 .5
-	engine 27 45 .5
+	engine -30 48
+	engine 30 48
 	gun -2 -53
 	gun 2 -53
 	explode "small explosion" 15
@@ -627,6 +629,7 @@ ship "Myrmidon"
 
 ship "Pollaxe"
 	sprite "ship/pollaxe"
+	swizzle 0
 	attributes
 		category "Heavy Warship"
 		"cost" 38680000
@@ -669,10 +672,10 @@ ship "Pollaxe"
 	gun -25 42
 	gun 25 42
 	gun 0 42
-	turret -80 78
-	turret -58 114
-	turret -58 157
-	turret -80 194
+	turret -82 72
+	turret -55 116
+	turret -55 166
+	turret -82 208
 	explode "small explosion" 25
 	explode "medium explosion" 35
 	explode "large explosion" 45
@@ -825,6 +828,7 @@ ship "Tianlong"
 
 ship "Twin Crescent"
 	sprite "ship/twincrescent"
+	swizzle 0
 	attributes
 		category "Interceptor"
 		"cost" 670000
