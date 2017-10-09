@@ -28,7 +28,7 @@ mission "Intro, Valuut [0]"
 			`	"Very well Captain, I wish you luck in your return home." The security tenses up, but they allow you to board your ship and leave.`
 				flee
 			label l_end
-			`	"Excellent", he says, "You can find him in the Valuutian Capital of Uucriis. All spaceport officials have your ship and personal description, and will aid you in finding it. I'd escort you, but I have urgent business elsewhere." He and his group bow their heads slightly, then glide off back to the building they came from.`
+			`	"Excellent," he says. "You can find him in the Valuutian Capital of Uucriis. All spaceport officials have your ship and personal description, and will aid you in finding it. I'd escort you, but I have urgent business elsewhere." He and his group bow their heads slightly, then glide off back to the building they came from.`
 				accept
 	on decline
 		event "valuut hostile" 2
@@ -43,6 +43,7 @@ mission "Intro, Valuut [1]"
 		has "Intro, Valuut [0]: done"
 	on offer
 		conversation
+			scene "scene/valuutia intro"
 			`The instant you disembark, you are met on the glass domed landing pad by a delegation similar to the one encountered at the colony, save that these wear baggy trousers and long tunics made of the same flowing fabric as the robes of the previous group. You discover there's little need to explain the purpose of your visit, and in no time at all find yourself speeding towards the capital in an automated hovercraft that glides gracefully, high above the rooftops of the city below.`
 			`	Just as you allow your mind to wander to the upcoming meeting, what appeared to be a small bird in the distance swoops down on your craft with frightening speed. The creature that now matches pace with your hovercraft is distinctly reptilian, with a shiny metallic hide of layered scales and broad webbed wings. It shows it's teeth; wicked fangs thick as your wrist and long as your forearm, then suddenly winks slyly at you and veers off to perch on a distant skyscraper, swiftly fading from view as your craft continues on.`
 			`	The hovercraft begins to descend, weaving deftly through the now crowded buildings. It comes to rest in a squat garage adjacent to an expansive, stately structure, where you are again met by a party of silver-skinned Valuutians, once more garbed in long flowing robes. They lead you through wide corridors toward the heart of the building, finally coming to stop at an imposing metal door leading to a spacious office. Upon entering, you are greeted by a tall, muscular Valuutian, clearly in his prime, with a dark hue to his silver skin and solid black eyes that carry the weight of one familiar to a position of command. With an overly firm handshake and a cold smile that never quite reaches his eyes, he says in a booming voice, "Welcome Captain, to the Ministry of Foreign Affairs. I am Minister Iismal, and you?"`
@@ -71,7 +72,7 @@ mission "Intro, Valuut [1]"
 				`	"I'm listening."`
 					goto l_proposition
 			label l_merchant
-			`	"A merchant? Wonderful, trade is the lifeblood of any strong nation Captain <last>. I have a proposal for you, after which I can offer free travel in Valuutian space and access to exclusive work contracts from the Valuutian government. The risk is minimal for a seasoned Captain, and the rewards great."`
+			`	"A merchant," he repeats, sounding satisfied. "Wonderful, trade is the lifeblood of any strong nation Captain <last>. I have a proposal for you, after which I can offer free travel in Valuutian space and access to exclusive work contracts from the Valuutian government. The risk is minimal for a seasoned Captain, and the rewards great."`
 			choice
 				`	"You've got my attention."`
 			label l_proposition
@@ -107,6 +108,7 @@ mission "Intro, Valuut [2]"
 		has "Intro, Valuut [1]: done"
 	on offer
 		conversation
+			scene "scene/nyy intro"
 			`Upon arriving at Nyy, automated ground control directs your ship to a landing site adjacent to Kaavu. The site appears to be a retrofitted Colony Ship, devoid of any habitable buildings but with the outskirts full of warehouses. While passing through the domed energy shield you get the distinct impression that it serves as both a malleable barrier and a scanning device. Disembarking, you make your way through the crowd, squeezing through the connecting tunnel towards Kaavu.`
 			`	Once inside the Colony proper a few questions, in what you assume is discreet fashion, reveal the location of the only purveyor of survey equipment in Kaavu. After trying in vain to convince the proprietor, one of the small wiry creatures with razor sharp teeth, to speak of past clientele, you discover they also supply craft to reach Eempra on behalf of the local government, and quickly find yourself descending through the ocean towards the colony.`
 			`	Eempra looks much like Kaavu, which in turn looks much like a town on Valuutia, save for the oppressive weight of the ocean held back by the dome's energy field. After a bit of aimless wandering, you decide to question one of the local laborers about the expedition team.`
@@ -115,7 +117,7 @@ mission "Intro, Valuut [2]"
 				`	(Approach one of the small, translucent skinned creatures.)`
 					goto l_uu-nall-voo
 			`	You approach a tall, strong backed young man who doesn't pause in his work at your greeting, but does smile warmly in return.`
-			`	"Expedition team?" he says mostly to himself, furrowing his brow in thought. "We got plenty come through here, mostly with some big company or other."`
+			`	"Expedition team?" he asks mostly to himself, furrowing his brow in thought. "We got plenty come through here, mostly with some big company or other."`
 			choice
 				`	"These wouldn't be with a company; it's an independent group."`
 			`	He stops his work briefly, pondering, then smacks his forehead and exclaims, "Yea! Well maybe. 'Bout a week or so ago I saw a group like that talking with the Arhegis on the outskirts. Well, they was talking, he was just floating there like they do."`
@@ -126,19 +128,19 @@ mission "Intro, Valuut [2]"
 				goto l_arhegis
 			label l_uu-nall-voo
 			`	You approach one of the tiny creatures, supervising a group of laborers unloading cargo from one of the mag-lev rail lines into an adjacent warehouse, and introduce yourself, inquiring as to whether it speaks your language.`
-			`	"First-it interrupts me, then-it talks down to-me like I'm an-animal", It says in a rapid pace, running some words together in difficult to understand fashion. "Yes-human, I'm quite capable-of-speaking thank-you-very-much."`
+			`	"First-it interrupts me, then-it talks down to-me like I'm an-animal," it says in a rapid pace, running some words together in difficult to understand fashion. "Yes-human, I'm quite capable-of-speaking thank-you-very-much."`
 			choice
 				`	"Apologies, I meant no disrespect."`
 				`	"Sorry, how should I know what language you speak?"`
-			`	"Pfft, it talks-like-it's never seen Uu-nall-voo before. What do-you-want human? I'm busy, not-like-you care", it snorts derisively.`
+			`	"Pfft, it talks-like-it's never seen Uu-nall-voo before. What do-you-want human? I'm busy, not-like-you care," it snorts derisively.`
 			choice
 				`	"I'm looking for an expedition that was here recently."`
-			`	"Pfft, I take inventory-of-cargo human, not expedition-teams. Ask-the Arhegis, maybe he-wants-to-be interrupted."`
+			`	Barely even glancing your way it mutters, almost under it's breath, "Pfft, I take inventory-of-cargo human, not expedition-teams. Ask-the Arhegis, maybe he-wants-to-be interrupted."`
 			choice
 				`	"Where can I find the Arhegis?"`
 				`	"Who or what is the Arhegis?"`
-			`	"Pfft, it's rude and blind. The Arhegis patrols-outside the colony human. Travel to-the-outskirts, he will-find-you", it responds, turning back to it's work and pointedly ignores you.`
-			`	You thank the creature for it's time, to which it gives a final, "Pfft!", and make your way to the outer part of the colony.`
+			`	"Pfft, it's rude and blind. The Arhegis patrols-outside the colony human. Travel to-the-outskirts, he will-find-you," it responds, turning back to it's work and pointedly ignoring you.`
+			`	You thank the creature for it's time, to which it gives a final, "Pfft!" and make your way to the outer part of the colony.`
 			label l_arhegis
 			`	At the edge of Eempra you find a lift up to a ledge where the Colony Ship's energy field meets the ocean, and peer into the clear water's depths finding little of interest.`
 			choice
@@ -149,18 +151,18 @@ mission "Intro, Valuut [2]"
 			`	A gentle thought manifests in your mind, "Greetings <first> <last>, I am the Arhegis of Eempra."`
 			choice
 				`	"Greetings Arhegis, I've come to ask about..."`
-			`	"Modaa", the creature finishes for you. "Iismal has not changed much, still ensnaring whoever is convienent to do his bidding."`
+			`	"Modaa," the creature finishes for you. "Iismal has not changed much, still ensnaring whoever is convienent to do his bidding."`
 			choice
 				`	"Would you tell me what you know of Modaa?"`
 					goto l_modaa
 				`	"Can you tell me more about Iismal?"`
-			`	"I can not, apologies. There are some minds closed even to my kind. I can tell you to be wary Captain <last>. Iismal would not shed a tear if you were lost, as long as his goals are achieved. My kind have long watched him, but are not able to say if he is malicious, or just singularly focused."`
+			`	"I can not. Apologies," the creature responds. "There are some minds closed even to my kind. I can tell you to be wary Captain <last>. Iismal would not shed a tear if you were lost, as long as his goals are achieved. My kind have long watched him, but are not able to say if he is malicious, or just singularly focused."`
 			choice
 				`	"I'll keep that in mind. What of Modaa then?"`
 			label l_modaa
-			`	"Modaa was here with his team when a meeting took place between himself and pirates of Nowhere Paradise. Like Iismal, I can not look into the thoughts of Modaa, but the pirates were under the impression that he would manufacture weapons for them in exchange for sanctuary. Modaa then left of his own accord, and the pirates departed some time later."`
+			`	"Modaa was here with his team when a meeting took place between himself and pirates of Nowhere Paradise," the Arhegis answers. "Like Iismal, I can not look into the his thoughts, but the pirates were under the impression that he would manufacture weapons for them in exchange for sanctuary. Modaa then left of his own accord, and the pirates departed some time later."`
 			choice
-				`	"Seems to me this could've all been told to Iismal."`
+				`	"Seems to me this could've all been told to the Minister."`
 			`	The Arhegis shakes with laughter, stirring the water and revealing a row of monstrous, gleaming teeth. "Iismal trusts no one Captain <last>, certainly not me, and least of all the people in the Ministry. A stranger is just as trustworthy to him as his closest allies. It's likely he knew all this already, and is simply watching how it will all turn out."`
 			choice
 				`	"I see. Thank you for the help Arhegis."`
@@ -191,25 +193,25 @@ mission "Intro, Valuut [3]"
 		conversation
 			`After landing at the Outpost, you're met in the spaceport by an Anstad Corp rep who leads you to a private rail line. The mag-lev rail car winds along slowly, crisscrossing through the city to display the largest factories and research labs; a spectacle you're sure is intended to impress any would-be investors.`
 			`	You eventually come to stop in front of a modest sized lab after having seen billboards representing just about every product the Anstad Corp offers. The building is spotless inside, as these things tend to be, save for a large hole on the eastern side that's been hastily plastered over. Your guide, who was silent during the journey excepting when you passed an advertisement, ("Surely a fine Captain such as yourself should be piloting an Excalibur. Top of the line!"), hands you off to a greeter inside, who then hands you off to a young man whose voice you recognize from the earlier message.`
-			`	"A pleasure to meet in person Captain <last>, I'm Sazar Itep", he says in a practiced, welcoming tone. "Ms. Anstad is down in the labs at the moment, I'll escort you directly."`
+			`	"A pleasure to meet in person Captain <last>, I'm Sazar Itep," he says in a practiced, welcoming tone. "Ms. Anstad is down in the labs at the moment, I'll escort you directly."`
 			choice
 				`	"I noticed the hole in the wall..."`
 			`	Sazar walks along with you in tow for a while before responding. "Ah. Yes. A minor malfunction with our latest missile design. A very early stage prototype I assure you. Better it misfires here than out there right? Ah, here we are. You'll find Ms. Anstad just through there."`
 			choice
 				`	"You wont be attending the meeting then?"`
-			`	"Ah. Yes. Well no actually." he answers quietly, eyeing the door in askance. "Sensitive research such as that isn't for the likes of me." Chuckling nervously, he quickly walks away as if afraid you'll make him enter.`
+			`	"Ah. Yes. Well no actually," he answers quietly, eyeing the door in askance. "Sensitive research such as that isn't for the likes of me." Chuckling nervously, he quickly walks away as if afraid you'll make him enter.`
 			`	You proceed through the doorway into a spacious room, with walls covered in various monitors and whiteboards. As you begin to take stock of your surroundings, noting several lab assistants who are curiously bandaged peering down over a walkway railing at something just out of sight, you're greeted with a tremendous Bang! and find yourself flat on your back, ears ringing.`
 			`	"Captain? Captain <last>?" you hear as you regain your bearings, pushing yourself to your feet. Standing before you is a dark skinned young woman, long hair in disarray and face covered in soot, who extends her hand and repeats, "Captain <last>? Good, good, you're up. Sorry about that, I think we made the triggering mechanism too sensitive. Annie, have them clear out the prototype and bring in another, would you?" By the time you reach out to take her hand in greeting, she's already turned away, helping up her assistants who were tossed about and chivvying them back to their stations.`
-			`	"Alright, back to business then." she says cheerfully, turning your way. "I understand Iismal tasked you with hunting down Modaa. What I don't know is, what are you supposed to do with him once you find him?"`
+			`	"Alright, back to business then," she says cheerfully, turning your way. "I understand Iismal tasked you with hunting down Modaa. What I don't know is, what are you supposed to do with him once you find him?"`
 			choice
 				`	"I'm supposed to just find out what happened."`
 				`	"He never really went into that."`
 			`	"Fantastic!" she exclaims. "You see Captain, Modaa was once my professor when I was studying in Uucriis on Valuutia. I don't know the details of his little tiff with Iismal, those two were always at odds when he was the headmaster at the university as well, but I'm hoping that if I gave you Modaa's location, you would be kind enough to escort him here to me. I would be terribly upset if anything untoward would happen to him."`
 			choice
 				`	"Wouldn't that cause problems with the Valuutian government?"`
-			`	"Oh, nothing that couldn't be sorted out." she laughs, waving a hand. "Our position as the only large scale manufacturer of ships and weapons assures our neutrality. Besides, there's no way for you to get in contact with him unless you agree Captain, so just let me worry about the details. You'll be paid well, I assure you."`
+			`	"Oh, nothing that couldn't be sorted out," she laughs, waving a hand. "Our position as the only large scale manufacturer of ships and weapons assures our neutrality. Besides, there's no way for you to get in contact with him unless you agree Captain, so just let me worry about the details. You'll be paid well, I assure you."`
 			choice
 				`	"I think I should hear from Modaa before deciding that."`
-			`	"That'll be just fine Captain." she says, smiling mysteriously. "Modaa is under the protection of a pirate on Nowhere Paradise named Sika. I'll have Sazar send the coordinates of the meeting site to your ship, and also let them know you'll be arriving shortly. Have a nice trip Captain."`
+			`	"That'll be just fine Captain," she says, smiling mysteriously. "Modaa is under the protection of a pirate on Nowhere Paradise named Sika. I'll have Sazar send the coordinates of the meeting site to your ship, and also let them know you'll be arriving shortly. Have a nice trip Captain."`
 				accept
 
