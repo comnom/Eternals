@@ -191,6 +191,7 @@ mission "Intro, Valuut [3]"
 		has "Intro, Valuut [2]: done"
 	on offer
 		conversation
+			scene "scene/odyssey outpost intro"
 			`After landing at the Outpost, you're met in the spaceport by an Anstad Corp rep who leads you to a private rail line. The mag-lev rail car winds along slowly, crisscrossing through the city to display the largest factories and research labs; a spectacle you're sure is intended to impress any would-be investors.`
 			`	You eventually come to stop in front of a modest sized lab after having seen billboards representing just about every product the Anstad Corp offers. The building is spotless inside, as these things tend to be, save for a large hole on the eastern side that's been hastily plastered over. Your guide, who was silent during the journey excepting when you passed an advertisement, ("Surely a fine Captain such as yourself should be piloting an Excalibur. Top of the line!"), hands you off to a greeter inside, who then hands you off to a young man whose voice you recognize from the earlier message.`
 			`	"A pleasure to meet in person Captain <last>, I'm Sazar Itep," he says in a practiced, welcoming tone. "Ms. Anstad is down in the labs at the moment, I'll escort you directly."`
