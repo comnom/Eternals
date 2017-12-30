@@ -61,7 +61,7 @@ system Charybdis
 
 system Cinoo
 	pos 338.901 -677.231
-	government Uninhabited
+	government Valuut
 	habitable 135
 	link Charybdis
 	link Thrinacia
@@ -154,7 +154,7 @@ system "Ephemeral Reflections"
 
 system Hetuu
 	pos 221.901 -762.231
-	government Uninhabited
+	government Valuut
 	habitable 1715
 	link Valiit
 	link Pirtaal
@@ -208,7 +208,7 @@ system Hetuu
 
 system Ismaros
 	pos 295.91 -754.241
-	government Uninhabited
+	government Valuut
 	habitable 425.92
 	link Valiit
 	link Thrinacia
@@ -272,7 +272,7 @@ system Ismaros
 
 system Kijaa
 	pos 377.901 -781.231
-	government Uninhabited
+	government Valuut
 	habitable 486.68
 	link Thrinacia
 	link Wanool
@@ -315,7 +315,7 @@ system Kijaa
 
 system Masuul
 	pos 125.91 -734.241
-	government Uninhabited
+	government Valuut
 	habitable 320
 	link Nileem
 	link Pirtaal
@@ -591,7 +591,7 @@ system Pirtaal
 
 system Risiit
 	pos 214.91 -677.241
-	government Uninhabited
+	government Valuut
 	habitable 1715
 	link Valiit
 	asteroids "small rock" 1 6.6352
