@@ -488,6 +488,10 @@ phrase "lo hostile"
 		"peace"
 		"justice"
 		"those we are sworn to protect"
+	word
+		"."
+		"!"
+		"!"
 
 phrase "valuut hostile"
 	word
