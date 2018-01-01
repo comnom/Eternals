@@ -1,5 +1,6 @@
 ship "Ao"
 	sprite "ship/ao"
+	swizzle 0
 	attributes
 		category "Heavy Warship"
 		"cost" 31400000
@@ -60,6 +61,7 @@ ship "Ao"
 
 ship "Bixi"
 	sprite "ship/bixi"
+	swizzle 0
 	attributes
 		category "Heavy Warship"
 		"cost" 31400000
@@ -118,6 +120,7 @@ ship "Bixi"
 
 ship "Chilong"
 	sprite "ship/chilong"
+	swizzle 0
 	attributes
 		category "Fighter"
 		"cost" 754000
@@ -152,6 +155,7 @@ ship "Chilong"
 
 ship "Colony Ship"
 	sprite "ship/colonyship"
+	swizzle 0
 	attributes
 		category "Heavy Freighter"
 		cost 24800000
@@ -325,6 +329,7 @@ ship "Gladius"
 
 ship "Hatchling"
 	sprite "ship/hatchling"
+	swizzle 0
 	attributes
 		category "Drone"
 		"cost" 590000
@@ -402,6 +407,7 @@ ship "Hourglass"
 
 ship "Ivory Hatchling"
 	sprite "ship/ivoryhatchling"
+	swizzle 0
 	attributes
 		category "Drone"
 		"cost" 590000
@@ -433,6 +439,7 @@ ship "Ivory Hatchling"
 
 ship "Ladon"
 	sprite "ship/ladon"
+	swizzle 0
 	attributes
 		category "Heavy Warship"
 		"cost" 36700000
@@ -543,6 +550,7 @@ ship "Longinus"
 
 ship "Myrmex"
 	sprite "ship/myrmex"
+	swizzle 0
 	attributes
 		category "Light Freighter"
 		"cost" 7200000
@@ -585,6 +593,7 @@ ship "Myrmex"
 
 ship "Myrmidon"
 	sprite "ship/myrmidon"
+	swizzle 0
 	attributes
 		category "Interceptor"
 		"cost" 720000
@@ -684,6 +693,7 @@ ship "Pollaxe"
 
 ship "Scorpion"
 	sprite "ship/scorpion"
+	swizzle 0
 	attributes
 		category "Medium Warship"
 		"cost" 20835000
@@ -737,6 +747,7 @@ ship "Scorpion"
 
 ship "Steel Scorpion"
 	sprite "ship/steelscorpion"
+	swizzle 0
 	attributes
 		category "Medium Warship"
 		"cost" 20835000
@@ -792,6 +803,7 @@ ship "Steel Scorpion"
 
 ship "Tianlong"
 	sprite "ship/tianlong"
+	swizzle 0
 	attributes
 		category "Fighter"
 		"cost" 754000
@@ -871,6 +883,7 @@ ship "Twin Crescent"
 
 ship "Typhon"
 	sprite "ship/typhon"
+	swizzle 0
 	attributes
 		category "Heavy Warship"
 		"cost" 36700000
@@ -934,6 +947,7 @@ ship "Typhon"
 
 ship "Winged Serpent"
 	sprite "ship/wingedserpent"
+	swizzle 0
 	attributes
 		category "Heavy Freighter"
 		"cost" 17200000
