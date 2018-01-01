@@ -168,7 +168,7 @@ system Hetuu
 	minables silicon 45 6.68659
 	minables tungsten 2 5.45307
 	fleet "Valuutian Miners" 1200
-	fleet "Craterustig Swarm" 1200
+	fleet "Craterustig Swarm" 2400
 	fleet "Large Valuutian" 8400
 	fleet "Large Lost Ones" 12400
 	fleet "Valuutian Merchants" 1900
