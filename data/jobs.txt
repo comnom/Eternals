@@ -81,7 +81,7 @@ mission "Cargo (valuut, small)"
 	job
 	cargo random 3 9 .2
 	to offer
-		random < 75
+		random < 65
 	source
 		government "Valuut" "Lost Ones"
 	destination
@@ -99,7 +99,7 @@ mission "Cargo (valuut, medium)"
 	job
 	cargo random 3 12 .2
 	to offer
-		random < 65
+		random < 55
 	source
 		government "Valuut" "Lost Ones"
 	destination
@@ -117,7 +117,7 @@ mission "Cargo (valuut, large)"
 	job
 	cargo random 3 15 .2
 	to offer
-		random < 55
+		random < 45
 	source
 		government "Valuut" "Lost Ones"
 	destination
@@ -135,7 +135,7 @@ mission "Cargo (valuut, bulk 1)"
 	job
 	cargo random 24 6 .1
 	to offer
-		random < 55
+		random < 45
 	source
 		government "Valuut" "Lost Ones"
 	destination
@@ -153,7 +153,7 @@ mission "Cargo (valuut, bulk 2)"
 	job
 	cargo random 33 9 .1
 	to offer
-		random < 45
+		random < 35
 	source
 		government "Valuut" "Lost Ones"
 	destination
@@ -171,7 +171,7 @@ mission "Cargo (valuut, bulk 3)"
 	job
 	cargo random 42 15 .1
 	to offer
-		random < 35
+		random < 25
 	source
 		government "Valuut" "Lost Ones"
 	destination
@@ -189,7 +189,7 @@ mission "Cargo (valuut, bulk 4)"
 	job
 	cargo random 60 24 .1
 	to offer
-		random < 25
+		random < 15
 	source
 		government "Valuut" "Lost Ones"
 	destination
@@ -251,8 +251,7 @@ mission "Escort Colony Ship (easy)"
 	job
 	deadline
 	to offer
-		random < 20
-		random > 10
+		random < 15
 		"combat rating" > 2000
 	source "Valuutia"
 	destination
@@ -283,7 +282,6 @@ mission "Escort Colony Ship (medium)"
 	deadline
 	to offer
 		random < 10
-		random > 5
 		"combat rating" > 5000
 	source "Valuutia"
 	destination
@@ -313,8 +311,7 @@ mission "Escort Colony Ship (hard)"
 	job
 	deadline
 	to offer
-		random < 30
-		random > 25
+		random < 5
 		"combat rating" > 10000
 	source "Valuutia"
 	destination
@@ -344,7 +341,7 @@ mission "Harvest (aluminum, small)"
 	repeat
 	job
 	to offer
-		random < 40
+		random < 30
 	source
 		government "Valuut" "Lost Ones"
 	on complete
@@ -358,7 +355,7 @@ mission "Harvest (aluminum, large)"
 	repeat
 	job
 	to offer
-		random < 40
+		random < 20
 	source
 		government "Valuut" "Lost Ones"
 	on complete
@@ -372,7 +369,7 @@ mission "Harvest (copper, small)"
 	repeat
 	job
 	to offer
-		random < 50
+		random < 30
 	source
 		government "Valuut" "Lost Ones"
 	on complete
@@ -386,7 +383,7 @@ mission "Harvest (copper, large)"
 	repeat
 	job
 	to offer
-		random < 50
+		random < 20
 	source
 		government "Valuut" "Lost Ones"
 	on complete
@@ -400,7 +397,7 @@ mission "Harvest (gold, small)"
 	repeat
 	job
 	to offer
-		random < 20
+		random < 15
 	source
 		government "Valuut" "Lost Ones"
 	on complete
@@ -414,7 +411,7 @@ mission "Harvest (gold, large)"
 	repeat
 	job
 	to offer
-		random > 80
+		random < 10
 	source
 		government "Valuut" "Lost Ones"
 	on complete
@@ -428,7 +425,7 @@ mission "Harvest (iron, small)"
 	repeat
 	job
 	to offer
-		random < 50
+		random < 30
 	source
 		government "Valuut" "Lost Ones"
 	on complete
@@ -442,7 +439,7 @@ mission "Harvest (iron, large)"
 	repeat
 	job
 	to offer
-		random < 50
+		random < 20
 	source
 		government "Valuut" "Lost Ones"
 	on complete
@@ -470,7 +467,7 @@ mission "Harvest (lead, large)"
 	repeat
 	job
 	to offer
-		random > 70
+		random < 20
 	source
 		government "Valuut" "Lost Ones"
 	on complete
@@ -498,7 +495,7 @@ mission "Harvest (neodymium, large)"
 	repeat
 	job
 	to offer
-		random > 70
+		random < 20
 	source
 		government "Valuut" "Lost Ones"
 	on complete
@@ -526,7 +523,7 @@ mission "Harvest (platinum, large)"
 	repeat
 	job
 	to offer
-		random > 90
+		random < 5
 	source
 		government "Valuut" "Lost Ones"
 	on complete
@@ -540,7 +537,7 @@ mission "Harvest (silicon, small)"
 	repeat
 	job
 	to offer
-		random < 10
+		random < 30
 	source
 		government "Valuut" "Lost Ones"
 	on complete
@@ -554,7 +551,7 @@ mission "Harvest (silicon, large)"
 	repeat
 	job
 	to offer
-		random > 90
+		random < 20
 	source
 		government "Valuut" "Lost Ones"
 	on complete
@@ -568,7 +565,7 @@ mission "Harvest (silver, small)"
 	repeat
 	job
 	to offer
-		random < 60
+		random < 20
 	source
 		government "Valuut" "Lost Ones"
 	on complete
@@ -582,7 +579,7 @@ mission "Harvest (silver, large)"
 	repeat
 	job
 	to offer
-		random < 60
+		random < 10
 	source
 		government "Valuut" "Lost Ones"
 	on complete
@@ -610,7 +607,7 @@ mission "Harvest (titanium, large)"
 	repeat
 	job
 	to offer
-		random > 90
+		random < 5
 	source
 		government "Valuut" "Lost Ones"
 	on complete
@@ -638,7 +635,7 @@ mission "Harvest (tungsten, large)"
 	repeat
 	job
 	to offer
-		random > 70
+		random < 20
 	source
 		government "Valuut" "Lost Ones"
 	on complete
@@ -666,7 +663,7 @@ mission "Harvest (uranium, large)"
 	repeat
 	job
 	to offer
-		random > 90
+		random < 5
 	source
 		government "Valuut" "Lost Ones"
 	on complete
@@ -682,7 +679,7 @@ mission "Humanitarian (nowhere paradise, food)"
 	clearance
 	cargo "Food" 50 250
 	to offer
-		random < 65
+		random < 60
 		"combat rating" > 5000
 	source
 		government "Lost Ones"
@@ -700,7 +697,7 @@ mission "Humanitarian (nowhere paradise, clothes)"
 	clearance
 	cargo "Clothing" 50 250
 	to offer
-		random < 55
+		random < 50
 		"combat rating" > 5000
 	source
 		government "Lost Ones"
@@ -718,7 +715,7 @@ mission "Humanitarian (nowhere paradise, medical)"
 	clearance
 	cargo "Medical" 50 250
 	to offer
-		random < 45
+		random < 40
 		"combat rating" > 5000
 	source
 		government "Lost Ones"
