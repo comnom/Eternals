@@ -160,7 +160,7 @@ mission "Intro, Valuut [2]"
 			choice
 				`	"I'll keep that in mind. What of Modaa then?"`
 			label l_modaa
-			`	"Modaa was here with his team when a meeting took place between himself and pirates of Nowhere Paradise," the Arhegis answers. "Like Iismal, I can not look into the his thoughts, but the pirates were under the impression that he would manufacture weapons for them in exchange for sanctuary. Modaa then left of his own accord, and the pirates departed some time later."`
+			`	"Modaa was here with his team when a meeting took place between himself and pirates of Nowhere Paradise," the Arhegis answers. "Like Iismal, I can not look into his thoughts, but the pirates were under the impression that he would manufacture weapons for them in exchange for sanctuary. Modaa then left of his own accord, and the pirates departed some time later."`
 			choice
 				`	"Seems to me this could've all been told to the Minister."`
 			`	The Arhegis shakes with laughter, stirring the water and revealing a row of monstrous, gleaming teeth. "Iismal trusts no one Captain <last>, certainly not me, and least of all the people in the Ministry. A stranger is just as trustworthy to him as his closest allies. It's likely he knew all this already, and is simply watching how it will all turn out."`
