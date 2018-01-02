@@ -727,14 +727,14 @@ ship "Scorpion"
 		"V622 Hermes Steering"
 		"V607 Hyperdrive"
 		
-	engine -36 106
-	engine 36 106
-	gun -37 -119 "Ares Beam"
-	gun 37 -119 "Ares Beam"
-	gun 0 8 "Poseidon Cannon"
-	gun 0 -94 "Poseidon Cannon"
-	turret -10 -10
-	turret 10 -10
+	engine -20 92
+	engine 20 92
+	gun -40 -128 "Ares Beam"
+	gun 40 -128 "Ares Beam"
+	gun -4 16 "Poseidon Cannon"
+	gun 4 16 "Poseidon Cannon"
+	turret -46 -77
+	turret 46 -77
 	fighter 0 0 under
 	fighter 1 1 under
 	fighter -1 -1 under
@@ -783,14 +783,14 @@ ship "Steel Scorpion"
 		"V612 Hermes Thruster"
 		"V622 Hermes Steering"
 		
-	engine -36 106
-	engine 36 106
-	gun -37 -119 "Ares Beam"
-	gun 37 -119 "Ares Beam"
-	gun 0 8 "Poseidon Cannon"
-	gun 0 -94 "Poseidon Cannon"
-	turret -10 -10
-	turret 10 -10
+	engine -20 92
+	engine 20 92
+	gun -40 -128 "Ares Beam"
+	gun 40 -128 "Ares Beam"
+	gun -4 16 "Poseidon Cannon"
+	gun 4 16 "Poseidon Cannon"
+	turret -46 -77
+	turret 46 -77
 	fighter 0 0 under
 	fighter 1 1 under
 	fighter -1 -1 under
