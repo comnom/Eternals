@@ -46,7 +46,7 @@ shipyard "Lost Ones Ships"
 	"Gladius"
 	"Excalibur"
 	"Pollaxe"
-	"Hourglass"
+	"Swordbreaker"
 	"Longinus"
 
 shipyard "Valuutian Ships"

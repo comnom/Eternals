@@ -358,53 +358,6 @@ ship "Hatchling"
 	explode "small explosion" 10
 	description "The Valuutian's Hatchling drone uses the same hot-dipping method of hull construction as the Bixi carrier, making it able to take more of a beating than similar craft."
 
-ship "Hourglass"
-	sprite "ship/hourglass"
-	swizzle 0
-	attributes
-		category "Heavy Freighter"
-		"cost" 17600000
-		"shields" 19500
-		"hull" 39200
-		"required crew" 12
-		"bunks" 17
-		"mass" 710
-		"drag" 12.1
-		"heat dissipation" .5
-		"fuel capacity" 500
-		"cargo space" 618
-		"outfit space" 400
-		"weapon capacity" 63
-		"engine capacity" 120
-		weapon
-			"blast radius" 80
-			"shield damage" 800
-			"hull damage" 400
-			"hit force" 1200
-	outfits
-		"V602 Zeus Reactor"
-		"V630M Cell Array"
-		"V640 Generator"
-		"V641 Regenerator"
-		"LNaK Cooling"
-		"Security Forcefield" 2
-		"Athena Anti-Missile" 2
-		"V612 Hermes Thruster"
-		"V622 Hermes Steering"
-		"V607 Hyperdrive"
-		
-	engine -77 72
-	engine 77 72
-	turret 0 -124
-	turret 0 124
-	fighter 0 -152
-	fighter 0 152
-	explode "tiny explosion" 10
-	explode "small explosion" 25
-	explode "medium explosion" 30
-	explode "large explosion" 15
-	description "The Hourglass freighter is the Lost Ones go-to ship for trade with the Valuutians. Commissioned by the Lost Ones and manufactured by Anstad Corp, these ships went into service shortly after the Lost Ones were granted nation-state status by the Valuutian government."
-
 ship "Ivory Hatchling"
 	sprite "ship/ivoryhatchling"
 	swizzle 0
@@ -800,6 +753,53 @@ ship "Steel Scorpion"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	description "Part of the Eternals' unpublicized war-fleet, the Steel Scorpion comes equipped with an improved shield matrix and built-in jump capability."
+
+ship "Swordbreaker"
+	sprite "ship/swordbreaker"
+	swizzle 0
+	attributes
+		category "Heavy Freighter"
+		"cost" 17600000
+		"shields" 19500
+		"hull" 39200
+		"required crew" 12
+		"bunks" 72
+		"mass" 710
+		"drag" 12.1
+		"heat dissipation" .5
+		"fuel capacity" 500
+		"cargo space" 618
+		"outfit space" 400
+		"weapon capacity" 63
+		"engine capacity" 120
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"V602 Zeus Reactor"
+		"V630M Cell Array"
+		"V640 Generator"
+		"V641 Regenerator"
+		"LNaK Cooling"
+		"Security Forcefield" 2
+		"Athena Anti-Missile" 2
+		"V612 Hermes Thruster"
+		"V622 Hermes Steering"
+		"V607 Hyperdrive"
+		
+	engine -12 147
+	engine 12 147
+	turret 0 -94
+	turret 0 0
+	fighter 0 1
+	fighter 0 -1
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 30
+	explode "large explosion" 15
+	description "The Swordbreaker is the Lost Ones go-to ship for trade with the Valuutians. Commissioned by the Lost Ones and manufactured by Anstad Corp, these ships went into service shortly after the Lost Ones were granted nation-state status by the Valuutian government."
 
 ship "Tianlong"
 	sprite "ship/tianlong"

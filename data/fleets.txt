@@ -49,55 +49,55 @@ fleet "Lost Ones Merchants"
 		confusion 35
 		timid frugal
 	variant 20
-		"Hourglass"
+		"Swordbreaker"
 		"Gladius" 2
 	variant 20
-		"Hourglass (Var1)"
+		"Swordbreaker (Var1)"
 		"Twin Crescent"
 	variant 20
-		"Hourglass"
+		"Swordbreaker"
 		"Gladius (Var1)" 2
 		"Twin Crescent (Var1)"
 	variant 20
-		"Hourglass"
+		"Swordbreaker"
 		"Twin Crescent" 2
 	variant 20
-		"Hourglass"
+		"Swordbreaker"
 		"Twin Crescent (Var1)" 2
 	variant 12
-		"Hourglass" 2
+		"Swordbreaker" 2
 		"Gladius" 4
 		"Twin Crescent"
 	variant 12
-		"Hourglass"
-		"Hourglass (Var1)"
+		"Swordbreaker"
+		"Swordbreaker (Var1)"
 		"Twin Crescent (Var1)" 3
 	variant 16
 		"Longinus"
-		"Hourglass"
+		"Swordbreaker"
 		"Gladius (Var1)" 2
 	variant 16
 		"Longinus (Var1)"
-		"Hourglass"
+		"Swordbreaker"
 	variant 16
 		"Longinus (Var2)"
-		"Hourglass"
+		"Swordbreaker"
 	variant 14
 		"Longinus"
 		"Twin Crescent"
-		"Hourglass"
+		"Swordbreaker"
 	variant 12
 		"Longinus"
 		"Twin Crescent (Var1)"
-		"Hourglass"
+		"Swordbreaker"
 	variant 12
 		"Longinus"
 		"Twin Crescent" 2
-		"Hourglass (Var1)" 2
+		"Swordbreaker (Var1)" 2
 	variant 12
 		"Longinus (Var1)"
 		"Twin Crescent (Var1)" 3
-		"Hourglass" 2
+		"Swordbreaker" 2
 
 fleet "Small Valuutian"
 	government "Valuut"

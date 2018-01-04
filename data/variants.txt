@@ -104,7 +104,7 @@ ship "Hatchling" "Hatchling (Var1)"
 		"V610 Hermes Thruster"
 		"V620 Hermes Steering"
 
-ship "Hourglass" "Hourglass (Var1)"
+ship "Swordbreaker" "Swordbreaker (Var1)"
 	outfits
 		"V602 Zeus Reactor"
 		"V630M Cell Array"
