@@ -973,15 +973,16 @@ ship "Winged Serpent"
 		"V640 Generator"
 		"V641 Regenerator"
 		"LCL Module"
-		"Dragon's Ice"
+		"Ares Beam" 2
 		
 		"V611 Hermes Thruster"
 		"V622 Hermes Steering"
 		"V607 Hyperdrive"
 		
-	engine -54 59
-	engine 54 59
-	gun 0 -170
+	engine -32 164
+	engine 32 164
+	gun -23 -198
+	gun 23 -198
 	explode "small explosion" 15
 	explode "medium explosion" 30
 	explode "large explosion" 20
