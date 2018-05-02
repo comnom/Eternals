@@ -125,7 +125,8 @@ outfit "V610 Hermes Thruster"
 	"thrusting energy" .8
 	"thrusting heat" 1.7
 	"flare sprite" "effect/engines/hermes_flare_tiny"
-		"frame rate" 10
+		"frame rate" 20
+		"rewind"
 	"flare sound" "hermestiny"
 	description "The tiniest in the Hermes line of thrusters, the V610 is more than adequate for small fighter craft."
 
@@ -140,7 +141,8 @@ outfit "V611 Hermes Thruster"
 	"thrusting energy" 1.6
 	"thrusting heat" 5.8
 	"flare sprite" "effect/engines/hermes_flare_small"
-		"frame rate" 10
+		"frame rate" 20
+		"rewind"
 	"flare sound" "hermessmall"
 	description "These small thrusters are perfect for interceptors, or when getting there fast isn't as important as just getting there."
 
@@ -155,7 +157,8 @@ outfit "V612 Hermes Thruster"
 	"thrusting energy" 4.4
 	"thrusting heat" 10.0
 	"flare sprite" "effect/engines/hermes_flare_medium"
-		"frame rate" 10
+		"frame rate" 20
+		"rewind"
 	"flare sound" "hermesmedium"
 	description "The mid-line V612 is sized to fit a wide variety of ships, serving to upgrade lighter ships, or free up space in heavier ones."
 
@@ -170,7 +173,8 @@ outfit "V613 Hermes Thruster"
 	"thrusting energy" 7.1
 	"thrusting heat" 16.9
 	"flare sprite" "effect/engines/hermes_flare_large"
-		"frame rate" 10
+		"frame rate" 20
+		"rewind"
 	"flare sound" "hermeslarge"
 	description "Anstad Corp's V613 is the largest in the Hermes line of thrusters. Provides ample thrust for the most massive ships."
 
@@ -282,9 +286,9 @@ outfit "V641 Regenerator"
 	thumbnail "outfit/v641regen"
 	"mass" 28
 	"outfit space" -28
-	"hull repair rate" 1.7
-	"hull energy" 3.4
-	"hull heat" 2.1
+	"hull repair rate" 2.975
+	"hull energy" 5.95
+	"hull heat" 3.675
 	description "The V641 Regenerator uses a ship's built-in shield matrix for gathering real-time telemetry data to direct it's nano repair bots to damaged hull sections."
 
 outfit "V642S Generator"
