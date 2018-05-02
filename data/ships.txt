@@ -4,6 +4,65 @@ ship "Ao"
 	attributes
 		category "Heavy Warship"
 		"cost" 31400000
+		"shields" 22560
+		"hull" 90280
+		"required crew" 93
+		"bunks" 105
+		"mass" 1240
+		"drag" 21.2
+		"heat dissipation" .7
+		"fuel capacity" 500
+		"cargo space" 160
+		"outfit space" 823
+		"weapon capacity" 291
+		"engine capacity" 126
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"V603 Zeus Reactor"
+		"V630L Cell Array"
+		"V640 Generator"
+		"V641 Regenerator"
+		"LNaK Cooling"
+		"Dragon's Ice" 2
+		"Athena Anti-Missile" 2
+		"V612 Hermes Thruster"
+		"V623 Hermes Steering"
+		"V607 Hyperdrive"
+		
+	engine -16 147
+	engine 16 147
+	gun -81 -85
+	gun 81 -85
+	turret -33 -65
+	turret 33 -65
+	drone -58 102 left
+	drone -58 102 left
+	drone -58 102 left
+	drone 58 -102 right
+	drone 58 -102 right
+	drone 58 -102 right
+	drone -58 -102 left
+	drone -58 -102 left
+	drone -58 -102 left
+	drone 58 102 right
+	drone 58 102 right
+	drone 58 102 right
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	description "Functioning as the Valuutian's main drone carrier, the Ao lacks the weaponry of other heavy warships, but makes up for it with exceptional hull plating and drone capacity. The hulls are built by hot-dipping multiple layers of metal, resulting in unparalleled strength at the cost of a highly inefficient shield matrix."
+	
+ship "Bixi"
+	sprite "ship/bixi"
+	swizzle 0
+	attributes
+		category "Heavy Warship"
+		"cost" 31400000
 		"shields" 37600
 		"hull" 75380
 		"required crew" 93
@@ -57,79 +116,22 @@ ship "Ao"
 	explode "medium explosion" 35
 	explode "large explosion" 45
 	explode "huge explosion" 30
-	description "The Eternal's version of the Bixi, the Ao uses a more consistent method of crafting the hull, resulting in less variation and strength, but allowing an improved shield matrix to be used."
-
-ship "Bixi"
-	sprite "ship/bixi"
-	swizzle 0
-	attributes
-		category "Heavy Warship"
-		"cost" 31400000
-		"shields" 22560
-		"hull" 90280
-		"required crew" 93
-		"bunks" 105
-		"mass" 1240
-		"drag" 21.2
-		"heat dissipation" .7
-		"fuel capacity" 500
-		"cargo space" 160
-		"outfit space" 823
-		"weapon capacity" 291
-		"engine capacity" 126
-		weapon
-			"blast radius" 260
-			"shield damage" 2600
-			"hull damage" 1300
-			"hit force" 3900
-	outfits
-		"V603 Zeus Reactor"
-		"V630L Cell Array"
-		"V640 Generator"
-		"V641 Regenerator"
-		"LNaK Cooling"
-		"Dragon's Ice" 2
-		"Athena Anti-Missile" 2
-		"V612 Hermes Thruster"
-		"V623 Hermes Steering"
-		"V607 Hyperdrive"
-		
-	engine -16 147
-	engine 16 147
-	gun -81 -85
-	gun 81 -85
-	turret -33 -65
-	turret 33 -65
-	drone -58 102 left
-	drone -58 102 left
-	drone -58 102 left
-	drone 58 -102 right
-	drone 58 -102 right
-	drone 58 -102 right
-	drone -58 -102 left
-	drone -58 -102 left
-	drone -58 -102 left
-	drone 58 102 right
-	drone 58 102 right
-	drone 58 102 right
-	explode "small explosion" 25
-	explode "medium explosion" 35
-	explode "large explosion" 45
-	explode "huge explosion" 30
-	description "Functioning as the Valuutian's main drone carrier, the Bixi lacks the weaponry of other heavy warships, but makes up for it with exceptional hull plating and drone capacity. The hulls are built by hot-dipping multiple layers of metal, resulting in unparalleled strength at the cost of a highly inefficient shield matrix."
-
+	description "The Eternal's version of the Ao, the Bixi uses a more consistent method of crafting the hull, resulting in less variation and strength, but allowing an improved shield matrix to be used."
+	
 ship "Chilong"
 	sprite "ship/chilong"
 	swizzle 0
 	attributes
 		category "Fighter"
 		"cost" 754000
-		"hull" 3700
+		"shields" 1200
+		"hull" 2500
 		"required crew" 1
 		"bunks" 1
 		"mass" 32
 		"drag" .8
 		"heat dissipation" .95
+		"solar collection" 2.7
 		"outfit space" 77
 		"weapon capacity" 20
 		"engine capacity" 22
@@ -151,8 +153,8 @@ ship "Chilong"
 	gun 13 -17
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description "An ancient fighter craft used by the Valuutians to complement their carriers."
-
+	description "The Chilong is a redesigned Tianlong with an integrated shield matrix, developed and manufactured in secret by the Eternals for their personal fleet."
+	
 ship "Colony Ship"
 	sprite "ship/colonyship"
 	swizzle 0
@@ -326,40 +328,9 @@ ship "Gladius"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description "The first Lost Ones ships to be seen around Valuutian space other than the craft they arrived in, this small ship design was later repurposed to serve as a fighter aboard the Excalibur."
-
+	
 ship "Hatchling"
 	sprite "ship/hatchling"
-	swizzle 0
-	attributes
-		category "Drone"
-		"cost" 590000
-		"hull" 2640
-		"mass" 29
-		"drag" 1
-		"heat dissipation" 1
-		"outfit space" 67
-		"weapon capacity" 11
-		"engine capacity" 22
-		weapon
-			"blast radius" 5
-			"shield damage" 50
-			"hull damage" 25
-			"hit force" 75
-	outfits
-		"V600 Zeus Reactor"
-		"LCL Module"
-		"Poseidon Cannon"
-		"V610 Hermes Thruster"
-		"V620 Hermes Steering"
-		
-	engine 0 24
-	gun 0 -26
-	explode "tiny explosion" 20
-	explode "small explosion" 10
-	description "The Valuutian's Hatchling drone uses the same hot-dipping method of hull construction as the Bixi carrier, making it able to take more of a beating than similar craft."
-
-ship "Ivory Hatchling"
-	sprite "ship/ivoryhatchling"
 	swizzle 0
 	attributes
 		category "Drone"
@@ -388,24 +359,58 @@ ship "Ivory Hatchling"
 	gun 0 -26
 	explode "tiny explosion" 20
 	explode "small explosion" 10
-	description "The Eternals integrated a shield matrix into their version of the Hatchling, resulting in better all-around defensive performance."
-
+	description "The Eternals integrated a shield matrix into their version of the Ivory Hatchling, resulting in better all-around defensive performance."
+	
+ship "Ivory Hatchling"
+	sprite "ship/ivoryhatchling"
+	swizzle 0
+	attributes
+		category "Drone"
+		"cost" 590000
+		"hull" 2640
+		"mass" 29
+		"drag" 1
+		"heat dissipation" 1
+		"outfit space" 67
+		"weapon capacity" 11
+		"engine capacity" 22
+		weapon
+			"blast radius" 5
+			"shield damage" 50
+			"hull damage" 25
+			"hit force" 75
+	outfits
+		"V600 Zeus Reactor"
+		"LCL Module"
+		"Poseidon Cannon"
+		"V610 Hermes Thruster"
+		"V620 Hermes Steering"
+		
+	engine 0 24
+	gun 0 -26
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	description "The Valuutian's Ivory Hatchling drone uses the same hot-dipping method of hull construction as the Ao carrier, making it able to take more of a beating than similar craft."
+	
 ship "Ladon"
 	sprite "ship/ladon"
 	swizzle 0
 	attributes
 		category "Heavy Warship"
 		"cost" 36700000
-		"shields" 20470
-		"hull" 61410
+		"shields" 27290
+		"hull" 54590
 		"required crew" 84
 		"bunks" 146
-		"mass" 890
-		"drag" 12.4
+		"mass" 870
+		"drag" 12.1
 		"heat dissipation" .7
+		"jump drive" 1
+		"jump speed" .3
+		"ramscoop" 2
 		"fuel capacity" 600
 		"cargo space" 30
-		"outfit space" 829
+		"outfit space" 819
 		"weapon capacity" 372
 		"engine capacity" 154
 		weapon
@@ -428,7 +433,6 @@ ship "Ladon"
 		"Athena Anti-Missile" 2
 		"V613 Hermes Thruster"
 		"V623 Hermes Steering"
-		"V607 Hyperdrive"
 		
 	engine -28 102
 	engine 28 102
@@ -450,8 +454,8 @@ ship "Ladon"
 	explode "medium explosion" 35
 	explode "large explosion" 45
 	explode "huge explosion" 30
-	description "The oldest ship in the Valuutian defense fleets, the Ladon is a relatively agile heavy warship with enough offense and defense to stand up to other large ships."
-
+	description "The Eternals reworked the Typhon over thousands of years in an attempt to improve it. After failing completely, they settled on a slightly improved shield matrix and built-in jump capability."
+	
 ship "Longinus"
 	sprite "ship/longinus"
 	swizzle 0
@@ -500,7 +504,7 @@ ship "Longinus"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	description "A nimble light warship favored by merchants, mercenaries, and pirates alike, the Longinus lacks neither agility nor firepower."
-
+	
 ship "Myrmex"
 	sprite "ship/myrmex"
 	swizzle 0
@@ -588,7 +592,7 @@ ship "Myrmidon"
 	explode "large explosion" 20
 	explode "huge explosion" 5
 	description "The Myrmidon is a beefy Interceptor with unmatched frontal firepower and excellent defense for it's size."
-
+	
 ship "Pollaxe"
 	sprite "ship/pollaxe"
 	swizzle 0
@@ -650,60 +654,6 @@ ship "Scorpion"
 	attributes
 		category "Medium Warship"
 		"cost" 20835000
-		"shields" 11830
-		"hull" 35490
-		"required crew" 34
-		"bunks" 78
-		"mass" 520
-		"drag" 8.4
-		"heat dissipation" .75
-		"fuel capacity" 500
-		"cargo space" 40
-		"outfit space" 482
-		"weapon capacity" 206
-		"engine capacity" 97
-		weapon
-			"blast radius" 80
-			"shield damage" 800
-			"hull damage" 400
-			"hit force" 1200
-	outfits
-		"V602 Zeus Reactor"
-		"V630L Cell Array"
-		"V640 Generator"
-		"V641 Regenerator"
-		"LNaK Cooling"
-		"Ares Beam" 2
-		"Poseidon Cannon" 2
-		"Athena Anti-Missile" 2
-		"V612 Hermes Thruster"
-		"V622 Hermes Steering"
-		"V607 Hyperdrive"
-		
-	engine -20 92
-	engine 20 92
-	gun -40 -128 "Ares Beam"
-	gun 40 -128 "Ares Beam"
-	gun -4 16 "Poseidon Cannon"
-	gun 4 16 "Poseidon Cannon"
-	turret -46 -77
-	turret 46 -77
-	fighter 0 0 under
-	fighter 1 1 under
-	fighter -1 -1 under
-	fighter 2 2 under
-	explode "tiny explosion" 18
-	explode "small explosion" 36
-	explode "medium explosion" 24
-	explode "large explosion" 8
-	description "Not quite the oldest design in the Valuutian's stable of warships, but still thousands of years old and relatively unchanged, the Scorpion can stand up to enemy fire with ease, and houses up to four fighters as well."
-
-ship "Steel Scorpion"
-	sprite "ship/steelscorpion"
-	swizzle 0
-	attributes
-		category "Medium Warship"
-		"cost" 20835000
 		"shields" 15770
 		"hull" 31550
 		"required crew" 34
@@ -752,8 +702,62 @@ ship "Steel Scorpion"
 	explode "small explosion" 36
 	explode "medium explosion" 24
 	explode "large explosion" 8
-	description "Part of the Eternals' unpublicized war-fleet, the Steel Scorpion comes equipped with an improved shield matrix and built-in jump capability."
-
+	description "Part of the Eternals' unpublicized war-fleet, the Scorpion comes equipped with an improved shield matrix and built-in jump capability."
+	
+ship "Steel Scorpion"
+	sprite "ship/steelscorpion"
+	swizzle 0
+	attributes
+		category "Medium Warship"
+		"cost" 20835000
+		"shields" 11830
+		"hull" 35490
+		"required crew" 34
+		"bunks" 78
+		"mass" 520
+		"drag" 8.4
+		"heat dissipation" .75
+		"fuel capacity" 500
+		"cargo space" 40
+		"outfit space" 482
+		"weapon capacity" 206
+		"engine capacity" 97
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"V602 Zeus Reactor"
+		"V630L Cell Array"
+		"V640 Generator"
+		"V641 Regenerator"
+		"LNaK Cooling"
+		"Ares Beam" 2
+		"Poseidon Cannon" 2
+		"Athena Anti-Missile" 2
+		"V612 Hermes Thruster"
+		"V622 Hermes Steering"
+		"V607 Hyperdrive"
+		
+	engine -20 92
+	engine 20 92
+	gun -40 -128 "Ares Beam"
+	gun 40 -128 "Ares Beam"
+	gun -4 16 "Poseidon Cannon"
+	gun 4 16 "Poseidon Cannon"
+	turret -46 -77
+	turret 46 -77
+	fighter 0 0 under
+	fighter 1 1 under
+	fighter -1 -1 under
+	fighter 2 2 under
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	description "Not quite the oldest design in the Valuutian's stable of warships, but still thousands of years old and relatively unchanged, the Steel Scorpion can stand up to enemy fire with ease, and houses up to four fighters as well."
+	
 ship "Swordbreaker"
 	sprite "ship/swordbreaker"
 	swizzle 0
@@ -807,14 +811,12 @@ ship "Tianlong"
 	attributes
 		category "Fighter"
 		"cost" 754000
-		"shields" 1200
-		"hull" 2500
+		"hull" 3700
 		"required crew" 1
 		"bunks" 1
 		"mass" 32
 		"drag" .8
 		"heat dissipation" .95
-		"solar collection" 2.7
 		"outfit space" 77
 		"weapon capacity" 20
 		"engine capacity" 22
@@ -836,8 +838,8 @@ ship "Tianlong"
 	gun 13 -17
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description "The Tianlong is a redesigned Chilong with an integrated shield matrix, developed and manufactured in secret by the Eternals for their personal fleet."
-
+	description "An ancient fighter craft used by the Valuutians to complement their carriers."
+	
 ship "Twin Crescent"
 	sprite "ship/twincrescent"
 	swizzle 0
@@ -887,19 +889,16 @@ ship "Typhon"
 	attributes
 		category "Heavy Warship"
 		"cost" 36700000
-		"shields" 27290
-		"hull" 54590
+		"shields" 20470
+		"hull" 61410
 		"required crew" 84
 		"bunks" 146
-		"mass" 870
-		"drag" 12.1
+		"mass" 890
+		"drag" 12.4
 		"heat dissipation" .7
-		"jump drive" 1
-		"jump speed" .3
-		"ramscoop" 2
 		"fuel capacity" 600
 		"cargo space" 30
-		"outfit space" 819
+		"outfit space" 829
 		"weapon capacity" 372
 		"engine capacity" 154
 		weapon
@@ -922,6 +921,7 @@ ship "Typhon"
 		"Athena Anti-Missile" 2
 		"V613 Hermes Thruster"
 		"V623 Hermes Steering"
+		"V607 Hyperdrive"
 		
 	engine -28 102
 	engine 28 102
@@ -943,8 +943,8 @@ ship "Typhon"
 	explode "medium explosion" 35
 	explode "large explosion" 45
 	explode "huge explosion" 30
-	description "The Eternals reworked the Ladon over thousands of years in an attempt to improve it. After failing completely, they settled on a slightly improved shield matrix and built-in jump capability."
-
+	description "The oldest ship in the Valuutian defense fleets, the Typhon is a relatively agile heavy warship with enough offense and defense to stand up to other large ships."
+	
 ship "Winged Serpent"
 	sprite "ship/wingedserpent"
 	swizzle 0
@@ -988,3 +988,4 @@ ship "Winged Serpent"
 	explode "large explosion" 20
 	explode "huge explosion" 5
 	description "An archaic design unneeded by the Valuutians until recently, the Winged Serpent has been put into service for both trade with the Lost Ones, and to support their rapidly growing off-world colonies."
+	

@@ -9,22 +9,22 @@ fleet "Valuutian Merchants"
 		"Winged Serpent"
 	variant 4
 		"Winged Serpent"
-		"Scorpion"
+		"Steel Scorpion"
 	variant 3
 		"Winged Serpent"
-		"Scorpion (Var1)"
+		"Steel Scorpion (Var1)"
 	variant 3
 		"Winged Serpent"
-		"Scorpion (Var2)"
+		"Steel Scorpion (Var2)"
 	variant 1
 		"Winged Serpent" 2
-		"Scorpion"
+		"Steel Scorpion"
 	variant 1
 		"Winged Serpent" 2
-		"Scorpion (Var1)"
+		"Steel Scorpion (Var1)"
 	variant 1
 		"Winged Serpent" 2
-		"Scorpion (Var2)"
+		"Steel Scorpion (Var2)"
 
 fleet "Valuutian Miners"
 	government "Valuut Merchant"
@@ -107,6 +107,29 @@ fleet "Small Valuutian"
 	personality
 		heroic
 	variant 8
+		"Steel Scorpion"
+		"Tianlong" 4
+	variant 8
+		"Steel Scorpion (Var1)"
+		"Tianlong (Var1)" 4
+	variant 8
+		"Steel Scorpion (Var2)"
+		"Tianlong" 4
+	variant 4
+		"Steel Scorpion"
+	variant 4
+		"Steel Scorpion (Var1)"
+	variant 4
+		"Steel Scorpion (Var2)"
+		
+fleet "Small Valuutian (Eternals)"
+	government "Valuut"
+	names "valuut"
+	fighters "valuut fighter"
+	cargo 0
+	personality
+		heroic
+	variant 8
 		"Scorpion"
 		"Chilong" 4
 	variant 8
@@ -123,6 +146,78 @@ fleet "Small Valuutian"
 		"Scorpion (Var2)"
 
 fleet "Large Valuutian"
+	government "Valuut"
+	names "valuut"
+	fighters "valuut fighter"
+	cargo 0
+	personality
+		heroic frugal
+	variant 5
+		"Steel Scorpion" 3
+	variant 5
+		"Steel Scorpion (Var1)" 3
+	variant 5
+		"Steel Scorpion (Var2)" 3
+	variant 15
+		"Steel Scorpion"
+		"Tianlong" 4
+		"Steel Scorpion"
+		"Tianlong (Var1)" 4
+	variant 20
+		"Steel Scorpion"
+		"Tianlong" 4
+		"Typhon"
+		"Tianlong (Var1)" 5
+	variant 20
+		"Steel Scorpion (Var2)"
+		"Typhon (Var1)"
+		"Tianlong" 5
+	variant 20
+		"Steel Scorpion"
+		"Tianlong" 4
+		"Ao"
+		"Ivory Hatchling (Var1)" 6
+	variant 20
+		"Steel Scorpion (Var1)"
+		"Ao"
+		"Ivory Hatchling" 12
+	variant 12
+		"Steel Scorpion (Var2)"
+		"Tianlong" 4
+		"Ao"
+		"Ivory Hatchling" 12
+	variant 12
+		"Steel Scorpion (Var2)"
+		"Tianlong" 4
+		"Steel Scorpion (Var2)"
+		"Tianlong (Var1)" 4
+		"Typhon (Var2)"
+		"Tianlong" 5
+	variant 14
+		"Steel Scorpion (Var2)" 2
+		"Typhon"
+		"Tianlong" 5
+	variant 10
+		"Typhon (Var1)"
+		"Tianlong" 5
+		"Typhon (Var2)"
+		"Tianlong (Var1)" 5
+	variant 10
+		"Typhon"
+		"Tianlong" 5
+		"Ao"
+		"Ivory Hatchling" 6
+	variant 10
+		"Typhon (Var1)"
+		"Tianlong" 5
+		"Ao"
+		"Ivory Hatchling" 6
+	variant 10
+		"Typhon (Var2)"
+		"Ao"
+		"Ivory Hatchling" 12
+		
+fleet "Large Valuutian (Eternals)"
 	government "Valuut"
 	names "valuut"
 	fighters "valuut fighter"
