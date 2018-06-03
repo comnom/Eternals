@@ -300,27 +300,27 @@ fleet "Valuutian Colony"
 		"Colony Ship"
 	variant 4
 		"Colony Ship"
-		"Scorpion"
-		"Chilong" 4
+		"Steel Scorpion"
+		"Tianlong" 4
 	variant 4
 		"Colony Ship"
-		"Scorpion (Var1)"
-		"Chilong" 4
+		"Steel Scorpion (Var1)"
+		"Tianlong" 4
 	variant 8
 		"Colony Ship"
-		"Ladon"
-		"Chilong" 5
+		"Typhon"
+		"Tianlong" 5
 	variant 8
 		"Colony Ship"
-		"Ladon (Var1)"
-		"Chilong (Var1)" 5
+		"Typhon (Var1)"
+		"Tianlong (Var1)" 5
 	variant 8
 		"Colony Ship"
-		"Ladon (Var2)"
-		"Chilong" 5
+		"Typhon (Var2)"
+		"Tianlong" 5
 	variant 12
 		"Colony Ship"
-		"Bixi"
+		"Ao"
 		"Hatchling" 12
 
 fleet "Small Lost Ones"
