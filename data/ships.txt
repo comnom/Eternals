@@ -227,6 +227,7 @@ ship "Craterustig"
 
 ship "Excalibur"
 	sprite "ship/excalibur"
+	thumbnail "ship thumb/excalibur"
 	swizzle 0
 	attributes
 		category "Heavy Warship"
@@ -294,6 +295,7 @@ ship "Excalibur"
 
 ship "Gladius"
 	sprite "ship/gladius"
+	thumbnail "ship thumb/gladius"
 	swizzle 0
 	attributes
 		category "Fighter"
@@ -458,6 +460,7 @@ ship "Ladon"
 	
 ship "Longinus"
 	sprite "ship/longinus"
+	thumbnail "ship thumb/longinus"
 	swizzle 0
 	attributes
 		category "Light Warship"
@@ -595,6 +598,7 @@ ship "Myrmidon"
 	
 ship "Pollaxe"
 	sprite "ship/pollaxe"
+	thumbnail "ship thumb/pollaxe"
 	swizzle 0
 	attributes
 		category "Heavy Warship"
@@ -760,6 +764,7 @@ ship "Steel Scorpion"
 	
 ship "Swordbreaker"
 	sprite "ship/swordbreaker"
+	thumbnail "ship thumb/swordbreaker"
 	swizzle 0
 	attributes
 		category "Heavy Freighter"
@@ -842,6 +847,7 @@ ship "Tianlong"
 	
 ship "Twin Crescent"
 	sprite "ship/twincrescent"
+	thumbnail "ship thumb/twincrescent"
 	swizzle 0
 	attributes
 		category "Interceptor"
@@ -874,11 +880,11 @@ ship "Twin Crescent"
 		"V621 Hermes Steering"
 		"V607 Hyperdrive"
 		
-	engine -12 63
-	engine 12 63
-	gun -14 -52 "Poseidon Cannon"
-	gun 14 -52 "Poseidon Cannon"
-	gun 0 -21 "Ares Beam"
+	engine -10 55
+	engine 10 55
+	gun -42 -55 "Poseidon Cannon"
+	gun 42 -55 "Poseidon Cannon"
+	gun 0 -40 "Ares Beam"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description "The Twin Crescent is a speedy interceptor commonly used by merchant guards and pirates."
