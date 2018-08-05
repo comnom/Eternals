@@ -119,6 +119,7 @@ system Cinoo
 
 system "Ephemeral Reflections"
 	pos 440.966 -716.699
+	government Uninhabited
 	habitable 486.68
 	object
 		sprite star/k0
