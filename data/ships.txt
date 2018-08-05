@@ -1,5 +1,6 @@
 ship "Ao"
 	sprite "ship/ao"
+	thumbnail "ship thumb/ao"
 	swizzle 0
 	attributes
 		category "Heavy Warship"
@@ -357,14 +358,15 @@ ship "Hatchling"
 		"V610 Hermes Thruster"
 		"V620 Hermes Steering"
 		
-	engine 0 24
-	gun 0 -26
+	engine 0 26
+	gun 0 -28
 	explode "tiny explosion" 20
 	explode "small explosion" 10
 	description "The Eternals integrated a shield matrix into their version of the Ivory Hatchling, resulting in better all-around defensive performance."
 	
 ship "Ivory Hatchling"
 	sprite "ship/ivoryhatchling"
+	thumbnail "ship thumb/ivoryhatchling"
 	swizzle 0
 	attributes
 		category "Drone"
@@ -388,8 +390,8 @@ ship "Ivory Hatchling"
 		"V610 Hermes Thruster"
 		"V620 Hermes Steering"
 		
-	engine 0 24
-	gun 0 -26
+	engine 0 26
+	gun 0 -28
 	explode "tiny explosion" 20
 	explode "small explosion" 10
 	description "The Valuutian's Ivory Hatchling drone uses the same hot-dipping method of hull construction as the Ao carrier, making it able to take more of a beating than similar craft."
@@ -510,6 +512,7 @@ ship "Longinus"
 	
 ship "Myrmex"
 	sprite "ship/myrmex"
+	thumbnail "ship thumb/myrmex"
 	swizzle 0
 	attributes
 		category "Light Freighter"
@@ -543,8 +546,8 @@ ship "Myrmex"
 		
 	engine -35 -18
 	engine 35 -18
-	gun -3 -135
-	gun 3 -135
+	gun -12 -131
+	gun 12 -131
 	explode "small explosion" 15
 	explode "medium explosion" 30
 	explode "large explosion" 20
@@ -588,8 +591,8 @@ ship "Myrmidon"
 		
 	engine -30 48
 	engine 30 48
-	gun -2 -53
-	gun 2 -53
+	gun -10 -52
+	gun 10 -52
 	explode "small explosion" 15
 	explode "medium explosion" 30
 	explode "large explosion" 20
@@ -710,6 +713,7 @@ ship "Scorpion"
 	
 ship "Steel Scorpion"
 	sprite "ship/steelscorpion"
+	thumbnail "ship thumb/steelscorpion"
 	swizzle 0
 	attributes
 		category "Medium Warship"
@@ -812,6 +816,7 @@ ship "Swordbreaker"
 
 ship "Tianlong"
 	sprite "ship/tianlong"
+	thumbnail "ship thumb/tianlong"
 	swizzle 0
 	attributes
 		category "Fighter"
@@ -891,6 +896,7 @@ ship "Twin Crescent"
 
 ship "Typhon"
 	sprite "ship/typhon"
+	thumbnail "ship thumb/typhon"
 	swizzle 0
 	attributes
 		category "Heavy Warship"
@@ -953,6 +959,7 @@ ship "Typhon"
 	
 ship "Winged Serpent"
 	sprite "ship/wingedserpent"
+	thumbnail "ship thumb/wingedserpent"
 	swizzle 0
 	attributes
 		category "Heavy Freighter"
