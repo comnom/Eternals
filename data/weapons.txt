@@ -240,6 +240,7 @@ outfit "Hypnos Turret"
 		"inaccuracy" 60
 		"velocity" 3
 		"turn" 1
+		"turret turn" 4.
 		"lifetime" 120
 		"reload" 120
 		"firing energy" 560
