@@ -217,7 +217,7 @@ ship "Pollaxe" "Pollaxe (Var1)"
 		"V630L Cell Array"
 		"Dragon's Fire" 2
 		"Dragon's Ice" 2
-		"Ares Turret" 12
+		"Ares Turret" 1
 		"Athena Anti-Missile" 3
 		"Poseidon Cannon"
 	gun "Dragon's Ice"
