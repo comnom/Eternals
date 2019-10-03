@@ -59,6 +59,6 @@ shipyard plugin
 	Swordbreaker
 	Tianlong
 	Typhon
-shipyard plugin_deprecated
+shipyard deprecated
 	Harrier
 	Hourglass
