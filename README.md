@@ -14,4 +14,4 @@ Unzip [the latest release](https://github.com/comnom/Eternals/releases/latest) t
 
 * Linux: ~/.local/share/endless-sky/
 * Windows: %AppData%\endless-sky\
-* Mac OS X: ~/Library/ApplicationSupport/endless-sky/
+* Mac OS X: ~/Library/Application Support/endless-sky/
