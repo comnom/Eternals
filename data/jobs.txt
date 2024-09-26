@@ -90,7 +90,7 @@ mission "Cargo (valuut, small)"
 	on complete
 		payment
 		payment 1500
-		dialog `You drop off the <commodity> at the colony on <planet>, and recieve <payment>.`
+		dialog `You drop off the <commodity> at the colony on <planet>, and receive <payment>.`
 
 mission "Cargo (valuut, medium)"
 	name "Cargo to <planet>"
@@ -108,7 +108,7 @@ mission "Cargo (valuut, medium)"
 	on complete
 		payment
 		payment 3500
-		dialog `You drop off the <commodity> at the colony on <planet>, and recieve <payment>.`
+		dialog `You drop off the <commodity> at the colony on <planet>, and receive <payment>.`
 
 mission "Cargo (valuut, large)"
 	name "Cargo to <planet>"
@@ -126,7 +126,7 @@ mission "Cargo (valuut, large)"
 	on complete
 		payment
 		payment 5500
-		dialog `You drop off the <commodity> at the colony on <planet>, and recieve <payment>.`
+		dialog `You drop off the <commodity> at the colony on <planet>, and receive <payment>.`
 
 mission "Cargo (valuut, bulk 1)"
 	name "Bulk delivery to <planet>"
@@ -144,7 +144,7 @@ mission "Cargo (valuut, bulk 1)"
 	on complete
 		payment
 		payment 7500
-		dialog `You drop off the <commodity> at the colony on <planet>, and recieve <payment>.`
+		dialog `You drop off the <commodity> at the colony on <planet>, and receive <payment>.`
 
 mission "Cargo (valuut, bulk 2)"
 	name "Bulk delivery to <planet>"
@@ -162,7 +162,7 @@ mission "Cargo (valuut, bulk 2)"
 	on complete
 		payment
 		payment 11500
-		dialog `You drop off the <commodity> at the colony on <planet>, and recieve <payment>.`
+		dialog `You drop off the <commodity> at the colony on <planet>, and receive <payment>.`
 
 mission "Cargo (valuut, bulk 3)"
 	name "Bulk delivery to <planet>"
@@ -180,7 +180,7 @@ mission "Cargo (valuut, bulk 3)"
 	on complete
 		payment
 		payment 15500
-		dialog `You drop off the <commodity> at the colony on <planet>, and recieve <payment>.`
+		dialog `You drop off the <commodity> at the colony on <planet>, and receive <payment>.`
 
 mission "Cargo (valuut, bulk 4)"
 	name "Bulk delivery to <planet>"
@@ -198,11 +198,11 @@ mission "Cargo (valuut, bulk 4)"
 	on complete
 		payment
 		payment 19500
-		dialog `You drop off the <commodity> at the colony on <planet>, and recieve <payment>.`
+		dialog `You drop off the <commodity> at the colony on <planet>, and receive <payment>.`
 
 mission "Diplomat (valuut)"
-	name "Diplomat transport to <planet>"
-	description "Provide secure transport for the Valuutian diplomat to <destination> by <date>. Payment is <payment>."
+	name "Transport diplomat to <planet>"
+	description "Provide secure transport for a Valuutian diplomat to <destination> by <date>. Payment is <payment>."
 	repeat
 	job
 	deadline
@@ -220,11 +220,11 @@ mission "Diplomat (valuut)"
 	on complete
 		payment
 		payment 200000
-		dialog `You drop the diplomat off at a secure landing pad and recieve <payment>.`
+		dialog `You drop the diplomat off at a secure landing pad and receive <payment>.`
 
 mission "Diplomat (lost ones)"
-	name "Diplomat transport to <planet>"
-	description "Provide secure transport for the Lost Ones diplomat to <destination> by <date>. Payment is <payment>."
+	name "Transport diplomat to <planet>"
+	description "Provide secure transport for a Lost Ones diplomat to <destination> by <date>. Payment is <payment>."
 	repeat
 	job
 	deadline
@@ -242,7 +242,7 @@ mission "Diplomat (lost ones)"
 	on complete
 		payment
 		payment 150000
-		dialog `You drop the diplomat off at a secure landing pad and recieve <payment>.`
+		dialog `You drop the diplomat off at a secure landing pad and receive <payment>.`
 
 mission "Escort Colony Ship (easy)"
 	name "Escort Colony to <planet>"

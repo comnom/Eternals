@@ -151,7 +151,7 @@ mission "Intro, Valuut [2]"
 			`	A gentle thought manifests in your mind, "Greetings <first> <last>, I am the Arhegis of Eempra."`
 			choice
 				`	"Greetings Arhegis, I've come to ask about..."`
-			`	"Modaa," the creature finishes for you. "Iismal has not changed much, still ensnaring whoever is convienent to do his bidding."`
+			`	"Modaa," the creature finishes for you. "Iismal has not changed much, still ensnaring whoever is convenient to do his bidding."`
 			choice
 				`	"Would you tell me what you know of Modaa?"`
 					goto l_modaa
@@ -177,7 +177,7 @@ mission "Intro, Valuut [2]"
 		system "Pirtaal"
 		ship "Pollaxe (Var1)" "False Flag"
 		conversation
-			`After defeating the pirate ship, you recieve a message on an encrypted comm channel. "Greetings Captain <last>, this is the secretary of the Anstad Corp CEO. We would like to extend an invitation for you to come meet with us at your earliest convenience. We have been contacted by a mutual acquaintance named Modaa, and believe we can be of some assistance to you."`
+			`After defeating the pirate ship, you receive a message on an encrypted comm channel. "Greetings Captain <last>, this is the secretary of the Anstad Corp CEO. We would like to extend an invitation for you to come meet with us at your earliest convenience. We have been contacted by a mutual acquaintance named Modaa, and believe we can be of some assistance to you."`
 			`	Better head for Odyssey Outpost and see what they have to say.`
 
 mission "Intro, Valuut [3]"	
@@ -199,7 +199,7 @@ mission "Intro, Valuut [3]"
 				`	"I noticed the hole in the wall..."`
 			`	Sazar walks along with you in tow for a while before responding. "Ah. Yes. A minor malfunction with our latest missile design. A very early stage prototype I assure you. Better it misfires here than out there right? Ah, here we are. You'll find Ms. Anstad just through there."`
 			choice
-				`	"You wont be attending the meeting then?"`
+				`	"You won't be attending the meeting then?"`
 			`	"Ah. Yes. Well no actually," he answers quietly, eyeing the door in askance. "Sensitive research such as that isn't for the likes of me." Chuckling nervously, he quickly walks away as if afraid you'll make him enter.`
 			`	You proceed through the doorway into a spacious room, with walls covered in various monitors and whiteboards. As you begin to take stock of your surroundings, noting several lab assistants who are curiously bandaged peering down over a walkway railing at something just out of sight, you're greeted with a tremendous Bang! and find yourself flat on your back, ears ringing.`
 			`	"Captain? Captain <last>?" you hear as you regain your bearings, pushing yourself to your feet. Standing before you is a dark skinned young woman, long hair in disarray and face covered in soot, who extends her hand and repeats, "Captain <last>? Good, good, you're up. Sorry about that, I think we made the triggering mechanism too sensitive. Annie, have them clear out the prototype and bring in another, would you?" By the time you reach out to take her hand in greeting, she's already turned away, helping up her assistants who were tossed about and chivvying them back to their stations.`

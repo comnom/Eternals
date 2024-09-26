@@ -554,7 +554,7 @@ ship "Myrmex"
 	explode "medium explosion" 30
 	explode "large explosion" 20
 	explode "huge explosion" 5
-	description "The Myrmex is a Light Freighter put into production to satisfy the growing number of asteroid mining companies that have sprung up in the last century. Concieved as a quick war-time supply transport from the long-forgotten period of Valuutian civil wars, it has ample space for powerful front mounted cannons."
+	description "The Myrmex is a Light Freighter put into production to satisfy the growing number of asteroid mining companies that have sprung up in the last century. Conceived as a quick war-time supply transport from the long-forgotten period of Valuutian civil wars, it has ample space for powerful front mounted cannons."
 
 ship "Myrmidon"
 	sprite "ship/myrmidon"

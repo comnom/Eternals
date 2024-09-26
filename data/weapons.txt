@@ -245,7 +245,7 @@ outfit "Hypnos Turret"
 		"reload" 120
 		"firing energy" 560
 		"cluster"
-	description "Anstad Corp's Hypnos Turret was designed with the merchant captian in mind. Packed in the smallest turret in Valuutian space is a powerful disabling weapon, whose stationary submunition creates an ionizing and slowing field. Able to alter the wavelength based on targeting data from a ship's computer, this weapon will only affect enemies."
+	description "Anstad Corp's Hypnos Turret was designed with the merchant captain in mind. Packed in the smallest turret in Valuutian space is a powerful disabling weapon, whose stationary submunition creates an ionizing and slowing field. Able to alter the wavelength based on targeting data from a ship's computer, this weapon will only affect enemies."
 
 outfit "hypnos sub"
 	weapon
